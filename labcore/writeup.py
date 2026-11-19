@@ -110,7 +110,7 @@ class Composer:
 
 def comparison_sentence(effect,chosen):
     if effect['ci_low']<=1<=effect['ci_high']:
-        return f'Khoảng 95% trước mốc {effect["baseline"]} chứa 1, chưa phân biệt rõ hai lựa chọn.'
+        return f'Khoảng 95% trước mốc {effect["baseline"]} chứa 1; chưa đủ bằng chứng để kết luận hai lựa chọn khác nhau về hiệu năng.'
     if effect['ci_low']>1:
         return f'Khoảng 95% trước mốc {effect["baseline"]} nằm trên 1, nghiêng về CUTOFF {chosen} trong thiết kế này.'
     return f'Khoảng 95% trước mốc {effect["baseline"]} nằm dưới 1; mốc đó có lợi thế trên dữ liệu xác nhận.'

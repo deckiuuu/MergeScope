@@ -2,7 +2,7 @@
 
 Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài đặt MergeSort của sinh viên. Project gồm mã Java, công cụ Python, dữ liệu và số đo gốc, báo cáo cùng demo tương tác ngoại tuyến.
 
-**Kết quả đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. C32 và C40 chưa phân biệt rõ.
+**Kết quả đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. Kết quả xác nhận cho thấy cải thiện so với CUTOFF 7 và 10; chưa đủ bằng chứng để kết luận CUTOFF 32 và 40 khác nhau về hiệu năng.
 
 ## Nội dung project
 

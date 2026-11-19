@@ -13,7 +13,7 @@ Lớp: K70I-CS2
 
 Đề xuất CUTOFF 32 cho cài đặt MergeSort được khảo sát và workload Integer[] đã xác định. Trên tập xác nhận cuối, speedup so với CUTOFF 7 là 1.0653 lần, so với CUTOFF 10 là 1.0620 lần. Tỷ lệ giảm thời gian trước mốc 10 là 5.83%.
 
-Khoảng 95% trước mốc 40 chứa 1, chưa phân biệt rõ hai lựa chọn. Khuyến nghị là một lựa chọn thực dụng trong vùng gần tối ưu; không xác định một hằng số nhanh nhất duy nhất cho mọi kích thước, kiểu dữ liệu và máy.
+Khoảng 95% trước mốc 40 chứa 1; chưa đủ bằng chứng để kết luận hai lựa chọn khác nhau về hiệu năng. Khuyến nghị là một lựa chọn thực dụng trong vùng gần tối ưu; không xác định một hằng số nhanh nhất duy nhất cho mọi kích thước, kiểu dữ liệu và máy.
 
 | Chỉ tiêu | Sàng lọc | Chọn | Xác nhận |
 | --- | --- | --- | --- |
@@ -160,7 +160,7 @@ Khoảng 95% trước mốc 7 nằm trên 1, nghiêng về CUTOFF 32 trong thi�
 
 Khoảng 95% trước mốc 10 nằm trên 1, nghiêng về CUTOFF 32 trong thiết kế này.
 
-Khoảng 95% trước mốc 40 chứa 1, chưa phân biệt rõ hai lựa chọn.
+Khoảng 95% trước mốc 40 chứa 1; chưa đủ bằng chứng để kết luận hai lựa chọn khác nhau về hiệu năng.
 
 Trên toàn bộ N của pha cuối, các cutoff từ 30 đến 47 có cùng cấu trúc cây. Quan hệ này khác trên tập sàng lọc. C32 được cố định sau pha chọn và duy trì trong pha xác nhận. Kết quả trên tập xác nhận được dùng để đánh giá lựa chọn đã định trước.
 
