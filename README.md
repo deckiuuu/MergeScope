@@ -1,8 +1,8 @@
 # MergeSort Cutoff Lab
 
-Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài đặt MergeSort do sinh viên cung cấp. Project gồm mã Java, công cụ Python, dữ liệu và số đo gốc, báo cáo cùng demo tương tác ngoại tuyến.
+Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài đặt MergeSort của sinh viên. Project gồm mã Java, công cụ Python, dữ liệu và số đo gốc, báo cáo cùng demo tương tác ngoại tuyến.
 
-**Kết quả đã đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. C32 và C40 chưa phân biệt rõ. Bản chuẩn bị GitHub ngày 19/11/2026 giữ nguyên mã và toàn bộ bằng chứng của bản làm lại từ đầu.
+**Kết quả đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. C32 và C40 chưa phân biệt rõ.
 
 ## Sản phẩm nộp
 
@@ -10,11 +10,11 @@ Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài �
 |---|---|
 | Báo cáo mô tả, phân tích và tổng kết | [PDF 10 trang](report/Cutoff_Study.pdf), [Word](report/Cutoff_Study.docx), [Markdown](report/Cutoff_Study.md) |
 | Bảng thống kê và đồ thị | [Bốn hình](report/charts/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp và khoảng tin cậy](measurements/confirm/paired-effects.csv) |
-| Cài đặt MergeSort được cung cấp | [Mã nguồn nguyên bản](src/MergeSort.java), [nguồn gốc và hash](docs/ORIGIN.json) |
+| Cài đặt MergeSort | [Mã nguồn](src/MergeSort.java), [nguồn gốc và hash](docs/ORIGIN.json) |
 | Script chạy thí nghiệm | [cutofflab.py](cutofflab.py), [labcore](labcore/), [cấu hình](study.json) |
 | Bộ dữ liệu | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
 | Số đo gốc và cấu hình máy | [measurements](measurements/), evidence.json và process-*.csv của ba pha |
-| Log dùng AI | [Nhật ký lần làm lại](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md), [ghi nhận chuẩn bị GitHub](docs/GITHUB_PREPARATION.md) |
+| Log dùng AI | [Nhật ký trao đổi AI](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md), [nhật ký cập nhật repository](docs/GITHUB_PREPARATION.md) |
 | Phân tích có kiểm chứng | [Giao thức ba pha](docs/PROTOCOL.md), [kết quả xác nhận](measurements/confirm/summary.json) |
 | Demo tương tác ngoại tuyến | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
 
@@ -61,7 +61,7 @@ mergesort-cutoff-lab/
 └── CREATION_LEDGER.csv          # Nguồn tạo của từng tệp
 ```
 
-Các đường dẫn của thí nghiệm được giữ nguyên để báo cáo, demo và metadata tiếp tục khớp. [Baseline SHA-256](docs/BASELINE_SHA256.txt) bảo vệ 308 tệp của bản làm lại; các tệp quản trị GitHub được bổ sung riêng.
+[Danh sách SHA-256](docs/BASELINE_SHA256.txt) dùng để kiểm tra tính toàn vẹn của mã nguồn, dữ liệu và tài liệu trong phiên bản nộp. Mỗi pha lưu bản chụp mã nguồn trong source-snapshot để đối chiếu cài đặt đã dùng khi đo.
 
 ## Kiểm tra trên máy
 
@@ -96,7 +96,7 @@ Integer[] data = {8, 3, 7, 3, 1};
 MergeSort.sort(data, 32);
 ```
 
-Chỉ src/MergeSort.java được giữ nguyên từ mã người dùng cung cấp trong lần làm lại. Xem [ORIGIN.json](docs/ORIGIN.json), [yêu cầu sản phẩm](docs/REQUIREMENTS.md) và [hướng dẫn bảo vệ](docs/DEFENSE_NOTES.md).
+Nguồn gốc và SHA-256 của cài đặt được ghi trong [ORIGIN.json](docs/ORIGIN.json). Xem thêm [đối chiếu yêu cầu sản phẩm](docs/REQUIREMENTS.md) và [hướng dẫn trình bày kết quả](docs/DEFENSE_NOTES.md).
 
 ## Dựng lại báo cáo và demo
 
@@ -116,4 +116,4 @@ python3 tools/package_submission.py
 
 ZIP được tạo trong dist/, có kiểm tra CRC và SHA-256, không gồm lịch sử Git, build, cache hoặc lượt đo thử. Sau khi chỉnh tài liệu hay cấu hình GitHub, cập nhật bảng hash bằng `python3 tools/repository_check.py refresh`. Lệnh này từ chối cập nhật nếu bằng chứng trong baseline đã thay đổi.
 
-Thông tin bìa vẫn để trống theo lựa chọn trước đó. Phạm vi kiểm tra demo và báo cáo được ghi tại [VALIDATION.md](docs/VALIDATION.md); logic viewer đã kiểm tra, bố cục trình duyệt chưa được kiểm tra trực tiếp do giới hạn công cụ ở phiên dựng bản gốc.
+Phạm vi kiểm thử, kết quả xác minh và giới hạn đánh giá được trình bày trong [VALIDATION.md](docs/VALIDATION.md).

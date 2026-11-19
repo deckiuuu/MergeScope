@@ -51,3 +51,9 @@ Theo yêu cầu bổ sung của người dùng, gỡ CONTRIBUTING.md và dùng h
 > Đồng ý, hãy tinh gọn theo phương án 6 tệp, giữ demo ngoại tuyến và đủ yêu cầu của đề. Cập nhật README, các liên kết và checksum rồi push lên GitHub giúp tôi, đảm bảo CI vẫn xanh.
 
 Gỡ sáu tệp quản trị/hướng dẫn: .github/ISSUE_TEMPLATE/bug_report.yml, .github/pull_request_template.md, docs/GITHUB_GUIDE.md, SUBMISSION.md, index.html ở gốc và .nojekyll. Bảng đối chiếu sản phẩm nộp được gộp vào README, cùng hướng dẫn mở demo/index.html ngoại tuyến; công cụ kiểm tra liên kết dùng README làm điểm vào. Bảng checksum và nguồn gốc được cập nhật theo cấu trúc 320 tệp. Các mục phía trên ghi lại trạng thái của những lần chuẩn bị trước; 308 tệp baseline của thí nghiệm tiếp tục được giữ nguyên.
+
+## Biên tập văn phong tài liệu nộp
+
+Theo phản hồi về các câu mang tính trao đổi trong chat, README, báo cáo và tài liệu hướng dẫn được biên tập theo cách diễn đạt dành cho người chấm. Các bản Word, PDF, Markdown và mã tạo báo cáo được cập nhật đồng bộ. Nhật ký trao đổi gốc được giữ nguyên; phạm vi AI hỗ trợ và giới hạn kiểm thử tiếp tục được công bố.
+
+Báo cáo 10 trang đã được kiểm tra trực quan toàn bộ. Tám bảng và các giá trị định lượng trong phần trình bày thí nghiệm được đối chiếu với bản trước; bốn đồ thị và dữ liệu ghi của demo giữ nguyên byte. Danh sách baseline được cập nhật có giới hạn cho 10 tệp biên tập gồm tài liệu, lời dẫn demo và mã tạo báo cáo; 298 tệp còn lại giữ nguyên hash. Mã MergeSort, dữ liệu đầu vào, số đo gốc, cấu hình, quyết định chốt và nhật ký trao đổi gốc không thay đổi. Lịch sử Git lưu các phiên bản trước khi biên tập.

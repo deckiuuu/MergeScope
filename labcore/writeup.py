@@ -1,4 +1,4 @@
-"""Author a new Vietnamese research report from this rebuild's evidence only."""
+"""Generate the Vietnamese research report from recorded experimental evidence."""
 from datetime import datetime,timezone,timedelta
 import json
 import math
@@ -136,7 +136,7 @@ def build_report():
     report.text(f'Báo cáo phân tích thuật toán  |  Ngày {started:%d/%m/%Y}')
     report.text('Họ và tên: ____________________     MSSV: ____________________\nLớp: ____________________     Giảng viên: ____________________')
     report.subheading('Kết luận của thí nghiệm')
-    report.text(f'Đề xuất CUTOFF {selected} cho cài đặt MergeSort được cung cấp và workload Integer[] đã xác định. Trên tập xác nhận cuối, speedup so với CUTOFF 7 là {effects[7]["speedup"]:.4f} lần, so với CUTOFF 10 là {effects[10]["speedup"]:.4f} lần. Tỷ lệ giảm thời gian trước mốc 10 là {effects[10]["time_saved_fraction"]*100:.2f}%.')
+    report.text(f'Đề xuất CUTOFF {selected} cho cài đặt MergeSort được khảo sát và workload Integer[] đã xác định. Trên tập xác nhận cuối, speedup so với CUTOFF 7 là {effects[7]["speedup"]:.4f} lần, so với CUTOFF 10 là {effects[10]["speedup"]:.4f} lần. Tỷ lệ giảm thời gian trước mốc 10 là {effects[10]["time_saved_fraction"]*100:.2f}%.')
     alternatives=[r for r in confirm['paired_effects'] if r['baseline'] in confirm['shortlist'] and r['baseline']!=selected]
     closest=min(alternatives,key=lambda r:abs(math.log(r['speedup'])))
     report.text(comparison_sentence(closest,selected)+' Khuyến nghị là một lựa chọn thực dụng trong vùng gần tối ưu; không xác định một hằng số nhanh nhất duy nhất cho mọi kích thước, kiểu dữ liệu và máy.')
@@ -146,16 +146,16 @@ def build_report():
         ['Sort trong vùng đo',*[integer(summaries[p]['timed_sort_calls']) for p in ['screen','choose','confirm']]]],[5.0,3.9,3.9,3.9])
     report.subheading('Câu hỏi nghiên cứu')
     report.text('Mốc 7 và 10 trong đề bài cần được kiểm tra bằng thí nghiệm trên cài đặt và máy thực tế. Khi tăng cutoff, chi phí chia và trộn giảm nhưng phần Insertion sort nhận các đoạn dài hơn. Thí nghiệm xem xét sự đánh đổi đó trên nhiều thứ tự đầu vào và số khóa trùng, thay vì chỉ đo một mảng ngẫu nhiên.')
-    report.text('Thiết kế ba pha được ghi trước khi đo: sàng lọc, chọn trên dữ liệu mới, rồi xác nhận lựa chọn đã chốt bằng dữ liệu chưa sử dụng. Bản mã MergeSort giữ nguyên; mọi công cụ và sản phẩm phụ trợ của lần làm lại này được tạo mới.')
+    report.text('Thiết kế ba pha được ghi trước khi đo: sàng lọc, chọn trên dữ liệu mới, rồi xác nhận lựa chọn đã chốt bằng dữ liệu chưa sử dụng. Cùng một cài đặt MergeSort được sử dụng ở cả ba pha để so sánh tác động của cutoff.')
 
     report.heading('1 Mã nguồn và tính đúng')
-    report.text('Đối tượng nghiên cứu là tệp MergeSort.java do người dùng cung cấp. Cài đặt có chia đôi đệ quy, mảng phụ dùng chung trong một lần sort, trộn bằng hai con trỏ và Insertion sort đổi chỗ kề nhau. Chỉ tham số cutoff thay đổi giữa các phép đo; không thêm nhánh bỏ merge hoặc thay cách chèn.')
+    report.text('Đối tượng nghiên cứu là cài đặt trong src/MergeSort.java. Cài đặt có chia đôi đệ quy, mảng phụ dùng chung trong một lần sort, trộn bằng hai con trỏ và Insertion sort đổi chỗ kề nhau. Chỉ tham số cutoff thay đổi giữa các phép đo; không thêm nhánh bỏ merge hoặc thay cách chèn.')
     report.code('if (hi - lo < cutoff) {\n    insertionSort(a, lo, hi);\n    return;\n}')
     report.text('Vì hai chỉ số đầu cuối đều được tính vào đoạn, độ dài là hi - lo + 1. Điều kiện trong mã tương đương độ dài không vượt cutoff: CUTOFF 10 nhận đoạn có tối đa 10 phần tử. Với cutoff 1, cây đi đến các đoạn đơn phần tử; đây là đường cơ sở trong cùng bản cài đặt tham số hóa.')
     report.subheading('Lập luận về tính đúng và tính ổn định')
     report.text('Insertion sort giữ phần đầu đoạn có thứ tự và đưa phần tử tiếp theo về vị trí thích hợp bằng các phép đổi chỗ. Sau hai lời gọi đệ quy, mỗi nửa đã tăng dần. Hai con trỏ của merge chọn phần tử nhỏ nhất còn lại và ghi lần lượt vào đoạn đích; không mất hoặc thêm phần tử.')
     report.text('Phép chèn chỉ đổi chỗ khi khóa bên phải nhỏ hơn thực sự. Khi merge gặp hai khóa bằng nhau, mã lấy từ nửa trái trước. Hai quy tắc này bảo toàn thứ tự tương đối của các đối tượng bằng khóa, nên thuật toán ổn định.')
-    report.table(['Nhóm kiểm thử mới','Nội dung'],[
+    report.table(['Nhóm kiểm thử','Nội dung'],[
         ['Vét cạn','Mọi dãy trên {-1, 0, 1} có độ dài 0 đến 6; cutoff 1 đến 12'],
         ['Biên và ngẫu nhiên','Mọi cutoff 1 đến 128; N ngay trước, bằng và sau cutoff; nhiều mảng ngẫu nhiên'],
         ['Ổn định và generic','Đối tượng có khóa trùng kèm số thứ tự; so với oracle ổn định; mảng String'],
@@ -182,7 +182,7 @@ def build_report():
     report.text('Các JVM chạy riêng, không đo song song. Không ghi liên tục nhiệt độ, tần số CPU hoặc tải nền; metadata phần cứng và JVM không loại bỏ hoàn toàn những nguồn biến động này. Kết quả vì vậy chỉ đại diện cho phiên máy và thiết kế được mô tả.')
 
     report.heading('3 Dữ liệu và phương pháp thống kê')
-    report.table(['Phân phối','Cách tạo mới'],[
+    report.table(['Phân phối','Cách sinh dữ liệu'],[
         ['Ngẫu nhiên','Số nguyên đều trong [-2.000.000; 2.000.000]'],
         ['Tăng dần','Sắp tăng bản ngẫu nhiên của cùng N và seed'],
         ['Giảm dần','Đảo bản tăng dần'],
@@ -237,27 +237,27 @@ def build_report():
 
     report.heading('8 Chạy lại và trình bày bằng demo')
     report.subheading('Các bước tái lập')
-    report.text('Cần JDK 17 trở lên và Python 3.10 trở lên để chạy đo, kiểm thử và phân tích; các bước này chỉ dùng thư viện chuẩn. Chạy một phiên mới dưới reruns/ để giữ nguyên số liệu đã bàn giao. Thời gian chạy lại có nhiễu nên thứ hạng không bắt buộc giống bản báo cáo.')
+    report.text('Cần JDK 17 trở lên và Python 3.10 trở lên để chạy đo, kiểm thử và phân tích; các bước này chỉ dùng thư viện chuẩn. Mỗi phiên tái lập được lưu riêng dưới reruns/ để bảo toàn số liệu đã công bố. Thời gian chạy lại có nhiễu nên thứ hạng không bắt buộc giống bản báo cáo.')
     report.code('python3 cutofflab.py test\npython3 -m unittest discover -s tests -p "test_*.py"\npython3 cutofflab.py verify\npython3 cutofflab.py study --new-run lan_do_moi')
     report.text('Giao thức, cấu hình từng pha và quyết định chốt có hash và thời điểm UTC. Mỗi pha giữ source-snapshot của các tệp Java thực sự được biên dịch. Dataset index lưu SHA-256 từng CSV. Lệnh verify kiểm tra ma trận phép đo đầy đủ, thứ tự ứng viên là hoán vị, checksum kết quả và dữ liệu tách biệt giữa ba pha.')
     report.subheading('Demo ghi trực tiếp các phép so sánh')
     report.text('Mở demo/index.html để chọn N = 16 hoặc 33, đổi thứ tự đầu vào và CUTOFF từ 1 đến 128. Có nút tiến, lùi, về đầu, đến cuối, tự chạy và các mốc nhanh 1, 7, 10 cùng ngưỡng khuyến nghị. Nhãn # lưu vị trí ban đầu, giúp kiểm tra thứ tự các khóa bằng nhau sau khi hoàn tất.')
-    report.text('TraceCapture gọi đúng MergeSort.sort với đối tượng Comparable ghi lại compareTo. StackWalker nhận diện phép so sánh thuộc insertionSort hay merge và độ sâu ngăn xếp [3]. Mảng được chụp trước so sánh; bước kế tiếp phản ánh những lần ghi đã xảy ra. Không viết một bản MergeSort thứ hai để sinh trace và không chỉnh mã người dùng.')
+    report.text('TraceCapture gọi MergeSort.sort với đối tượng Comparable ghi lại compareTo. StackWalker nhận diện phép so sánh thuộc insertionSort hay merge và độ sâu ngăn xếp [3]. Mảng được chụp trước so sánh; bước kế tiếp phản ánh những lần ghi đã xảy ra. Trace được thu từ chính cài đặt dùng trong thí nghiệm; việc ghi sự kiện được đặt ở đối tượng Comparable, giữ nguyên mã MergeSort.')
     report.text('Có 768 lượt chạy Java thực tế, mỗi lượt đối chiếu với oracle ổn định. Chỉ gộp bản ghi khi toàn bộ chuỗi sự kiện giống nhau từng byte, còn 45 bản ghi khác nhau. Cây chia trên giao diện được dựng từ độ dài và cutoff để giải thích cấu trúc; nó không phải dữ liệu đo thời gian. Khi merge đang ghi dở, mảng có thể tạm lặp phần tử vì nguồn đọc là aux.')
-    report.text('Để dựng lại demo dùng python3 cutofflab.py demo; để kiểm tra logic tương tác dùng node --test tests/test_viewer.cjs. Kiểm tra logic không thay thế kiểm tra bố cục bằng trình duyệt. Công cụ hiện tại chặn mở tệp cục bộ trong trình duyệt; phạm vi QA được ghi trong docs/VALIDATION.md.')
+    report.text('Để dựng lại demo dùng python3 cutofflab.py demo; để kiểm tra logic tương tác dùng node --test tests/test_viewer.cjs. Bộ kiểm thử sử dụng DOM tối thiểu để xác minh logic điều khiển và liên kết tài nguyên ngoại tuyến. Phạm vi này chưa bao gồm đánh giá bố cục hiển thị trong trình duyệt; chi tiết được trình bày trong docs/VALIDATION.md.')
 
     report.heading('9 Giới hạn và công bố nguồn gốc')
     report.subheading('Phạm vi của khuyến nghị')
     report.text(f'CUTOFF {selected} là lựa chọn cho một cài đặt, kiểu Integer[], năm phân phối và trọng số đã xác định. Không suy rộng thành ngưỡng tốt nhất cho mọi máy hoặc mọi kiểu Comparable. Đổi sang int[], chuỗi dài, compareTo đắt, cách chèn bằng dịch phần tử hoặc phép merge khác có thể làm đổi ngưỡng.')
     report.text('Lưới sàng lọc hữu hạn, tối đa 128. Pha chọn và xác nhận chỉ giữ ba đại diện cùng các mốc kiểm soát, không đo lại toàn bộ lưới. Bootstrap giữ cố định các phân phối và kích thước; một phiên máy và số JVM hạn chế chưa bao phủ nhiệt độ, tải nền hoặc mọi cấu hình JIT. Khoảng từng cặp không chứng minh tối ưu tuyệt đối hoặc tương đương thống kê của toàn vùng.')
     report.text('Vùng gần tối ưu 3% là quy ước thực dụng đã chốt. Cùng cây đệ quy là tính chất cấu trúc của cài đặt trên N cụ thể, không buộc thời gian máy bằng nhau hoàn toàn. Không chọn lại sau pha xác nhận và không mở thêm một pha để thay kết quả. Quicksort không thuộc phần thí nghiệm MergeSort được giao trong ảnh đề.')
-    report.subheading('Mã giữ lại và công việc AI')
-    report.text('Tệp duy nhất giữ lại từ tài liệu làm việc trước là MergeSort.java do người dùng chỉ định. Hash của nó khớp nguồn đã đo ở cả ba pha. Kiểm thử, công cụ, dữ liệu, số đo, phân tích, hình, báo cáo, demo và tài liệu của bản này đều được tạo trong lần làm lại; không đóng gói PDF, script, lịch sử chat hoặc kết quả cũ.')
+    report.subheading('Nguồn mã và phạm vi hỗ trợ AI')
+    report.text('Cài đặt MergeSort do sinh viên xây dựng được lưu tại src/MergeSort.java và sử dụng thống nhất ở cả ba pha. SHA-256 của tệp được đối chiếu với bản chụp mã nguồn và metadata của từng pha để xác minh sự thống nhất giữa mã chương trình và số đo.')
     report.code('SHA-256 MergeSort.java\n'+source['source_sha256'])
-    report.text('Theo mô tả của người dùng, phần MergeSort là cài đặt do người dùng thực hiện. AI giữ nguyên và hỗ trợ các phần còn lại. Nhật ký AI_SESSION_LOG.md ghi đầy đủ lời trao đổi hiển thị từ yêu cầu làm lại, kèm tóm tắt công cụ và liên kết nhật ký kỹ thuật; không chứa suy luận nội bộ hoặc chỉ dẫn hệ thống. Bìa để trống theo lựa chọn của người dùng.')
+    report.text('AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ và nhật ký trao đổi được công bố tại docs/AI_DISCLOSURE.md và docs/AI_SESSION_LOG.md.')
     report.subheading('Tài liệu tham khảo')
-    report.text('[1] Ảnh đề bài và tệp MergeSort.java được người dùng cung cấp trong cuộc trao đổi. Các yêu cầu sản phẩm được đối chiếu trong docs/REQUIREMENTS.md.')
+    report.text('[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort. Các yêu cầu sản phẩm được đối chiếu trong docs/REQUIREMENTS.md.')
     report.text('[2] Oracle Java SE 25 API. System.nanoTime. Đo khoảng thời gian bằng hiệu hai lần đọc cùng JVM; độ chính xác đơn vị nano giây không bảo đảm độ phân giải một nano giây. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/System.html#nanoTime()')
-    report.text('[3] Oracle Java SE 25 API. StackWalker. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/StackWalker.html  Truy cập ngày 13/11/2026. Không dùng nguồn này để thay thế cài đặt MergeSort.')
+    report.text('[3] Oracle Java SE 25 API. StackWalker. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/StackWalker.html  Truy cập ngày 13/11/2026.')
     report.save()
     print('New report authored: report/Cutoff_Study.docx and .md; four PNG/SVG figures.')

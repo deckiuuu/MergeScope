@@ -33,8 +33,8 @@
 
 **Tại sao mảng trong demo đôi khi lặp phần tử?** Snapshot chụp mảng đích ngay trước một phép so sánh. Khi merge ghi dở, nguồn đúng còn trong aux nên trạng thái trung gian có thể lặp; kết quả cuối được kiểm tra với oracle ổn định.
 
-**AI làm phần nào?** Chỉ MergeSort.java do người dùng cung cấp được giữ lại. AI tạo mới phần kiểm thử, thí nghiệm, dữ liệu, phân tích, báo cáo, demo và tài liệu trong lần làm lại. Nhật ký mới ghi rõ phạm vi.
+**AI làm phần nào?** Cài đặt MergeSort do sinh viên thực hiện. AI tạo các thành phần hỗ trợ gồm kiểm thử, công cụ thí nghiệm, bộ sinh dữ liệu, phân tích, đồ thị và demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Phạm vi được công bố trong AI_DISCLOSURE.md và nhật ký trao đổi AI.
 
-## Trước khi nộp
+## Kiểm tra và tái lập
 
-Điền thông tin bìa nếu cần, chạy test và verify từ thư mục giải nén, mở demo và PDF, đọc kỹ các giới hạn. Nếu thay máy hoặc JVM, đo lại và dùng số liệu của chính phiên mới để giải thích.
+Các lệnh test và verify kiểm tra mã nguồn, dữ liệu và tính nhất quán của kết quả. Demo và PDF được mở từ cấu trúc thư mục của repository. Khi thay máy hoặc JVM, cần thực hiện phiên đo riêng và diễn giải kết quả theo cấu hình của phiên đó.

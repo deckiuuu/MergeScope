@@ -11,7 +11,7 @@
   <header class="masthead">
     <p class="overline">Phòng thí nghiệm thuật toán</p>
     <h1>MergeSort qua từng phép so sánh</h1>
-    <p class="lead">Thay CUTOFF, quan sát cây chia và đi qua các phép so sánh do chính mã Java của bạn thực hiện.</p>
+    <p class="lead">Thay CUTOFF, quan sát cây chia và đi qua các phép so sánh từ cài đặt Java trong thí nghiệm.</p>
     <p class="source-line">Nguồn trace: MergeSort.java nguyên bản · 768 lượt chạy đã đối chiếu oracle · SHA-256 797fa52661500ca3</p>
   </header>
   <section class="workspace" aria-label="Thực hành thuật toán">
@@ -47,7 +47,7 @@
     <p class="explanation">Lá màu vàng dùng Insertion sort. Đường viền đánh dấu mức sâu đang quan sát, không xác định một nút cụ thể. Cây này được tính từ độ dài đoạn; phần ghi so sánh phía trên được thu từ mã Java thật.</p>
   </section>
   <section class="evidence" aria-labelledby="evidence-title">
-    <div><p class="overline">Kết quả thực nghiệm riêng với animation</p><h2 id="evidence-title">Ứng viên đã chốt và kiểm chứng</h2><p>CUTOFF 32 được chọn trên pha chọn riêng rồi giữ nguyên khi xác nhận. Kết luận chỉ áp dụng cho cài đặt Integer[], máy và thiết kế dữ liệu trong báo cáo.</p><p class="explanation">Thời gian đo bằng Java trên dữ liệu lớn, không lấy tốc độ animation làm số liệu. Khoảng tin cậy bootstrap giữ cố định thiết kế phân phối × kích thước.</p></div>
+    <div><p class="overline">Đối chiếu kết quả thực nghiệm</p><h2 id="evidence-title">Ứng viên đã chốt và kiểm chứng</h2><p>CUTOFF 32 được chọn trên pha chọn riêng rồi giữ nguyên khi xác nhận. Kết luận chỉ áp dụng cho cài đặt Integer[], máy và thiết kế dữ liệu trong báo cáo.</p><p class="explanation">Thời gian đo bằng Java trên dữ liệu lớn, không lấy tốc độ animation làm số liệu. Khoảng tin cậy bootstrap giữ cố định thiết kế phân phối × kích thước.</p></div>
     <div class="table-scroll"><table><caption>Speedup của CUTOFF 32 trên pha xác nhận cuối</caption><thead><tr><th>Mốc</th><th>Speedup</th><th>Khoảng 95%</th></tr></thead><tbody><tr><td>1</td><td>1.2821×</td><td>1.2703 đến 1.2972</td></tr><tr><td>7</td><td>1.0653×</td><td>1.0606 đến 1.0706</td></tr><tr><td>10</td><td>1.0620×</td><td>1.0578 đến 1.0669</td></tr><tr><td>40</td><td>0.9994×</td><td>0.9968 đến 1.0024</td></tr><tr><td>48</td><td>1.0186×</td><td>1.0095 đến 1.0289</td></tr><tr><td>128</td><td>1.1695×</td><td>1.1538 đến 1.1851</td></tr></tbody></table></div>
   </section>
   <footer><a href="../report/Cutoff_Study.pdf">Báo cáo PDF</a><a href="../README.md">Hướng dẫn project</a><span>Hoạt động ngoại tuyến</span></footer>
