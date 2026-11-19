@@ -12,7 +12,7 @@ Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài �
 | Mã nguồn và script | [MergeSort.java](src/MergeSort.java), [cutofflab.py](cutofflab.py), [labcore](labcore/) |
 | Dữ liệu đầu vào | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
 | Số đo và phân tích | [measurements](measurements/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp](measurements/confirm/paired-effects.csv), [kết quả xác nhận](measurements/confirm/summary.json) |
-| Công bố AI | [Phạm vi hỗ trợ AI](docs/AI_DISCLOSURE.md); nhật ký trao đổi AI là tài liệu nộp riêng kèm bài |
+| Công bố AI | [Phạm vi hỗ trợ AI](docs/AI_DISCLOSURE.md) |
 | Demo tương tác ngoại tuyến | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
 
 Giữ nguyên cấu trúc thư mục khi mở demo để các liên kết tới CSS, JavaScript và báo cáo PDF hoạt động. Demo dùng tài nguyên trong project và chạy ngoại tuyến. GitHub hiển thị mã nguồn khi mở HTML ở tab Code; cần tải hoặc clone project để chạy demo trên máy.
