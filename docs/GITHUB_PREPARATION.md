@@ -10,7 +10,7 @@ Nguồn duy nhất của bản nghiên cứu là MergeSortCutoff_FromScratch, t�
 
 308 tệp của bản nghiên cứu được giữ nguyên byte và liệt kê trong BASELINE_SHA256.txt, gồm các tệp Java đã đo, kiểm thử gốc, cấu hình, dữ liệu, số đo, báo cáo và demo. README, .gitignore cùng bảng hash/nguồn gốc được cập nhật cho cấu trúc GitHub. Các tệp quản trị repository được thêm mới, không chạy lại phép đo để thay số liệu.
 
-## Nội dung thêm
+## Nội dung thêm ban đầu
 
 - .github/workflows/ci.yml: kiểm thử trên JDK 17 và 25, Python 3.12, Node.js 24; chỉ quyền đọc nội dung.
 - Mẫu issue và pull request để ghi lỗi hoặc thay đổi có thể tái hiện.
@@ -45,3 +45,9 @@ Không chạy lại benchmark trong lần chuẩn bị GitHub. Các kết luận
 ## Tinh gọn bài nộp ngày 19/11/2026
 
 Theo yêu cầu bổ sung của người dùng, gỡ CONTRIBUTING.md và dùng hướng dẫn chạy, kiểm thử, bảo toàn dữ liệu trong README.md. Các tham chiếu ở cây thư mục, mẫu pull request, danh sách tài liệu cần kiểm tra và bảng checksum/nguồn gốc được cập nhật tương ứng. Người dùng cho phép push thay đổi lên GitHub và kiểm tra CI; 308 tệp baseline của thí nghiệm được giữ nguyên.
+
+## Tinh gọn lần 2: bài nộp và demo ngoại tuyến
+
+> Đồng ý, hãy tinh gọn theo phương án 6 tệp, giữ demo ngoại tuyến và đủ yêu cầu của đề. Cập nhật README, các liên kết và checksum rồi push lên GitHub giúp tôi, đảm bảo CI vẫn xanh.
+
+Gỡ sáu tệp quản trị/hướng dẫn: .github/ISSUE_TEMPLATE/bug_report.yml, .github/pull_request_template.md, docs/GITHUB_GUIDE.md, SUBMISSION.md, index.html ở gốc và .nojekyll. Bảng đối chiếu sản phẩm nộp được gộp vào README, cùng hướng dẫn mở demo/index.html ngoại tuyến; công cụ kiểm tra liên kết dùng README làm điểm vào. Bảng checksum và nguồn gốc được cập nhật theo cấu trúc 320 tệp. Các mục phía trên ghi lại trạng thái của những lần chuẩn bị trước; 308 tệp baseline của thí nghiệm tiếp tục được giữ nguyên.

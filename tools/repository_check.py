@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 EXCLUDED_DIRECTORIES={'.git','scratch','reruns','compiled','__pycache__','dist','.venv','venv',
     '.idea','.vscode','.pytest_cache','.mypy_cache','.ruff_cache'}
 EXCLUDED_FILES={'.DS_Store','Thumbs.db'}
-NAVIGATION_FILES=['README.md','SUBMISSION.md','docs/GITHUB_GUIDE.md']
+NAVIGATION_FILES=['README.md']
 
 
 def digest(path):

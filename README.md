@@ -4,19 +4,21 @@ Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài �
 
 **Kết quả đã đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. C32 và C40 chưa phân biệt rõ. Bản chuẩn bị GitHub ngày 19/11/2026 giữ nguyên mã và toàn bộ bằng chứng của bản làm lại từ đầu.
 
-## Đọc nhanh
+## Sản phẩm nộp
 
-| Mục đích | Điểm bắt đầu |
+| Tiêu chí | Sản phẩm để kiểm tra |
 |---|---|
-| Chấm bài và đối chiếu yêu cầu | [SUBMISSION.md](SUBMISSION.md) |
-| Xem báo cáo | [PDF 10 trang](report/Cutoff_Study.pdf), [Word](report/Cutoff_Study.docx), [Markdown](report/Cutoff_Study.md) |
-| Xem kết quả thống kê | [Tập xác nhận](measurements/confirm/summary.json), [so sánh ghép cặp](measurements/confirm/paired-effects.csv) |
-| Xem thuật toán | [MergeSort.java](src/MergeSort.java) |
-| Dùng demo | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
-| Đẩy lên GitHub để nộp | [Hướng dẫn từng bước](docs/GITHUB_GUIDE.md) |
-| Xem phạm vi AI | [Công bố AI](docs/AI_DISCLOSURE.md), [log lần làm lại](docs/AI_SESSION_LOG.md), [ghi nhận chuẩn bị GitHub](docs/GITHUB_PREPARATION.md) |
+| Báo cáo mô tả, phân tích và tổng kết | [PDF 10 trang](report/Cutoff_Study.pdf), [Word](report/Cutoff_Study.docx), [Markdown](report/Cutoff_Study.md) |
+| Bảng thống kê và đồ thị | [Bốn hình](report/charts/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp và khoảng tin cậy](measurements/confirm/paired-effects.csv) |
+| Cài đặt MergeSort được cung cấp | [Mã nguồn nguyên bản](src/MergeSort.java), [nguồn gốc và hash](docs/ORIGIN.json) |
+| Script chạy thí nghiệm | [cutofflab.py](cutofflab.py), [labcore](labcore/), [cấu hình](study.json) |
+| Bộ dữ liệu | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
+| Số đo gốc và cấu hình máy | [measurements](measurements/), evidence.json và process-*.csv của ba pha |
+| Log dùng AI | [Nhật ký lần làm lại](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md), [ghi nhận chuẩn bị GitHub](docs/GITHUB_PREPARATION.md) |
+| Phân tích có kiểm chứng | [Giao thức ba pha](docs/PROTOCOL.md), [kết quả xác nhận](measurements/confirm/summary.json) |
+| Demo tương tác ngoại tuyến | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
 
-GitHub hiển thị mã nguồn khi mở HTML ở trang Code. Demo chạy khi mở tệp trên máy; hướng dẫn có thêm lựa chọn GitHub Pages nếu muốn một đường dẫn demo online.
+Giữ nguyên cấu trúc thư mục khi mở demo để các liên kết tới CSS, JavaScript và báo cáo PDF hoạt động. Demo dùng tài nguyên trong project và chạy ngoại tuyến. GitHub hiển thị mã nguồn khi mở HTML ở tab Code; cần tải hoặc clone project để chạy demo trên máy.
 
 ## Kết quả trong phạm vi thí nghiệm
 
@@ -37,10 +39,7 @@ Ba pha được chốt trước: sàng lọc 69 ngưỡng → chọn trong ba đ
 
 ```text
 mergesort-cutoff-lab/
-├── .github/
-│   ├── workflows/ci.yml         # Kiểm tra trên JDK 17 và 25
-│   ├── ISSUE_TEMPLATE/          # Mẫu báo lỗi
-│   └── pull_request_template.md
+├── .github/workflows/ci.yml     # Kiểm tra trên JDK 17 và 25
 ├── src/                        # MergeSort nguyên bản và harness đo Java
 ├── tests/                      # Kiểm thử Java, Python và viewer
 ├── labcore/                    # Sinh dữ liệu, đo, thống kê, kiểm toán, báo cáo
@@ -55,9 +54,7 @@ mergesort-cutoff-lab/
 ├── docs/                       # Giao thức, nguồn gốc, log AI và hướng dẫn
 ├── cutofflab.py                # Điểm vào CLI của thí nghiệm
 ├── study.json                  # Giao thức ba pha đã định trước
-├── SUBMISSION.md               # Mục lục sản phẩm nộp
 ├── Makefile                    # Các lệnh tắt trên macOS/Linux
-├── index.html                  # Điểm vào demo nếu bật GitHub Pages
 ├── .gitattributes              # Giữ byte để bảo toàn SHA-256
 ├── .gitignore                  # Loại build/cache; giữ dữ liệu và log thí nghiệm
 ├── CHECKSUMS.txt               # Hash của bản repository hiện tại
