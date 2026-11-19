@@ -1,13 +1,12 @@
 path,origin,derived_from,sha256
 .gitattributes,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,2c0e4a2e1acb460f58680a0bf8c1a71434c939bfb1addb39c0611a10bcae14a9
 .github/ISSUE_TEMPLATE/bug_report.yml,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,ca66a89ff70cfd8ca911886587d390c052b299eff5290e501ded247151a253fe
-.github/pull_request_template.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,2c09aeb7b6b882083f52eb1249c4f44b7e1d625e78815bb830dc4960de34f3ef
+.github/pull_request_template.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,a866073dff0d284bdd39208ef7d5fc83d56a12fe78ab2187dc13d67819688942
 .github/workflows/ci.yml,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,cc67eb283548f925ddbfed3c3265f7fc35ee1596fa2cc9116e42bb69d91b48b3
 .gitignore,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,9d96f93bd079247df1e0fd868d8865bb5d2320ee118f97ca96ead116d67f4697
 .nojekyll,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-CONTRIBUTING.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,94c064491617afc2b4b3d7d70b4270eff6dcdfcce7579573ed0e8fc514aa0012
 Makefile,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,ca358f00c61731843ba43580cc32a24d7a5566844a01045fb593c979b1154615
-README.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,98493598c4d94ec2373b1a96fc4c142cc0a8194f96f16b8062f93571c4318c2f
+README.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,7b385b1aafbdd3f1ccacdb8fabb2e4587c63e879c52581c82485c4bff5e5622f
 SUBMISSION.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,65135f58c58560255f45397293c8921215ff0032efe2d16169bd26282429f8d3
 cutofflab.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,381d2dfba331d0d53efb6a0511e80e1b77a713d0389e0501094bd57c2f6ea024
 datasets/choose/almost_sorted-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4ba352d313209bce5163c81dbffb7cc0fa2d63207015c62a55901e6eb0183b47
@@ -207,7 +206,7 @@ docs/BASELINE_SHA256.txt,GitHub repository preparation or metadata maintenance,F
 docs/BUILD_ENVIRONMENT.json,new build metadata,Installed document runtime queried during this rebuild,b67947be82167594431f6214048c35bb5e15622bd21e0dce1ccfd05bebadacad
 docs/DEFENSE_NOTES.md,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,39a5d30b2db2697f2dd1f0c10698a476d8140f278f36563ad4e4c472ad90bc5c
 docs/GITHUB_GUIDE.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,f169e2b3e1858c56d606c3b1698987bf79fcc0c91e77a6999437397d08bceb2e
-docs/GITHUB_PREPARATION.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,b43bf24b49f1f5b45443300287ebbcc960daf0a4530e7fdeac109c2e0c6da004
+docs/GITHUB_PREPARATION.md,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,bf93df2def707975164d2c1ee33065ffb66628c57800b8425d9e258a74c37df0
 docs/ORIGIN.json,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,f68207d534efca8ffa17c1cab3052c47c2a69900082b7586d9cc16e891644b64
 docs/PROTOCOL.md,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,b47a75bd4fac59a3da59ad7d6498a972ea09641dc3b21542521a2f1ac7902abe
 docs/REQUIREMENTS.md,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,c4077ed4a0911bbedd345f20f22bed92d50341dacb5b2bd7c8022543ada256c2
@@ -323,4 +322,4 @@ tests/test_repository.py,GitHub repository preparation or metadata maintenance,F
 tests/test_viewer.cjs,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,e93d39d4a577d720f9bbdb0df6e791d4fd73f3befeb9d423b05d956674137404
 tools/TraceCapture.java,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,353693b849845d17a452d4306ee0be5d0346bce38733fe45708f1e5cdc0091de
 tools/package_submission.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,2610e2b24e38c0d0c01f652b4feae1d937b8a5862c952408a46100f235df2fcb
-tools/repository_check.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,12343ebe3759a2c0902b0c0a451c55dcc0ca2794f1eacee7f30a39fb542a1e13
+tools/repository_check.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,90a053acfd6dbbcb46aad7f55ac2a6d09108b5d0335474eaa423f7e23fcaa036

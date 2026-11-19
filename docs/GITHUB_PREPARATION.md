@@ -16,7 +16,7 @@ Nguồn duy nhất của bản nghiên cứu là MergeSortCutoff_FromScratch, t�
 - Mẫu issue và pull request để ghi lỗi hoặc thay đổi có thể tái hiện.
 - .gitattributes giữ byte và đánh dấu tài nguyên sinh tự động trong diff.
 - .gitignore cho build/cache/dist/môi trường ảo, vẫn giữ CSV và log thí nghiệm.
-- README theo cách đọc repository, SUBMISSION cho người chấm, CONTRIBUTING cho việc bảo toàn bằng chứng.
+- README theo cách đọc repository và hướng dẫn bảo toàn bằng chứng, SUBMISSION cho người chấm.
 - GITHUB_GUIDE hướng dẫn đăng nhập, tạo repo, push, chạy CI và gắn tag nộp.
 - repository_check.py bảo vệ baseline, kiểm tra toàn bộ hash và liên kết điều hướng.
 - package_submission.py đóng gói và kiểm tra CRC/SHA-256.
@@ -24,13 +24,13 @@ Nguồn duy nhất của bản nghiên cứu là MergeSortCutoff_FromScratch, t�
 - Makefile cho các lệnh test, verify, check và package.
 - .nojekyll và index.html để hỗ trợ lựa chọn Pages thủ công nếu người dùng muốn xuất demo của repository Public.
 
-## Phạm vi thao tác
+## Phạm vi chuẩn bị ban đầu
 
-Chuẩn bị tệp và hướng dẫn cục bộ. Không đăng nhập tài khoản, tạo remote repository, push hoặc bật Pages thay người dùng trong lần này. GitHub CLI chưa được cài trên máy khi kiểm tra, nên hướng dẫn kèm lệnh cài chính thức qua Homebrew.
+Chuẩn bị tệp và hướng dẫn cục bộ. Không đăng nhập tài khoản, tạo remote repository, push hoặc bật Pages thay người dùng trong lần chuẩn bị ban đầu. GitHub CLI chưa được cài trên máy khi kiểm tra, nên hướng dẫn kèm lệnh cài chính thức qua Homebrew.
 
 Các phiên bản action trong workflow được kiểm tra tồn tại qua nguồn chính thức của actions/checkout, setup-java, setup-python và setup-node.
 
-## Kiểm tra bản chuẩn bị
+## Kiểm tra bản chuẩn bị ban đầu
 
 - 308 tệp baseline giữ nguyên SHA-256; cả ba pha thí nghiệm vượt kiểm toán nguồn, dữ liệu, cấu hình và số đo đã lưu.
 - 15.693 kiểm tra Java vượt qua trên JDK 25.0.2. Toàn bộ mã Java cũng biên dịch thành công với javac --release 17 -Xlint:all; đây là kiểm tra đích biên dịch, chưa phải chạy bằng runtime JDK 17.
@@ -41,3 +41,7 @@ Các phiên bản action trong workflow được kiểm tra tồn tại qua ngu�
 - Công cụ đóng gói kiểm tra CRC và SHA-256 từng thành viên của ZIP trước khi công bố tệp xuất. Không đưa .git, build, cache hoặc thư mục đo thử vào gói.
 
 Không chạy lại benchmark trong lần chuẩn bị GitHub. Các kết luận hiệu năng vẫn thuộc cấu hình và lần đo đã ghi ngày 13/11/2026.
+
+## Tinh gọn bài nộp ngày 19/11/2026
+
+Theo yêu cầu bổ sung của người dùng, gỡ CONTRIBUTING.md và dùng hướng dẫn chạy, kiểm thử, bảo toàn dữ liệu trong README.md. Các tham chiếu ở cây thư mục, mẫu pull request, danh sách tài liệu cần kiểm tra và bảng checksum/nguồn gốc được cập nhật tương ứng. Người dùng cho phép push thay đổi lên GitHub và kiểm tra CI; 308 tệp baseline của thí nghiệm được giữ nguyên.

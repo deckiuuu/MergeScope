@@ -4,7 +4,7 @@ Mô tả điều gì thay đổi và lý do.
 
 ## Kiểm tra
 
-- [ ] Đã chạy các kiểm tra phù hợp theo CONTRIBUTING.md.
+- [ ] Đã chạy các kiểm tra phù hợp theo mục Kiểm tra trên máy trong README.md.
 - [ ] Dữ liệu, số đo và mã Java đã đo khớp baseline.
 - [ ] Nếu đổi tài liệu hoặc cấu hình repository, đã chạy `python3 tools/repository_check.py refresh`.
 

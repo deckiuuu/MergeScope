@@ -56,7 +56,6 @@ mergesort-cutoff-lab/
 ├── cutofflab.py                # Điểm vào CLI của thí nghiệm
 ├── study.json                  # Giao thức ba pha đã định trước
 ├── SUBMISSION.md               # Mục lục sản phẩm nộp
-├── CONTRIBUTING.md             # Cách chỉnh sửa metadata và kiểm tra lại
 ├── Makefile                    # Các lệnh tắt trên macOS/Linux
 ├── index.html                  # Điểm vào demo nếu bật GitHub Pages
 ├── .gitattributes              # Giữ byte để bảo toàn SHA-256
