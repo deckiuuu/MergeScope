@@ -14,7 +14,7 @@ def package(output_name):
     archive=destination/output_name
     temporary=archive.with_suffix('.zip.tmp')
     files=product_files()
-    prefix='mergesort-cutoff-lab'
+    prefix='mergescope'
     expected={f'{prefix}/{path.relative_to(ROOT)}':digest(path) for path in files}
     try:
         with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as output:
@@ -36,7 +36,7 @@ def package(output_name):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--name',default='mergesort-cutoff-submission.zip')
+    parser.add_argument('--name',default='mergescope-submission.zip')
     arguments=parser.parse_args()
     try: package(arguments.name)
     except (ValueError,OSError) as error: raise SystemExit(str(error))

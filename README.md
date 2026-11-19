@@ -1,4 +1,4 @@
-# MergeSort Cutoff Lab
+# MergeScope
 
 Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài đặt MergeSort của sinh viên. Project gồm mã Java, công cụ Python, dữ liệu và số đo gốc, báo cáo cùng demo tương tác ngoại tuyến.
 
@@ -35,7 +35,7 @@ Ba pha được chốt trước: sàng lọc 69 ngưỡng → chọn trong ba đ
 ## Cấu trúc repository
 
 ```text
-mergesort-cutoff-lab/
+mergescope/
 ├── .github/workflows/ci.yml     # Kiểm tra trên JDK 17 và 25
 ├── src/                        # MergeSort nguyên bản và harness đo Java
 ├── tests/                      # Kiểm thử Java, Python và viewer
