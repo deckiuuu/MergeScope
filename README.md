@@ -96,19 +96,3 @@ MergeSort.sort(data, 32);
 ```
 
 Nguồn gốc và SHA-256 của cài đặt được ghi trong [ORIGIN.json](docs/ORIGIN.json). Thiết kế thí nghiệm được mô tả trong [PROTOCOL.md](docs/PROTOCOL.md) và [study.json](study.json).
-
-## Dựng lại báo cáo và demo
-
-Báo cáo PDF và demo HTML được cung cấp sẵn trong repository. Lệnh tái tạo demo:
-
-```sh
-python3 cutofflab.py demo
-```
-
-Báo cáo Word, Markdown và bốn đồ thị được tái tạo bằng lệnh sau, với các thư viện được liệt kê trong [doc-build-requirements.txt](doc-build-requirements.txt):
-
-```sh
-python3 cutofflab.py report
-```
-
-Tệp DOCX được xuất sang PDF bằng Word hoặc LibreOffice. Phiên bản thư viện được ghi trong [BUILD_ENVIRONMENT.json](docs/BUILD_ENVIRONMENT.json).

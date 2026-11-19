@@ -209,7 +209,7 @@ Ví dụ ngẫu nhiên N = 230.003, C32: median 26.883 ms; mean 27.219 ms; độ
 
 descriptive-times.csv còn lưu min, max và MAD cho từng phân phối × N × cutoff. process-*.csv giữ các lần đo gốc, thứ tự ứng viên, batch, tổng nano giây và checksum. Độ lệch chuẩn mô tả không giả định mọi quan sát gộp là độc lập; bootstrap dùng cấp JVM và seed để phản ánh cấu trúc lặp.
 
-## 8 Chạy lại và trình bày bằng demo
+## 8 Tái lập thí nghiệm và demo minh họa
 
 ### Các bước tái lập
 
@@ -232,7 +232,7 @@ TraceCapture gọi MergeSort.sort với đối tượng Comparable ghi lại com
 
 Có 768 lượt chạy Java thực tế, mỗi lượt đối chiếu với oracle ổn định. Chỉ gộp bản ghi khi toàn bộ chuỗi sự kiện giống nhau từng byte, còn 45 bản ghi khác nhau. Cây chia trên giao diện được dựng từ độ dài và cutoff để giải thích cấu trúc; nó không phải dữ liệu đo thời gian. Khi merge đang ghi dở, mảng có thể tạm lặp phần tử vì nguồn đọc là aux.
 
-Để dựng lại demo dùng python3 cutofflab.py demo; để kiểm tra logic tương tác dùng node --test tests/test_viewer.cjs. Bộ kiểm thử sử dụng DOM tối thiểu để xác minh logic điều khiển và liên kết tài nguyên ngoại tuyến. Phạm vi này chưa bao gồm đánh giá bố cục hiển thị trong trình duyệt; chi tiết được trình bày trong docs/VALIDATION.md.
+Bộ kiểm thử demo sử dụng DOM tối thiểu để xác minh logic điều khiển và liên kết tài nguyên ngoại tuyến. Phạm vi này chưa bao gồm đánh giá bố cục hiển thị trong trình duyệt; chi tiết được trình bày trong docs/VALIDATION.md.
 
 ## 9 Giới hạn và công bố nguồn gốc
 

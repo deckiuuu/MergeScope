@@ -237,7 +237,7 @@ def build_report():
     report.text(f'Ví dụ ngẫu nhiên N = {integer(max(confirm["configuration"]["lengths"]))}, C{selected}: median {float(example["median_ms"]):.3f} ms; mean {float(example["mean_ms"]):.3f} ms; độ lệch chuẩn mẫu {float(example["sd_ms"]):.3f} ms; Q1-Q3 {float(example["q1_ms"]):.3f}-{float(example["q3_ms"]):.3f} ms. Chưa có trace nguyên nhân để gán riêng một quan sát chậm cho GC hay tải nền.')
     report.text('descriptive-times.csv còn lưu min, max và MAD cho từng phân phối × N × cutoff. process-*.csv giữ các lần đo gốc, thứ tự ứng viên, batch, tổng nano giây và checksum. Độ lệch chuẩn mô tả không giả định mọi quan sát gộp là độc lập; bootstrap dùng cấp JVM và seed để phản ánh cấu trúc lặp.')
 
-    report.heading('8 Chạy lại và trình bày bằng demo')
+    report.heading('8 Tái lập thí nghiệm và demo minh họa')
     report.subheading('Các bước tái lập')
     report.text('Cần JDK 17 trở lên và Python 3.10 trở lên để chạy đo, kiểm thử và phân tích; các bước này chỉ dùng thư viện chuẩn. Mỗi phiên tái lập được lưu riêng dưới reruns/ để bảo toàn số liệu đã công bố. Thời gian chạy lại có nhiễu nên thứ hạng không bắt buộc giống bản báo cáo.')
     report.code('python3 cutofflab.py test\npython3 -m unittest discover -s tests -p "test_*.py"\npython3 cutofflab.py verify\npython3 cutofflab.py study --new-run lan_do_moi')
@@ -246,7 +246,7 @@ def build_report():
     report.text('Mở demo/index.html để chọn N = 16 hoặc 33, đổi thứ tự đầu vào và CUTOFF từ 1 đến 128. Có nút tiến, lùi, về đầu, đến cuối, tự chạy và các mốc nhanh 1, 7, 10 cùng ngưỡng khuyến nghị. Nhãn # lưu vị trí ban đầu, giúp kiểm tra thứ tự các khóa bằng nhau sau khi hoàn tất.')
     report.text('TraceCapture gọi MergeSort.sort với đối tượng Comparable ghi lại compareTo. StackWalker nhận diện phép so sánh thuộc insertionSort hay merge và độ sâu ngăn xếp [3]. Mảng được chụp trước so sánh; bước kế tiếp phản ánh những lần ghi đã xảy ra. Trace được thu từ chính cài đặt dùng trong thí nghiệm; việc ghi sự kiện được đặt ở đối tượng Comparable, giữ nguyên mã MergeSort.')
     report.text('Có 768 lượt chạy Java thực tế, mỗi lượt đối chiếu với oracle ổn định. Chỉ gộp bản ghi khi toàn bộ chuỗi sự kiện giống nhau từng byte, còn 45 bản ghi khác nhau. Cây chia trên giao diện được dựng từ độ dài và cutoff để giải thích cấu trúc; nó không phải dữ liệu đo thời gian. Khi merge đang ghi dở, mảng có thể tạm lặp phần tử vì nguồn đọc là aux.')
-    report.text('Để dựng lại demo dùng python3 cutofflab.py demo; để kiểm tra logic tương tác dùng node --test tests/test_viewer.cjs. Bộ kiểm thử sử dụng DOM tối thiểu để xác minh logic điều khiển và liên kết tài nguyên ngoại tuyến. Phạm vi này chưa bao gồm đánh giá bố cục hiển thị trong trình duyệt; chi tiết được trình bày trong docs/VALIDATION.md.')
+    report.text('Bộ kiểm thử demo sử dụng DOM tối thiểu để xác minh logic điều khiển và liên kết tài nguyên ngoại tuyến. Phạm vi này chưa bao gồm đánh giá bố cục hiển thị trong trình duyệt; chi tiết được trình bày trong docs/VALIDATION.md.')
 
     report.heading('9 Giới hạn và công bố nguồn gốc')
     report.subheading('Phạm vi của khuyến nghị')
