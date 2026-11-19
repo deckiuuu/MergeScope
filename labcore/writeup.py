@@ -256,7 +256,7 @@ def build_report():
     report.subheading('Nguồn mã và phạm vi hỗ trợ AI')
     report.text('Cài đặt MergeSort do sinh viên xây dựng được lưu tại src/MergeSort.java và sử dụng thống nhất ở cả ba pha. SHA-256 của tệp được đối chiếu với bản chụp mã nguồn và metadata của từng pha để xác minh sự thống nhất giữa mã chương trình và số đo.')
     report.code('SHA-256 MergeSort.java\n'+source['source_sha256'])
-    report.text('AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ và nhật ký trao đổi được công bố tại docs/AI_DISCLOSURE.md và docs/AI_SESSION_LOG.md.')
+    report.text('AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ được công bố tại docs/AI_DISCLOSURE.md. Nhật ký trao đổi AI là tài liệu nộp riêng kèm bài.')
     report.subheading('Tài liệu tham khảo')
     report.text('[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort.')
     report.text('[2] Oracle Java SE 25 API. System.nanoTime. Đo khoảng thời gian bằng hiệu hai lần đọc cùng JVM; độ chính xác đơn vị nano giây không bảo đảm độ phân giải một nano giây. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/System.html#nanoTime()')

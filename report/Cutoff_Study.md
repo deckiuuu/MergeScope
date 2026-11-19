@@ -253,7 +253,7 @@ SHA-256 MergeSort.java
 797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
 ```
 
-AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ và nhật ký trao đổi được công bố tại docs/AI_DISCLOSURE.md và docs/AI_SESSION_LOG.md.
+AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ được công bố tại docs/AI_DISCLOSURE.md. Nhật ký trao đổi AI là tài liệu nộp riêng kèm bài.
 
 ### Tài liệu tham khảo
 

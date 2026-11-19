@@ -12,7 +12,7 @@ Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài �
 | Mã nguồn và script | [MergeSort.java](src/MergeSort.java), [cutofflab.py](cutofflab.py), [labcore](labcore/) |
 | Dữ liệu đầu vào | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
 | Số đo và phân tích | [measurements](measurements/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp](measurements/confirm/paired-effects.csv), [kết quả xác nhận](measurements/confirm/summary.json) |
-| Nhật ký và công bố AI | [Nhật ký trao đổi AI](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md) |
+| Công bố AI | [Phạm vi hỗ trợ AI](docs/AI_DISCLOSURE.md); nhật ký trao đổi AI là tài liệu nộp riêng kèm bài |
 | Demo tương tác ngoại tuyến | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
 
 Giữ nguyên cấu trúc thư mục khi mở demo để các liên kết tới CSS, JavaScript và báo cáo PDF hoạt động. Demo dùng tài nguyên trong project và chạy ngoại tuyến. GitHub hiển thị mã nguồn khi mở HTML ở tab Code; cần tải hoặc clone project để chạy demo trên máy.
@@ -48,7 +48,7 @@ mergesort-cutoff-lab/
 ├── measurements/               # Raw CSV, thống kê, metadata, log và snapshot
 ├── report/                     # PDF, DOCX, Markdown và bốn đồ thị
 ├── demo/                       # HTML/CSS/JS; trace được nhúng sẵn
-├── docs/                       # Giao thức, nguồn gốc, log AI và hướng dẫn
+├── docs/                       # Giao thức, nguồn gốc và công bố phạm vi AI
 ├── cutofflab.py                # Điểm vào CLI của thí nghiệm
 ├── study.json                  # Giao thức ba pha đã định trước
 ├── Makefile                    # Các lệnh tắt trên macOS/Linux
