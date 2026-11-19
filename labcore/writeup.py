@@ -134,7 +134,10 @@ def build_report():
     report=Composer()
     report.text('Thực nghiệm lựa chọn CUTOFF\ncho MergeSort','Title')
     report.text(f'Báo cáo phân tích thuật toán  |  Ngày {started:%d/%m/%Y}')
-    report.text('Họ và tên: ____________________     MSSV: ____________________\nLớp: ____________________     Giảng viên: ____________________')
+    report.text('Họ và tên: ____________________')
+    report.text('MSSV: ____________________')
+    report.text('Lớp: ____________________')
+    report.text('Giảng viên: ____________________')
     report.subheading('Kết luận của thí nghiệm')
     report.text(f'Đề xuất CUTOFF {selected} cho cài đặt MergeSort được khảo sát và workload Integer[] đã xác định. Trên tập xác nhận cuối, speedup so với CUTOFF 7 là {effects[7]["speedup"]:.4f} lần, so với CUTOFF 10 là {effects[10]["speedup"]:.4f} lần. Tỷ lệ giảm thời gian trước mốc 10 là {effects[10]["time_saved_fraction"]*100:.2f}%.')
     alternatives=[r for r in confirm['paired_effects'] if r['baseline'] in confirm['shortlist'] and r['baseline']!=selected]
@@ -169,7 +172,7 @@ def build_report():
         ['Sàng lọc',sequence(study['phases']['screen']['lengths']),sequence(study['phases']['screen']['seeds'])],
         ['Chọn',sequence(study['phases']['choose']['lengths']),sequence(study['phases']['choose']['seeds'])],
         ['Xác nhận',sequence(study['phases']['confirm']['lengths']),sequence(study['phases']['confirm']['seeds'])]], [2.6,7.3,6.8])
-    report.text('Mỗi pha có bốn độ dài, ba seed và năm phân phối, tạo 60 mảng. Độ dài và seed tách biệt hoàn toàn giữa ba pha. Tập xác nhận không dùng để chọn lại ngưỡng. Quy tắc dừng là đúng ba pha đã định, bất kể kết quả pha cuối; không mở thêm lượt để tìm một thứ hạng ưa thích.')
+    report.text('Mỗi pha có bốn độ dài, ba seed và năm phân phối, tạo 60 mảng. Độ dài và seed tách biệt hoàn toàn giữa ba pha. Tập xác nhận không dùng để chọn lại ngưỡng. Thí nghiệm kết thúc sau đúng ba pha theo giao thức đã xác định trước; quy tắc dừng không phụ thuộc kết quả đo.')
     report.subheading('Môi trường đo thực tế')
     report.table(['Thành phần','Giá trị ghi nhận'],[
         ['Máy',f'{hardware.get("machine_name",hardware["system"])}; {hardware.get("chip_type","")}'],
@@ -215,7 +218,7 @@ def build_report():
     report.text(f'Pha chọn có điểm thấp nhất ở C{choose["selected_cutoff"]}, nên ngưỡng này được lưu trong confirm-frozen.json trước JVM xác nhận đầu tiên. Speedup là thời gian mốc chia thời gian lựa chọn. Vì vậy speedup {effects[10]["speedup"]:.4f} trước C10 tương ứng giảm {effects[10]["time_saved_fraction"]*100:.2f}% thời gian, không phải giảm {(effects[10]["speedup"]-1)*100:.2f}%.')
     for row in [effects[7],effects[10],closest]:report.text(comparison_sentence(row,selected))
     final_group=next(g for g in structural_groups(confirm['configuration']['lengths'],range(1,129)) if selected in g)
-    report.text(f'Trên toàn bộ N của pha cuối, các cutoff từ {final_group[0]} đến {final_group[-1]} có cùng cấu trúc cây. Quan hệ này khác trên tập sàng lọc. Giữ lựa chọn C{selected} và báo cáo đầy đủ kết quả của các ứng viên cạnh tranh, không đổi kết luận bằng cách nhìn một số đo thấp nhất của tập cuối.')
+    report.text(f'Trên toàn bộ N của pha cuối, các cutoff từ {final_group[0]} đến {final_group[-1]} có cùng cấu trúc cây. Quan hệ này khác trên tập sàng lọc. C{selected} được cố định sau pha chọn và duy trì trong pha xác nhận. Kết quả trên tập xác nhận được dùng để đánh giá lựa chọn đã định trước.')
     report.text(f'Tổng ba pha có {integer(total_observations)} quan sát batch và {integer(total_sorts)} lời gọi sort trong vùng đo. Mọi output khớp oracle; các lần warmup không tính vào hai tổng này. Hash nguồn, dữ liệu, cấu hình và quyết định đã được kiểm tra độc lập bằng cutofflab.py verify.')
 
     report.heading('6 Phân phối và kích thước làm đổi lợi ích')
@@ -250,13 +253,13 @@ def build_report():
     report.subheading('Phạm vi của khuyến nghị')
     report.text(f'CUTOFF {selected} là lựa chọn cho một cài đặt, kiểu Integer[], năm phân phối và trọng số đã xác định. Không suy rộng thành ngưỡng tốt nhất cho mọi máy hoặc mọi kiểu Comparable. Đổi sang int[], chuỗi dài, compareTo đắt, cách chèn bằng dịch phần tử hoặc phép merge khác có thể làm đổi ngưỡng.')
     report.text('Lưới sàng lọc hữu hạn, tối đa 128. Pha chọn và xác nhận chỉ giữ ba đại diện cùng các mốc kiểm soát, không đo lại toàn bộ lưới. Bootstrap giữ cố định các phân phối và kích thước; một phiên máy và số JVM hạn chế chưa bao phủ nhiệt độ, tải nền hoặc mọi cấu hình JIT. Khoảng từng cặp không chứng minh tối ưu tuyệt đối hoặc tương đương thống kê của toàn vùng.')
-    report.text('Vùng gần tối ưu 3% là quy ước thực dụng đã chốt. Cùng cây đệ quy là tính chất cấu trúc của cài đặt trên N cụ thể, không buộc thời gian máy bằng nhau hoàn toàn. Không chọn lại sau pha xác nhận và không mở thêm một pha để thay kết quả. Quicksort không thuộc phần thí nghiệm MergeSort được giao trong ảnh đề.')
+    report.text('Vùng gần tối ưu 3% là quy ước thực dụng đã chốt. Cùng cây đệ quy là tính chất cấu trúc của cài đặt trên N cụ thể, không buộc thời gian máy bằng nhau hoàn toàn. Không chọn lại sau pha xác nhận và không mở thêm một pha để thay kết quả. Phạm vi thực nghiệm giới hạn ở MergeSort.')
     report.subheading('Nguồn mã và phạm vi hỗ trợ AI')
     report.text('Cài đặt MergeSort do sinh viên xây dựng được lưu tại src/MergeSort.java và sử dụng thống nhất ở cả ba pha. SHA-256 của tệp được đối chiếu với bản chụp mã nguồn và metadata của từng pha để xác minh sự thống nhất giữa mã chương trình và số đo.')
     report.code('SHA-256 MergeSort.java\n'+source['source_sha256'])
     report.text('AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo và phân tích, bộ sinh dữ liệu, đồ thị, demo, đồng thời biên soạn bản thảo báo cáo và tài liệu. Thời gian thực nghiệm được thu từ các lần chạy Java trên cấu hình đã mô tả. Phạm vi hỗ trợ và nhật ký trao đổi được công bố tại docs/AI_DISCLOSURE.md và docs/AI_SESSION_LOG.md.')
     report.subheading('Tài liệu tham khảo')
-    report.text('[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort. Các yêu cầu sản phẩm được đối chiếu trong docs/REQUIREMENTS.md.')
+    report.text('[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort.')
     report.text('[2] Oracle Java SE 25 API. System.nanoTime. Đo khoảng thời gian bằng hiệu hai lần đọc cùng JVM; độ chính xác đơn vị nano giây không bảo đảm độ phân giải một nano giây. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/System.html#nanoTime()')
     report.text('[3] Oracle Java SE 25 API. StackWalker. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/StackWalker.html  Truy cập ngày 13/11/2026.')
     report.save()

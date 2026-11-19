@@ -12,6 +12,6 @@ Demo dùng đối tượng Comparable ghi compareTo, gọi trực tiếp MergeSo
 
 ## Nhật ký và nguồn tham khảo
 
-AI_SESSION_LOG.md ghi các trao đổi trong giai đoạn xây dựng bộ thí nghiệm, kèm tóm tắt thao tác công cụ. Hoạt động chuẩn bị repository và biên tập tài liệu được ghi trong GITHUB_PREPARATION.md. Metadata và console log của phép đo được lưu trong measurements/.
+AI_SESSION_LOG.md ghi các trao đổi trong giai đoạn xây dựng bộ thí nghiệm, kèm tóm tắt thao tác công cụ. Metadata và console log của phép đo được lưu trong measurements/.
 
 Tài liệu tham khảo kỹ thuật là Java API chính thức về System.nanoTime và StackWalker. Cài đặt MergeSort được xác định bằng đường dẫn và SHA-256 nêu trên; phần công bố này phân biệt mã thuật toán của sinh viên với các thành phần được AI hỗ trợ.

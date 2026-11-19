@@ -1,319 +1,316 @@
 path,origin,derived_from,sha256
-.gitattributes,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,2c0e4a2e1acb460f58680a0bf8c1a71434c939bfb1addb39c0611a10bcae14a9
-.github/workflows/ci.yml,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,cc67eb283548f925ddbfed3c3265f7fc35ee1596fa2cc9116e42bb69d91b48b3
-.gitignore,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,9d96f93bd079247df1e0fd868d8865bb5d2320ee118f97ca96ead116d67f4697
-Makefile,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,ca358f00c61731843ba43580cc32a24d7a5566844a01045fb593c979b1154615
-README.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,61d587b2056c53dbd72c8f8f310b4d5b03fb2ead4ea4f705802b6b3c44644719
-cutofflab.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,381d2dfba331d0d53efb6a0511e80e1b77a713d0389e0501094bd57c2f6ea024
-datasets/choose/almost_sorted-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4ba352d313209bce5163c81dbffb7cc0fa2d63207015c62a55901e6eb0183b47
-datasets/choose/almost_sorted-187987-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0b24368c4aa084b350647bcfe5eea777efc399c3a0a20196399b1e1537415ada
-datasets/choose/almost_sorted-187987-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e15eafba326d60f53cb5d3a793298c74311facb83b7e649ac3bb09c6b123dc8c
-datasets/choose/almost_sorted-21997-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fe7f721e5b0926395d87c9d1fd45db3bb9c8e36327e9a0096ea500bbd08511e5
-datasets/choose/almost_sorted-21997-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,cb9aa4cc2910ea33008c935b5d7943e1e74d807d84b6c61a042ba1d91fbb69cc
-datasets/choose/almost_sorted-21997-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2bdaffab48cd1221443aadfc94de66c2184921aedbf8c9b9e66b2d69e1d24159
-datasets/choose/almost_sorted-4937-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6633a018a76b45193dda3017d9e2dfd02f4af094bea97d7ad484192fa9ddea63
-datasets/choose/almost_sorted-4937-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,26d3d1ce1195c5d670d4cf5817c5a2938c9133f5b4d9e12731d0387803d60c55
-datasets/choose/almost_sorted-4937-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e7f123b3d8dc39a00ead3d067f501a1620b150731ddaae209bdcd7e95441220e
-datasets/choose/almost_sorted-81001-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,557d07c5a444d6d05d000b4d5fb8b7bfcacf07814ce74a22c46b3fa575b32975
-datasets/choose/almost_sorted-81001-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a738a3f4899869ab30edc79aba6a5cad293875b6013d70d3c33f610bc3f1a41f
-datasets/choose/almost_sorted-81001-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0c151b4de25023b1f59667e8e7bfef331d1582c3b53433deeece2b0c38c32f67
-datasets/choose/ascending-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a581a93ddef9549350e80d99ba497548ea24a98f767734f75f2a3a47a04616c9
-datasets/choose/ascending-187987-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,71d82b8f84aafa26c15e71575af9b1ec69fffcabdae2fd034f421aeff98e2f36
-datasets/choose/ascending-187987-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fa23cfb4645298cdde75d3ea3488835cbd3e6b9ad5b3bf46bcf152279112fedd
-datasets/choose/ascending-21997-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,22f7173e7a7439c2493303dc47e2e4e1c275c1a8d4fc367def368c9633a22440
-datasets/choose/ascending-21997-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e451d23e38a21f3382b2dd1c49c39d1482b26042beee7f7f4796c44725ebf7da
-datasets/choose/ascending-21997-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,92dc2d28b33e39f5a9f4860b9e503edbb31594206771df401390d11330e1848f
-datasets/choose/ascending-4937-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4c55c0833ad375596a83c4341e75b631f9490ade79d922cda40bde3ddf76a307
-datasets/choose/ascending-4937-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,11fe8e4079db0c974571e574fcebdf7f7262369fdc30be43ad8ff9dba5836246
-datasets/choose/ascending-4937-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f6b2702ae6b836c24c19e031b1505b93df7c3b778b0d492c237c13f636e35117
-datasets/choose/ascending-81001-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c416555c16e01f1a1a9ce9f7e80b05380e6850970f2b2361e458c19f814ccc38
-datasets/choose/ascending-81001-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f311a11c2fa9e9e38290c8e09c7ec7b3c7bc76993eeddc731165e1edd5748e6e
-datasets/choose/ascending-81001-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5496d660622a0de129398f0523561c0121365ef2a13bae2661dc58a697ba66ed
-datasets/choose/descending-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a1cc9e4303de18bda00fb7190ffb596bf28641b3b153c63be1b297416084cd0c
-datasets/choose/descending-187987-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e6014029eb1d34bcc357cdb33c2af3f15063602c555e8b27fa2c9b9a3245d003
-datasets/choose/descending-187987-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,1d809073cddc6944bdb43d931d734473df2d1cc4e03e0834df25e64f6c652ae2
-datasets/choose/descending-21997-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,29865a08454fe76350c1ab4deb14e6dc31cf19c75c020c29b58c677cb17cbcf3
-datasets/choose/descending-21997-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c552e8b59235363b1edd39d139d8258d3cdd8b2b09a9b589a52dfafbac37b7c3
-datasets/choose/descending-21997-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8a014a8062d948d0882b6b21146da8e161dd87e93e2ec5ffae5167735f9ca463
-datasets/choose/descending-4937-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8f5922383e5b7debeec78814da1619fd2e8982819957985e9f649b5f8152b028
-datasets/choose/descending-4937-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,41bcf1d96be26b4addec827f1684477f1dbaecc0f8f88bf1bbdd82a418fce6b0
-datasets/choose/descending-4937-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3beb773a056d42d0f879381a871b43ad3e9ed24529bae7bc35569503da2d7508
-datasets/choose/descending-81001-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9b44b1e2f16ad174c0fa14e5ca7e1fbd7bf747e7d7b4b5d23a73a73122d15e7b
-datasets/choose/descending-81001-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d16f845848b22e619790473a45c8d476c9c68db3f85b60c6cfc89ec52732114e
-datasets/choose/descending-81001-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,76c90293418ece02a74d38e83feac15a743eadd38c968dfb7dac7924dff2cbc2
-datasets/choose/generation.json,new generated dataset,labcore/datafiles.py and the fresh study.json,b40967b295b78cd4f5b44df67a7198e080e45780ba7523cc400a3856f1cb86f4
-datasets/choose/index.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,899d9cf719e0b95736b3da71e7f939ecbf5c70d2dbec035088dfb1790d65f67f
-datasets/choose/repeated_keys-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7981dd455ba5d3c225c263bc037647f8dd09f4ade6acdf97a415ffa1075200f1
-datasets/choose/repeated_keys-187987-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9129aee4e0f1044dca5f23f1d781634ba229edaba977dda4734dc3e11e6b7545
-datasets/choose/repeated_keys-187987-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a97ebae486e6d5a8a32a03067acb9eb9afc0713f1ac0fbaed687e1d7200e6e0f
-datasets/choose/repeated_keys-21997-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b2f67e0f693c5dd85f015440161b9a8f4bb321e36883c685b06fd1dffc4e981b
-datasets/choose/repeated_keys-21997-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8619b960231b1dc6b6be61427274fe43918278f5f1447f3ba056f89ba086556c
-datasets/choose/repeated_keys-21997-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,47ed4402d4d2681a2451d1437eb2aa03e38b5fa8d43a4ef713d6526386657e80
-datasets/choose/repeated_keys-4937-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4bd149b0b4c73e96bba0a093d5e9b851a0251144bda63dd2d4c7288eea55c24f
-datasets/choose/repeated_keys-4937-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f3a3da63672ce88a8b6df8042e17ad9e80c891af41fe688534db734eb073d769
-datasets/choose/repeated_keys-4937-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0325b4f1e83fa377defcc72491d1254ef28b0bc57bf7f946519705a051cb2182
-datasets/choose/repeated_keys-81001-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,dc08103d1f9a1a21dc08ce8ea16d1a25461c1bc7292b9ba61bc74447dfa0a6a8
-datasets/choose/repeated_keys-81001-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ad30b8c8d62669d46920f5566f1e1b1771dd2b6b474f7477dfd9ddb468346a36
-datasets/choose/repeated_keys-81001-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,433d9e39d345488526c53fbb21be6d4ab51ffbe4acd19c9b4d30fb522e86399b
-datasets/choose/uniform-187987-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,1c0461db962b5293545b0ace9f61dd325805998dd4510f546067242fa68d030f
-datasets/choose/uniform-187987-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8b384068b89c50d98b29bc0cec3165069baf3d9df1beadb215bdaa72b2887135
-datasets/choose/uniform-187987-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5e62ae92a3126748b38554ad1a05386a8ea7a01b51da2dc1f23bfd73df6bcce2
-datasets/choose/uniform-21997-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5ac790acfbccbffb0c31060332d4794ef9eae2bbc8a396aea04e6bd71c4f14a1
-datasets/choose/uniform-21997-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,558df12f4e324d4bad16b1aec3ebd8ca657ee635d1e86470903efe59b9a2077d
-datasets/choose/uniform-21997-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f65fbcf1b871ab18dd1ca21e0e9d21f1f5e72cd25d69d1eb0d60c9d0f43cae82
-datasets/choose/uniform-4937-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,38107aa4eedc4bd5657b3796d06ce19dca20548cf905525e3147bf92a2ec6d7d
-datasets/choose/uniform-4937-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,16c5181cb6da9f3cb34671adbd839f308ae078bbe272c4eef8b457a16d99787b
-datasets/choose/uniform-4937-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e0d06f806e4f78f3527fe9278b6b96c2e366490b4c43e7f4dec90f29cf6a1753
-datasets/choose/uniform-81001-820001.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b9f0fb4425dad84e98fc15fc72b447712d00fc2f2fb40ee290cad4f02ed1c26c
-datasets/choose/uniform-81001-820003.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,121a3c12253601777beb80fabd4dfff55b03c9c4e6d5dccf556397a748e00113
-datasets/choose/uniform-81001-820007.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,78fe4b772c42fed9588b45ad9d550b1ce21a898b4f6a1f464e7fa8abe26fc15b
-datasets/confirm/almost_sorted-230003-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,92667bb3e0b9bdcea0b690d7423cfb5ea7bdf5ed0f075f311b328017ac9a8664
-datasets/confirm/almost_sorted-230003-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fd153487b557b0a5eeaffb1be3dd98674138a3271eb590d01a6c907b79057d48
-datasets/confirm/almost_sorted-230003-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,bd42697e59c3edc56b31f3c997722961af5231af15ada4c698fa267573ebb8e0
-datasets/confirm/almost_sorted-30011-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e9c4df9e9c4f54722f9c6741c485a41d93a75e5830b684f6fe848d4b19493570
-datasets/confirm/almost_sorted-30011-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0793b6cb8c1c3fb4b9b0755a54abbe7f16a1d4788bfa10fdeb679ac20d7351fb
-datasets/confirm/almost_sorted-30011-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b636b65bf2cf3b9c30b7c36dea4c95e01a22b0bf4ca255c4e9a0b4508ad23f0b
-datasets/confirm/almost_sorted-6203-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,978b3e063bf496ae730b928940081d69058e85dcee0a59afa124655ef25e9f6b
-datasets/confirm/almost_sorted-6203-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,859304294b136ad3ca30191753bc4513945c7b0004b440ea1cbb96e43e72fbea
-datasets/confirm/almost_sorted-6203-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,70a47c2a67dd636d3847b769e241a9300e28e1995165a360c1a7c3ba1a0be7d0
-datasets/confirm/almost_sorted-99013-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,539df544862c237ab5c31d6c5ceebd1d53a1cd974ccaa1bffc75e96ae574e34c
-datasets/confirm/almost_sorted-99013-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,85777eb794b3a4b93e05fce9504a7f0fbb089cc3fd814340dcfeb6bdeb9d1fa7
-datasets/confirm/almost_sorted-99013-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,56a437a5e100b239ac3633c2eace7aab4e0087ec287e492f285dbbc8b2571b58
-datasets/confirm/ascending-230003-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,da8e90bd8949860d7fbc801aeab65ad966e1166c7339445de0b2c8ede2ccfa8b
-datasets/confirm/ascending-230003-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7be2a7fabecc77ad004227a91a70a711233badb492a4b2132dddcc99899ab958
-datasets/confirm/ascending-230003-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5da1a36b6e9bd3885236b05b0f0bab20cfaea290623f2a274bba20e4d5fa2438
-datasets/confirm/ascending-30011-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ac841e75e7ba23069681719f0f53a5005d61b4f8bd5ddf27c0abf4182d5dc63b
-datasets/confirm/ascending-30011-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f98a420d95086c5635641e95645601d344abe153f2b2662528c5cab79e1ab547
-datasets/confirm/ascending-30011-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,cd00dfd23456a2b37653f18fcc23664184967508bb66dabf4ad639fb310c05bd
-datasets/confirm/ascending-6203-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d729bc4f8eba743713f94f5ef584e4dfbc2662ffb905832e685b395fc0935b20
-datasets/confirm/ascending-6203-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8f52a2e94d4c6af6a107f3b1c2bc51c7e88a8990d2b91fe38a3afaeea52f6c04
-datasets/confirm/ascending-6203-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4ebd616122005b8a915ab186fbcf0e82f8513bef0a14a6a3e0c6dbfae30d8845
-datasets/confirm/ascending-99013-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f4e0ece4b0b153edafef7c7eca7ab0e5b10c75f55971f4ae0bc29b6c727c41d4
-datasets/confirm/ascending-99013-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c9419dc8dbfe9bb1dee4a38d3f6d727f468d24696b6cc9af9229619b48aa7c09
-datasets/confirm/ascending-99013-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ea22ecb63ab272aeb0beb3dbfaf77afff119155d712c3006eaa4c32edba26a03
-datasets/confirm/descending-230003-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0758c8592ba2cba5fcce4b452c82c92adc8d29dc80b6b5c2a1585f518bc8eb7f
-datasets/confirm/descending-230003-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4dc914a45b3f8959da5a24bc7470cac06a6eb6fb864c441d6624cac532b92a01
-datasets/confirm/descending-230003-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3490252d725ea8ff50e16974dae134f25653d95a83fc61af38ece3e4815111f5
-datasets/confirm/descending-30011-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9ac4c2a027d4cac9360ad73deb0bdc6fa2d44204b092fc49dd19b97eacc4d80d
-datasets/confirm/descending-30011-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,962bbd9dc81dbc2bdaf5f7a366153f0aa35a851c82eb68db294d2c89a0fac583
-datasets/confirm/descending-30011-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0e507e31dc4b2f1e84ff11297d24555bc24d23f287eeb568dfe8a20aa7a440af
-datasets/confirm/descending-6203-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b7f107701cd2e7176e6f50539dc9db45770464a25d7935ab59d1fb237e7940d1
-datasets/confirm/descending-6203-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b4db7fa3b3c8e1873bccfdc133b79902fe57215b76aa30c2549e32f7587ae113
-datasets/confirm/descending-6203-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,8168e16b73dad968ceb9ece1ae3b6215254693d3e128696925ac0c3a841ce4be
-datasets/confirm/descending-99013-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5a052d694ddd989bd31240d05546d09f3b9dc2d1c19718f65a06c56701b273e0
-datasets/confirm/descending-99013-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2ac2d838b1cabcffe391f553340762bae081871a6d3597fafe80c598e8894efa
-datasets/confirm/descending-99013-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a071ed6f7455a14ae740e21b5b1cc5fc1a166b71c4ed8efd141cf5c3d34464d1
-datasets/confirm/generation.json,new generated dataset,labcore/datafiles.py and the fresh study.json,495b229ffe895bc22ad52195e4b16b41574092295a6a544688a607dae75fa5c7
-datasets/confirm/index.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,acbb4ade6d201523a8e491e65aae6cf99528e6fd372108eac7b773685aa4e8cf
-datasets/confirm/repeated_keys-230003-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,17b38fc6aacf8a9f6430ebfdda3649beeeb6377dd3ed3d1506baf8d94557a1a0
-datasets/confirm/repeated_keys-230003-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9b29e41a0fd431742e0764ee4f8ca3135ad0ff1bff84791d2d0d03212df7c283
-datasets/confirm/repeated_keys-230003-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d998ce59bd682a9b67dfea0f63e92f19659fda9c899b445e1b3950bf12f83082
-datasets/confirm/repeated_keys-30011-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fe8a8792e162a3edc83b2382b5a41fb033c4890b400fda1c587787f73bc3dc26
-datasets/confirm/repeated_keys-30011-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,655243a63e82ff62ff6c43843399b2fc93753cf54886a24a925b197d54d2458e
-datasets/confirm/repeated_keys-30011-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d798d7a65ff3c4a989303d2237d2009a14f98147fdf57ad089e52bb86986fa30
-datasets/confirm/repeated_keys-6203-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,01a1b3b95f5692688e01409f3bab6f0040625a41ca24806a2bface022cb4ea5e
-datasets/confirm/repeated_keys-6203-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,a1b4d21adfab2f5ca7dcdcbb49af18c25d90774f036eb88c1a576a0a38c888c7
-datasets/confirm/repeated_keys-6203-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,1434594d4a971866b8142835f7e21d2dafc5f588fc345cd51cf78e5158ebff71
-datasets/confirm/repeated_keys-99013-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,593a378dbce7bf6c5bb5962a61cea62a3bb32f0f0f4f7b0fe902c23530b3cd7c
-datasets/confirm/repeated_keys-99013-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6d0231dece784d7650f7f6a5267c2480c03018509f2f163f30784a8e7afed16c
-datasets/confirm/repeated_keys-99013-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,68755aca59a65c574d9f42a9701e57fe579a83747924c5261080a6baa4575279
-datasets/confirm/uniform-230003-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,be954269719ae15c3c5f43e9fce7b28984cbfc5ae49d4bb7430f1bb3e57fce37
-datasets/confirm/uniform-230003-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,184e16dde91e531269523ff237fbcf4438e5cab5c7b3d95584ccd1897026a35a
-datasets/confirm/uniform-230003-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,07390a63e2756c9949cfc4d86c473673eb30fd5087de968a30e62c9677c9ab15
-datasets/confirm/uniform-30011-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7ddea0621f5b4fe37f16a9056dfa03a6c6ab25000df2f030ceaceb265825a2ea
-datasets/confirm/uniform-30011-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,af6e2d4b206b7ca09d1ff03511faabf3bc763672bb3c078a12de80abcd66e512
-datasets/confirm/uniform-30011-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5456a9319b4096e6902ff25dd70a1aaf470872dd9e2abda22d41c4ff13e99723
-datasets/confirm/uniform-6203-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fee4b4932ec40770d5306c6ccf6abe5a652136a3359d1a953d29314ea9119835
-datasets/confirm/uniform-6203-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4510f45c182476e6fe3406568a19f08e5091b9220d1f37bf7b94cee8273d921c
-datasets/confirm/uniform-6203-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,fd1a9bbccc4a3dac8cb9a32f83e17a1bf2f7f6c274b9e8f7e9cd95161df7ea26
-datasets/confirm/uniform-99013-930011.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0ca1f6c006788c62eef66e9c66da0b8afd8173d02cf0bd0288592125c7421f62
-datasets/confirm/uniform-99013-930013.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,791e7ac71723ff5b1222ce5ca4cb3bd14f0d42b0410a8464020b36cb9f739217
-datasets/confirm/uniform-99013-930017.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5fb86d1a7e0243b30108a97505c3d7f34cd8d3cfebab7df5e2423860b0e472c6
-datasets/screen/almost_sorted-10039-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2cf508d80df7c7b0434c9f6ad6b1e94adde1ba4280e13ded3a8650e22771437b
-datasets/screen/almost_sorted-10039-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,41cdfc1657dc10f886ed4cf757d582d33b1771510d89c121148470ad2cb1de21
-datasets/screen/almost_sorted-10039-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9a282b058f95956041743e0e7ab6fbfaf767ec87c551950c235ff2e26fe73b6b
-datasets/screen/almost_sorted-150053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,4d35e4fe1da975e35a5c85dca3fa631e1af86d1f4feb487667c9969f8a69d8a4
-datasets/screen/almost_sorted-150053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,5ffb6fd0022695dccdbaed757384d6e1bbd20d87c7005256f2072dd6c0f82075
-datasets/screen/almost_sorted-150053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b08041b4dd0ec1807c4a564098eb87c58bd6248142e28351830508c2c20d757b
-datasets/screen/almost_sorted-2053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ecb882b84ce6078544c4c5ea848e85a36ff09a38cd5f326cc9c86f6a2986e506
-datasets/screen/almost_sorted-2053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,919f67397039a4afe1fb9eec7f042360407cb4f027f8854a40c12d8bb9403f85
-datasets/screen/almost_sorted-2053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,66c3d1b7279eaf7678543ffe4227ee8e704a38a88eddf1e08f4b8960250e652e
-datasets/screen/almost_sorted-50021-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c217a9864211286f2ab44caa2771a34b1699c6ffbc25778de9d856349a60b6d3
-datasets/screen/almost_sorted-50021-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,963377388322db385af27008687350545a9d902c8bf08ab6e6ebf2d05a26dc65
-datasets/screen/almost_sorted-50021-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d10441ebd9c98aef079b6eb8b60f766dcfd401658cb79268240d5cce482c8443
-datasets/screen/ascending-10039-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b8ada8ce6535ff9bfd5737283b137af8cea040d770b5464787e6aea8bdc83ebe
-datasets/screen/ascending-10039-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,bc968931e4d451577cfaaccd0727c1871c722f57f1eda3123f55ba34520550b7
-datasets/screen/ascending-10039-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d33ef79644f0e85f90be255d5c80992574abe1abcb424cf866d2c4779c4bb0ae
-datasets/screen/ascending-150053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,98e1b085a18c1db727c042cc47c07196d80810b12e3b18002aa79c3288defa0a
-datasets/screen/ascending-150053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c9f0fbd75b74e13f490eab432b77d9e99bfd08f9ae47474eeda4e769fd865f36
-datasets/screen/ascending-150053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6ea182604ed46a46aa08923b91b65e1ba875f06228c7f19282f4d70a99c30116
-datasets/screen/ascending-2053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,02d76d96b161274fa400f8fe74b794d55d23a89270c72360c65fea6be61ab513
-datasets/screen/ascending-2053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,703806717e7c0089925ba86ee752cb730580a033e3daaad62640f117ee9439cc
-datasets/screen/ascending-2053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,74abbf16f99c20541cfcc34f2fee4afbce928761d74ec39889a84fc57263cf12
-datasets/screen/ascending-50021-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3342c8e8e8a953baecaf03e1d11485f94ff7b7b33893f65b0582bc3c148947fa
-datasets/screen/ascending-50021-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7cdc868696dccdb07dec3f4a9891f9e522b73797da513091ff69ac039e797bbc
-datasets/screen/ascending-50021-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9751257d115130dd06eb876170ad817e93cba6c2a35efdf237c19a289b7b48ce
-datasets/screen/descending-10039-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0a1f5403cebe116b050b4eae2ee408152230f43d0b1fd3b84bf081b8d2a2bbdd
-datasets/screen/descending-10039-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,e93e8479505304e50cee4d3eaa7ca1e25366d2efa57944632b4bd33ca0f06a05
-datasets/screen/descending-10039-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,06d0b125cbfa42a161d72f9bcbd70623c7a0edc46048892ea7cdd097cfb4b93c
-datasets/screen/descending-150053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c5b78429d5e732a9407e44a86d7b0599ce84efac47ba6236ec454a919705b671
-datasets/screen/descending-150053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0be1f08be46932e71334ad71636f7025e4ca6cb3e8d4650e9e604663be9eae6d
-datasets/screen/descending-150053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,0801ed2261728b81262b58dfcade8a3cd8e94c37eb92208b5bd326867d3fb288
-datasets/screen/descending-2053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,025c4c867cd683174b4819f4b893a7d45f3d6c532a0aaa253aea7da8e690cbd4
-datasets/screen/descending-2053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2e2b2daf1552055d8a1c43d98dbafae2b0783ea6c347cb28270b67362cbb9fd2
-datasets/screen/descending-2053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3f48174079c761e2ec01d333fe01cbbebda3e846fab731cd5001721cb63d7f65
-datasets/screen/descending-50021-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2119910bce08bfb44858f73d6c36c149fbc3ca37ec187d4e63b21f7390b9ecac
-datasets/screen/descending-50021-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b3788d4c6c561b584da0f80f0cf739e9ee339d0e460f8be34b742ca36b1b42ee
-datasets/screen/descending-50021-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c84b9ce3c0ff6018ddef6e2e1309edfe4b0e524625505b21cf4acdfbe7de4b6d
-datasets/screen/generation.json,new generated dataset,labcore/datafiles.py and the fresh study.json,131fcec634c0c20078a0ba5a8c23d93e9a9005710881eb96610ea01b92e5ddb6
-datasets/screen/index.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,f3428bf57dd6aea0307db420219896e7db838df057b3ebcebef2109dece90031
-datasets/screen/repeated_keys-10039-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c0e389095b092a4fbced1d5d4033ba262dd33f95082f7754862f93dbbb23d125
-datasets/screen/repeated_keys-10039-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,596361d857cc96ec68e1a8c2a224d8136b1a18a6155c781856a981317daa4c4a
-datasets/screen/repeated_keys-10039-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7b26164afa9dc05ac2a8762451dad74e443cbe1c3aa51098ba1ac67a32caf83f
-datasets/screen/repeated_keys-150053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7afec2d276c2e196dc3f4c8367d72d448a84e16e083c1a94f9bab343bb80bcd7
-datasets/screen/repeated_keys-150053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d815545a9d07f796cde332f9cab8cd8a9ce94f26fe7aa6e7aef593f772dd339d
-datasets/screen/repeated_keys-150053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,26353425a3cb3b290ea6b60513a641d2c6ff28f92982e86058a093fbf1959556
-datasets/screen/repeated_keys-2053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,9f9342c931e301f0d5362bf95ee288ff5f2711f32d19f66c5d777d47504ee09f
-datasets/screen/repeated_keys-2053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6711bbec4694398df5a8be25e0ce2cde4fcaf2ad7b28db448bbdbfc2f204f6a3
-datasets/screen/repeated_keys-2053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d178bb34f7d414fe598870b8ce88a7ee27dfd4e932a82f888e989b60c5c3b57e
-datasets/screen/repeated_keys-50021-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ba2b87dfc6d383acdc8d4f300619e3facb8e9cab0c07d93b97fbe1e29464b6aa
-datasets/screen/repeated_keys-50021-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,b0ad4db1bdd635487ee06225d5e460c4cfedb0457fbe3efc227494885241a96a
-datasets/screen/repeated_keys-50021-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,d9898c972d3199c489011ddf0fed895f270bbab255e8294552066afcb6734ecd
-datasets/screen/uniform-10039-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3e9812eedea9dd31700e03e12a278acff240a4733178bf3f484ea7208d7b85f8
-datasets/screen/uniform-10039-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,c5ff877d4d80b0adc6ebe5dadc72005f2741013b6642c084013925f8199c1046
-datasets/screen/uniform-10039-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,2e72e1b41dd2eff5acb6b0839a7260113864f8b93245875c7d0393e423625fd3
-datasets/screen/uniform-150053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,ad3af06597b66801d20a7cda135991ace0850c80f760f7807e665db5da0ca359
-datasets/screen/uniform-150053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,cb8e4ab21d2f9532dae7ddfbd5e7e14c5c8586c326da23ed3b95d5e594f1227d
-datasets/screen/uniform-150053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,7f10bea14e9cde6e75f5185427157a8e32865c0958f7e865b034f7aecb6f3203
-datasets/screen/uniform-2053-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,3e6cd89aaed9342ccdb51c1579c1c5c413e7051e607aa57c94a0f04fc03222c2
-datasets/screen/uniform-2053-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,212067757c509d2401817fc819c41b76f74e5ae7afc31dc04b739bcc89e3d07d
-datasets/screen/uniform-2053-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,1c318546a4064bfcd5423545afad486c4f9228b980c7e722848f5ffa6bfa62bf
-datasets/screen/uniform-50021-481516.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6ee3e423dc7dfe8cb71121333c3223f5f843eea1d47ac95eb5444d6d08c55e1d
-datasets/screen/uniform-50021-481517.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,6e2441e033bf1fa12d8f9f5aef04ff20c22ed2afa029675b71b8897357e90828
-datasets/screen/uniform-50021-481518.csv,new generated dataset,labcore/datafiles.py and the fresh study.json,583f76f717a1c8e23a52ced3f7d172550a3a662ca38599f0e1f5903c8af9eb95
-demo/index.html,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,1be87a530ac1236aaae1c2602cf0fdff6435ea9a617b0b45529b21587e99540d
-demo/page.html,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,08e21b190802231b647ec3ffa987990e0645ba4d3fe571e7a012bb3cabff5dbb
-demo/style.css,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,bd75573dc8d8effce5d878848b493b6db33d062ef7f4d80ef23e339f0e4a50c7
-demo/viewer.js,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,0c30dddae87f2915615be35f823252223d73a27790256926a7c56af780c7cf33
-doc-build-requirements.txt,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,2b618ddde704e87c85dbffe301ef900203e14ad349be24097bc692e1cbc50b48
-docs/AI_DISCLOSURE.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,7747a3e7f795a60d73e0be6e10d3b15c96537c72b8fbf6670c090f5d679f92d0
-docs/AI_SESSION_LOG.md,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,5fdc351800a5dc7ee20c5bb583a299f90a73886d544c459e285632a8dc182b56
-docs/BASELINE_SHA256.txt,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,bb6759c75a4ca150d3e0b427f65848280ae2d2516c2cd806161b01481abfab9b
-docs/BUILD_ENVIRONMENT.json,new build metadata,Installed document runtime queried during this rebuild,b67947be82167594431f6214048c35bb5e15622bd21e0dce1ccfd05bebadacad
-docs/DEFENSE_NOTES.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,84ef9808401dfc89d2e1264ac1688c37d19fdd21f4fdca32c9eccbac831e8eb5
-docs/GITHUB_PREPARATION.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,db791531ecb4849bac207a7f865392337a6aba504beefcbe4c2a1f9c2432c5d8
-docs/ORIGIN.json,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,f68207d534efca8ffa17c1cab3052c47c2a69900082b7586d9cc16e891644b64
-docs/PROTOCOL.md,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,b47a75bd4fac59a3da59ad7d6498a972ea09641dc3b21542521a2f1ac7902abe
-docs/REQUIREMENTS.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,bf52ee1af699d3796fd74459f77d59d6f6d0dae20f52731d4cd556034502fb79
-docs/TRACE_CHECKS.txt,new generated test evidence,Direct Java trace capture and tests/test_viewer.cjs,7bb37a315bcfa13672c15cb9910e18d4f6aafb0073d795250888f94229141a9f
-docs/VALIDATION.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,780fb757b05051d57c838af34beafa3a39bb234e5400a40888950eeac65c70b3
-docs/VIEWER_CHECKS.json,new generated test evidence,Direct Java trace capture and tests/test_viewer.cjs,c3b546d1ab451f5890b80863155f615c030cc672704912d959c55a34644421bf
-docs/VIEWER_TEST.log,new generated test evidence,Direct Java trace capture and tests/test_viewer.cjs,b95f54124456ac4fbb6abd6f065a40417ee83dcec30d54a0c52f96af7284b429
-labcore/audit.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,2d57c9bee3cad6ebc9fb83bc8f1e70143275971dbe301ae3b5604fe2abf5246d
-labcore/datafiles.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,3af80699afc6ca7375c92b636367c8551b884d8d75bcd984eeb18fab488bf423
-labcore/demobuild.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,cc7d76751a17a3dc0ad1cb7ed04dc959b20780138d5a65987d69f41b5366a435
-labcore/execution.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,7e7713001a944673328badb5f604fcc32b9b950db4b160435abd294089a7681b
-labcore/figures.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,09458465891b1eaa3025adf114b1a4d7db7a2e02deab52a3af6cc0a620254b6e
-labcore/statistics.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,ddc11dcf3f29d2b9b7f553114a58a3b84113e7c7ce8479aad35371c1bcc6f958
-labcore/writeup.py,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,58d70916ae219c1621283364cb99b7af82b57e62c2d04e78dbce94909df116fd
-measurements/choose/candidate-ranking.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,10464f9b54d02f0433ce5b9caedca13da12300188034279b0ed0d908324b5e22
-measurements/choose/configuration.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e6ee5e92803f98c7b32ca6b77e1aee668a426535a4a42a33cf4f08451c84a2a0
-measurements/choose/correctness.txt,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
-measurements/choose/descriptive-times.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,9035331077ce6f5d3c1cb1d3d32c10e3063127455936cc41eecd00fec96f5354
-measurements/choose/distribution-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,ec73437909b87f07352600a664609a8ca23569c1b806c2ced8cf206db974a714
-measurements/choose/every-threshold.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,f045e2d268dbe7517ab5e976afd75cc2628ffd1c7912c8d00d528aa77bec4cc1
-measurements/choose/evidence.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,19161b2d9a3cf4ad783bb96fb225eeb8be72f33664cd0bc57eababe47613fbee
-measurements/choose/jvm-plan.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,f383cacc4007716e29150fb30196fd2674be75ab0845d265a6d71964d9705618
-measurements/choose/paired-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,b5a84320672578c7c1b11cf3517bb02edcfe2888593e372f66244da2d70b3107
-measurements/choose/process-00.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,0b18d963d7795e6585b0b28c632785b346f3c1893d1203fa8d3e19b33ccbc9be
-measurements/choose/process-00.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,c82ae70440be32277eacefeec48ae24352aa7ab412020a5bbcfda2ecd0dce3a0
-measurements/choose/process-00.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,8ecf94930b58212fd11837e3b572bad6748af4da806f8bd9b885a78fb13c6ca8
-measurements/choose/process-01.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,cfc94e5fed1f7664c96cc4b7c9a8f9c419706d3bd914a71895d73d5b7eb58ace
-measurements/choose/process-01.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,ea71c2eed03e7534f1ac41ad162de82808c0713362644cc438f743d496464742
-measurements/choose/process-01.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,52025996c2814fd2287f6af351e58b2d01b0b31e6074aecdda6df4355da041a5
-measurements/choose/process-02.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,24c77cf05a650eab147c7825b1700c1f3688318fae029cc78539063358d5a7c6
-measurements/choose/process-02.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,1d24cb3c2f4207eb220ad0baa31d26fbe49e0ade54c97062f490a99476a9a3fc
-measurements/choose/process-02.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,a0eec24c1eafbcb75986c060a13a356f54a987d0adf6f91c6e69cd6806bddb72
-measurements/choose/process-03.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,c859e359ce3b4692e6aa2b2dc079da0112a364bfda8d891071967341aea555ff
-measurements/choose/process-03.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,4a43d8e14556a92863127e7216ae9ab72fae6e0900b008fb11ea292a5594615c
-measurements/choose/process-03.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,a38b436c2d5e9cc692e92f8cce8e248df05f736ef65f99cf1a0a7124101145b9
-measurements/choose/process-04.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,275131d0cda1fa3f60a866040859c39d70e13064cb2c969c0600ad99fefd0324
-measurements/choose/process-04.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,ff69ef46af1b425b9d9b2291ddd003bfb2720e643f1352d57c0bf06edfb66f4c
-measurements/choose/process-04.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,86057d3bfd49ad3711be1e97a90ef7d02df5933671160b1e3e9c2c15be7ec96f
-measurements/choose/source-snapshot/src/MeasureTrial.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
-measurements/choose/source-snapshot/src/MergeSort.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
-measurements/choose/source-snapshot/tests/SortContractTest.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
-measurements/choose/summary.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,26dc5eff6fc6991079ca1539b2dd5f55552d05c7e1502e315140205a9633d8b9
-measurements/choose-frozen.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,5139990d85e597b69bf9b8d7230343d3f6f94f94915405a2a4a7dca754a0a9de
-measurements/confirm/candidate-ranking.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,7a7b746a40da01f7d08e7ef66b1ed3391cf48dca192bb03c75e792ffe2694eb1
-measurements/confirm/configuration.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,7199bfa15db647fdf12080e333fdfe9acfd6e8a7b5998b57097c7366cb33d332
-measurements/confirm/correctness.txt,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
-measurements/confirm/descriptive-times.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,512ce67a5e511cf559743c5be3be1df16a2804def3759e4805703be9d353cffa
-measurements/confirm/distribution-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,3be444f5f0fef6c4c002602bd73ccfe42f9cff8bb017159492d45f5d5d8d07c2
-measurements/confirm/every-threshold.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,bec525514551e5549a058eb0bb2cd4efda4c170bd561e866e72a2485442438f4
-measurements/confirm/evidence.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,9798ca496bae425370a7d3dd986a9a5edf5c3117ab74bd88bdd7a0ba02e4bd41
-measurements/confirm/jvm-plan.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,f383cacc4007716e29150fb30196fd2674be75ab0845d265a6d71964d9705618
-measurements/confirm/paired-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,374c6c4ef0deacb8284295c4123b764c9a1161311546c3c03e670fc132166604
-measurements/confirm/process-00.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,09649fe61a0e2f1b090d36af23bb8841dd3742f4ad9be890f8dc6eaf8b22b189
-measurements/confirm/process-00.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,bc1afdceea8b1d6a394f9f71bdef345dbcc805e61525116f795b2e8ece8c44ed
-measurements/confirm/process-00.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,cb2706806d78f357b5783c2aed18e95f2809f231411e6b9f4473b5a66b21e4de
-measurements/confirm/process-01.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,087311d7b6bd75dfddee75abac9f08cdf2d4d4f69e62682f5030725c9bed7c13
-measurements/confirm/process-01.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,56988c91c60e3c0c21709ce7bb8b21a6f84e6481aef78ff5977453323f065b2e
-measurements/confirm/process-01.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,a19dc66415e8ac08b3a0faf2e270719e8f7e04c55f4db9635e0426e792dd4ac7
-measurements/confirm/process-02.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,1126ef8ac1151f55563c15a69995a3fd20ef3a3b941dcc21b5d77d5e49e19b5f
-measurements/confirm/process-02.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,edff79cf45384f1106abef8f3bbb57fc8107dafe314aa86d8e5743ec07ba7e68
-measurements/confirm/process-02.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,bee495db084cd6b8feb9d3b566b44da9e20f69591c4edebc0493084db8066afe
-measurements/confirm/process-03.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,42d6b874b6226a5f62c7ed0d9cdd36a9ecc9151c587f5e674caf81314feee438
-measurements/confirm/process-03.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,7aa22d9bebdf9fde2dfac4922a588e50bf7bafa038f0b28aa8a5e5f26f79ae17
-measurements/confirm/process-03.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,44256d32a7fca073c3b7f764fa9b9315d68758c506dc7f737e6c520df272b6c7
-measurements/confirm/process-04.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,05861637a1abdd19f36c772fba1d2fd33642395a52385289e0b4ff6452e6dd4d
-measurements/confirm/process-04.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,bb971dd41c20e354df4f4dcc145e1d75b8d746c5138f8de24484d54604bfae9e
-measurements/confirm/process-04.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e3a6ccfd122bcc65c15978be11528673b09d1c8bef6d165fbee491bc80cc6c04
-measurements/confirm/source-snapshot/src/MeasureTrial.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
-measurements/confirm/source-snapshot/src/MergeSort.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
-measurements/confirm/source-snapshot/tests/SortContractTest.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
-measurements/confirm/summary.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,74e0c54afa093fa4606e9bbe7ac8d21eac24690f1f5ea606837b5e991ef87742
-measurements/confirm-frozen.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,8fe2fcc5559f0de8ccb9e4bc23ed8766dd50823eebba9447e9ec02bbeb097703
-measurements/screen/candidate-ranking.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,081f46e3bd1bbb5398eaf626c8fc0d5ef49b67474d961d3effc07a553f56513a
-measurements/screen/configuration.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,4b00cb0d5a6319233f9d0884d8043fe561984b8c1be040fb1fb1a46e1e67b9b4
-measurements/screen/correctness.txt,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
-measurements/screen/descriptive-times.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,e345c6d8bdcab307c81df75ef80f9f13265b8a2abe51cc2907e8ed29d5cb57e1
-measurements/screen/distribution-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,09aebb29fbc57b958c32a1fcea98e9e26d92f77484135c583218a56d623d7628
-measurements/screen/every-threshold.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,c910e17c29156907dabde77f9f34f613c48a4b7d49083079927775a00d94e963
-measurements/screen/evidence.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,6f12cc3616f1182eea595d146c9e93caa59fd1ddb893f07b82a2d24ffd579471
-measurements/screen/jvm-plan.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,2a498caf5dbe639b837fcb9fcc85ab10785bb5f36a8065c211a87b3d775fbf6c
-measurements/screen/paired-effects.csv,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,154883355383e9a910f8fa047d4c9b26d2dae5e9597e18dc20f165ec51fa2833
-measurements/screen/process-00.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,d56d0c97a88ff1a156586cb0062aafd69918660f9b5fed4ebf39882dad26e3d4
-measurements/screen/process-00.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,3b377c6b74b5ba07ad3090ec8546163be91a47eea68924b27a00a38290848290
-measurements/screen/process-00.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,ac47eb4108f47b4869f96ef750df83a5b02c0d707394719ae73fa54fa042359f
-measurements/screen/process-01.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,30f40ddd2a4918faeecc300394ac460917ce90f229a4b1b2a8e3663373557968
-measurements/screen/process-01.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,f57fa92f543040262b8bbf5442caeabb575ae0d400e90cc8e4a690113c019070
-measurements/screen/process-01.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,f7ba3c4df214adcd7301cdcd4859600355c3b2736adac089c8aa6fb62a3d0f89
-measurements/screen/process-02.csv,new measured observations,src/MeasureTrial.java executing the unchanged MergeSort,a36dcc2dc4918b154dd367ab189f367dfb6903658e190bb747d40b761fc3f356
-measurements/screen/process-02.log,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,af4f19444ebff19104e1f348b935a35620b393b0fed1763552017aaad6534d34
-measurements/screen/process-02.properties,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,c0b09fe765b0885df8f8b403c4bf3bd7840eee75f34291e652e6f4d56038c47c
-measurements/screen/source-snapshot/src/MeasureTrial.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
-measurements/screen/source-snapshot/src/MergeSort.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
-measurements/screen/source-snapshot/tests/SortContractTest.java,generated source snapshot,Java sources of this rebuild as measured in the corresponding phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
-measurements/screen/summary.json,new measurement or analysis evidence,Fresh JVM processes and labcore statistics/execution modules,4272507de79fa067532b24b67a89f0ebf1390d2b2f7f67234134c20f7e6be50d
-report/Cutoff_Study.docx,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,5f25bdb05f0d739bdf07992cfd303b8aed02a2cfa5974ea01e4047b64ab1c9a7
-report/Cutoff_Study.md,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,adc086eb57b1725293fec5d39a788ead4aff13841792c1d688dfe351fe07c7ac
-report/Cutoff_Study.pdf,Editorial revision for the academic submission,Existing report and verified measurements; quantitative results and original AI chat retained,8a1e012b7a1f5151af8ebce8137b2bd43e42f2aa30d8d87c5eab582fcb091157
-report/charts/condition_sensitivity.png,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,71d50c617befd298be6eb94b0a7a6ab42c69d9f1bc8edb2fd122ab0a1bf120f4
-report/charts/condition_sensitivity.svg,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,310dcd2b78681bdadef25b7944666ba9c2bf86a67581e362c7758e40f84161f1
-report/charts/final_intervals.png,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,d69054bac02abf1f99ce498d52bcffac7bade0a15eddb1bf893db86591c5bf75
-report/charts/final_intervals.svg,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,b0f172deba6b6017e68be3dadabb4b4001c7bcbc46943452ce049f88c6b65978
-report/charts/input_distributions.png,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,6072686d8def139f619e7c4bed939642effd8d5bfb1ba9aa8f5ed66f5b206f78
-report/charts/input_distributions.svg,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,7eeb187fdbb08d576a7576145c3d97b3ab003f4e9759c01ebfbfbcaf829bda9e
-report/charts/screening.png,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,f15955f4fd7ead2e6bbda68d5b06d6000f63a987815d37569e897f830a8f284d
-report/charts/screening.svg,new generated report or figure,labcore/writeup.py and labcore/figures.py using the fresh measurements,918003d04fd751708e6ca34a923d5e8fcb1fa6b1819f695465fab55e094ce633
-src/MeasureTrial.java,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
-src/MergeSort.java,retained user source,Only file imported from the supplied project; bytes preserved,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
-study.json,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4
-tests/SortContractTest.java,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
-tests/test_analysis.py,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,706e2afd13c893530bcc870253bc4e6ed641e45b2ae0669b17cb61e8cb255eff
-tests/test_repository.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,a0d20cafa30bd7dceb9c40cbfb7e0ada36d032428d39c577b31d70bc938702c5
-tests/test_viewer.cjs,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,e93d39d4a577d720f9bbdb0df6e791d4fd73f3befeb9d423b05d956674137404
-tools/TraceCapture.java,newly authored for this rebuild,Written in the empty rebuild workspace; no prior project file imported,353693b849845d17a452d4306ee0be5d0346bce38733fe45708f1e5cdc0091de
-tools/package_submission.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,2610e2b24e38c0d0c01f652b4feae1d937b8a5862c952408a46100f235df2fcb
-tools/repository_check.py,GitHub repository preparation or metadata maintenance,Fresh rebuilt project; recorded scientific baseline preserved,743e28c622f4fa49ea9a19471cf3b328da1ab1a6d5ccf7ecbea501f128f4a982
+.gitattributes,Repository configuration and metadata,Repository tooling and integrity manifests,2c0e4a2e1acb460f58680a0bf8c1a71434c939bfb1addb39c0611a10bcae14a9
+.github/workflows/ci.yml,Repository configuration and metadata,Repository tooling and integrity manifests,cc67eb283548f925ddbfed3c3265f7fc35ee1596fa2cc9116e42bb69d91b48b3
+.gitignore,Repository configuration and metadata,Repository tooling and integrity manifests,9d96f93bd079247df1e0fd868d8865bb5d2320ee118f97ca96ead116d67f4697
+Makefile,Repository configuration and metadata,Repository tooling and integrity manifests,ca358f00c61731843ba43580cc32a24d7a5566844a01045fb593c979b1154615
+README.md,Project documentation and metadata,Recorded measurements and project documentation,4de1173a8e0b98acbc90ca3d37556846bfb033b00e6b17062a1155a3669d8936
+cutofflab.py,Experiment implementation,Java/Python experiment implementation and study.json,381d2dfba331d0d53efb6a0511e80e1b77a713d0389e0501094bd57c2f6ea024
+datasets/choose/almost_sorted-187987-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,4ba352d313209bce5163c81dbffb7cc0fa2d63207015c62a55901e6eb0183b47
+datasets/choose/almost_sorted-187987-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,0b24368c4aa084b350647bcfe5eea777efc399c3a0a20196399b1e1537415ada
+datasets/choose/almost_sorted-187987-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,e15eafba326d60f53cb5d3a793298c74311facb83b7e649ac3bb09c6b123dc8c
+datasets/choose/almost_sorted-21997-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,fe7f721e5b0926395d87c9d1fd45db3bb9c8e36327e9a0096ea500bbd08511e5
+datasets/choose/almost_sorted-21997-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,cb9aa4cc2910ea33008c935b5d7943e1e74d807d84b6c61a042ba1d91fbb69cc
+datasets/choose/almost_sorted-21997-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,2bdaffab48cd1221443aadfc94de66c2184921aedbf8c9b9e66b2d69e1d24159
+datasets/choose/almost_sorted-4937-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,6633a018a76b45193dda3017d9e2dfd02f4af094bea97d7ad484192fa9ddea63
+datasets/choose/almost_sorted-4937-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,26d3d1ce1195c5d670d4cf5817c5a2938c9133f5b4d9e12731d0387803d60c55
+datasets/choose/almost_sorted-4937-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,e7f123b3d8dc39a00ead3d067f501a1620b150731ddaae209bdcd7e95441220e
+datasets/choose/almost_sorted-81001-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,557d07c5a444d6d05d000b4d5fb8b7bfcacf07814ce74a22c46b3fa575b32975
+datasets/choose/almost_sorted-81001-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,a738a3f4899869ab30edc79aba6a5cad293875b6013d70d3c33f610bc3f1a41f
+datasets/choose/almost_sorted-81001-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,0c151b4de25023b1f59667e8e7bfef331d1582c3b53433deeece2b0c38c32f67
+datasets/choose/ascending-187987-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,a581a93ddef9549350e80d99ba497548ea24a98f767734f75f2a3a47a04616c9
+datasets/choose/ascending-187987-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,71d82b8f84aafa26c15e71575af9b1ec69fffcabdae2fd034f421aeff98e2f36
+datasets/choose/ascending-187987-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,fa23cfb4645298cdde75d3ea3488835cbd3e6b9ad5b3bf46bcf152279112fedd
+datasets/choose/ascending-21997-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,22f7173e7a7439c2493303dc47e2e4e1c275c1a8d4fc367def368c9633a22440
+datasets/choose/ascending-21997-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,e451d23e38a21f3382b2dd1c49c39d1482b26042beee7f7f4796c44725ebf7da
+datasets/choose/ascending-21997-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,92dc2d28b33e39f5a9f4860b9e503edbb31594206771df401390d11330e1848f
+datasets/choose/ascending-4937-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,4c55c0833ad375596a83c4341e75b631f9490ade79d922cda40bde3ddf76a307
+datasets/choose/ascending-4937-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,11fe8e4079db0c974571e574fcebdf7f7262369fdc30be43ad8ff9dba5836246
+datasets/choose/ascending-4937-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,f6b2702ae6b836c24c19e031b1505b93df7c3b778b0d492c237c13f636e35117
+datasets/choose/ascending-81001-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,c416555c16e01f1a1a9ce9f7e80b05380e6850970f2b2361e458c19f814ccc38
+datasets/choose/ascending-81001-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,f311a11c2fa9e9e38290c8e09c7ec7b3c7bc76993eeddc731165e1edd5748e6e
+datasets/choose/ascending-81001-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,5496d660622a0de129398f0523561c0121365ef2a13bae2661dc58a697ba66ed
+datasets/choose/descending-187987-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,a1cc9e4303de18bda00fb7190ffb596bf28641b3b153c63be1b297416084cd0c
+datasets/choose/descending-187987-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,e6014029eb1d34bcc357cdb33c2af3f15063602c555e8b27fa2c9b9a3245d003
+datasets/choose/descending-187987-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,1d809073cddc6944bdb43d931d734473df2d1cc4e03e0834df25e64f6c652ae2
+datasets/choose/descending-21997-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,29865a08454fe76350c1ab4deb14e6dc31cf19c75c020c29b58c677cb17cbcf3
+datasets/choose/descending-21997-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,c552e8b59235363b1edd39d139d8258d3cdd8b2b09a9b589a52dfafbac37b7c3
+datasets/choose/descending-21997-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,8a014a8062d948d0882b6b21146da8e161dd87e93e2ec5ffae5167735f9ca463
+datasets/choose/descending-4937-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,8f5922383e5b7debeec78814da1619fd2e8982819957985e9f649b5f8152b028
+datasets/choose/descending-4937-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,41bcf1d96be26b4addec827f1684477f1dbaecc0f8f88bf1bbdd82a418fce6b0
+datasets/choose/descending-4937-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,3beb773a056d42d0f879381a871b43ad3e9ed24529bae7bc35569503da2d7508
+datasets/choose/descending-81001-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,9b44b1e2f16ad174c0fa14e5ca7e1fbd7bf747e7d7b4b5d23a73a73122d15e7b
+datasets/choose/descending-81001-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,d16f845848b22e619790473a45c8d476c9c68db3f85b60c6cfc89ec52732114e
+datasets/choose/descending-81001-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,76c90293418ece02a74d38e83feac15a743eadd38c968dfb7dac7924dff2cbc2
+datasets/choose/generation.json,Generated input dataset,labcore/datafiles.py using study.json,b40967b295b78cd4f5b44df67a7198e080e45780ba7523cc400a3856f1cb86f4
+datasets/choose/index.csv,Generated input dataset,labcore/datafiles.py using study.json,899d9cf719e0b95736b3da71e7f939ecbf5c70d2dbec035088dfb1790d65f67f
+datasets/choose/repeated_keys-187987-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,7981dd455ba5d3c225c263bc037647f8dd09f4ade6acdf97a415ffa1075200f1
+datasets/choose/repeated_keys-187987-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,9129aee4e0f1044dca5f23f1d781634ba229edaba977dda4734dc3e11e6b7545
+datasets/choose/repeated_keys-187987-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,a97ebae486e6d5a8a32a03067acb9eb9afc0713f1ac0fbaed687e1d7200e6e0f
+datasets/choose/repeated_keys-21997-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,b2f67e0f693c5dd85f015440161b9a8f4bb321e36883c685b06fd1dffc4e981b
+datasets/choose/repeated_keys-21997-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,8619b960231b1dc6b6be61427274fe43918278f5f1447f3ba056f89ba086556c
+datasets/choose/repeated_keys-21997-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,47ed4402d4d2681a2451d1437eb2aa03e38b5fa8d43a4ef713d6526386657e80
+datasets/choose/repeated_keys-4937-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,4bd149b0b4c73e96bba0a093d5e9b851a0251144bda63dd2d4c7288eea55c24f
+datasets/choose/repeated_keys-4937-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,f3a3da63672ce88a8b6df8042e17ad9e80c891af41fe688534db734eb073d769
+datasets/choose/repeated_keys-4937-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,0325b4f1e83fa377defcc72491d1254ef28b0bc57bf7f946519705a051cb2182
+datasets/choose/repeated_keys-81001-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,dc08103d1f9a1a21dc08ce8ea16d1a25461c1bc7292b9ba61bc74447dfa0a6a8
+datasets/choose/repeated_keys-81001-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,ad30b8c8d62669d46920f5566f1e1b1771dd2b6b474f7477dfd9ddb468346a36
+datasets/choose/repeated_keys-81001-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,433d9e39d345488526c53fbb21be6d4ab51ffbe4acd19c9b4d30fb522e86399b
+datasets/choose/uniform-187987-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,1c0461db962b5293545b0ace9f61dd325805998dd4510f546067242fa68d030f
+datasets/choose/uniform-187987-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,8b384068b89c50d98b29bc0cec3165069baf3d9df1beadb215bdaa72b2887135
+datasets/choose/uniform-187987-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,5e62ae92a3126748b38554ad1a05386a8ea7a01b51da2dc1f23bfd73df6bcce2
+datasets/choose/uniform-21997-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,5ac790acfbccbffb0c31060332d4794ef9eae2bbc8a396aea04e6bd71c4f14a1
+datasets/choose/uniform-21997-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,558df12f4e324d4bad16b1aec3ebd8ca657ee635d1e86470903efe59b9a2077d
+datasets/choose/uniform-21997-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,f65fbcf1b871ab18dd1ca21e0e9d21f1f5e72cd25d69d1eb0d60c9d0f43cae82
+datasets/choose/uniform-4937-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,38107aa4eedc4bd5657b3796d06ce19dca20548cf905525e3147bf92a2ec6d7d
+datasets/choose/uniform-4937-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,16c5181cb6da9f3cb34671adbd839f308ae078bbe272c4eef8b457a16d99787b
+datasets/choose/uniform-4937-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,e0d06f806e4f78f3527fe9278b6b96c2e366490b4c43e7f4dec90f29cf6a1753
+datasets/choose/uniform-81001-820001.csv,Generated input dataset,labcore/datafiles.py using study.json,b9f0fb4425dad84e98fc15fc72b447712d00fc2f2fb40ee290cad4f02ed1c26c
+datasets/choose/uniform-81001-820003.csv,Generated input dataset,labcore/datafiles.py using study.json,121a3c12253601777beb80fabd4dfff55b03c9c4e6d5dccf556397a748e00113
+datasets/choose/uniform-81001-820007.csv,Generated input dataset,labcore/datafiles.py using study.json,78fe4b772c42fed9588b45ad9d550b1ce21a898b4f6a1f464e7fa8abe26fc15b
+datasets/confirm/almost_sorted-230003-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,92667bb3e0b9bdcea0b690d7423cfb5ea7bdf5ed0f075f311b328017ac9a8664
+datasets/confirm/almost_sorted-230003-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,fd153487b557b0a5eeaffb1be3dd98674138a3271eb590d01a6c907b79057d48
+datasets/confirm/almost_sorted-230003-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,bd42697e59c3edc56b31f3c997722961af5231af15ada4c698fa267573ebb8e0
+datasets/confirm/almost_sorted-30011-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,e9c4df9e9c4f54722f9c6741c485a41d93a75e5830b684f6fe848d4b19493570
+datasets/confirm/almost_sorted-30011-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,0793b6cb8c1c3fb4b9b0755a54abbe7f16a1d4788bfa10fdeb679ac20d7351fb
+datasets/confirm/almost_sorted-30011-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,b636b65bf2cf3b9c30b7c36dea4c95e01a22b0bf4ca255c4e9a0b4508ad23f0b
+datasets/confirm/almost_sorted-6203-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,978b3e063bf496ae730b928940081d69058e85dcee0a59afa124655ef25e9f6b
+datasets/confirm/almost_sorted-6203-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,859304294b136ad3ca30191753bc4513945c7b0004b440ea1cbb96e43e72fbea
+datasets/confirm/almost_sorted-6203-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,70a47c2a67dd636d3847b769e241a9300e28e1995165a360c1a7c3ba1a0be7d0
+datasets/confirm/almost_sorted-99013-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,539df544862c237ab5c31d6c5ceebd1d53a1cd974ccaa1bffc75e96ae574e34c
+datasets/confirm/almost_sorted-99013-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,85777eb794b3a4b93e05fce9504a7f0fbb089cc3fd814340dcfeb6bdeb9d1fa7
+datasets/confirm/almost_sorted-99013-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,56a437a5e100b239ac3633c2eace7aab4e0087ec287e492f285dbbc8b2571b58
+datasets/confirm/ascending-230003-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,da8e90bd8949860d7fbc801aeab65ad966e1166c7339445de0b2c8ede2ccfa8b
+datasets/confirm/ascending-230003-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,7be2a7fabecc77ad004227a91a70a711233badb492a4b2132dddcc99899ab958
+datasets/confirm/ascending-230003-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,5da1a36b6e9bd3885236b05b0f0bab20cfaea290623f2a274bba20e4d5fa2438
+datasets/confirm/ascending-30011-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,ac841e75e7ba23069681719f0f53a5005d61b4f8bd5ddf27c0abf4182d5dc63b
+datasets/confirm/ascending-30011-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,f98a420d95086c5635641e95645601d344abe153f2b2662528c5cab79e1ab547
+datasets/confirm/ascending-30011-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,cd00dfd23456a2b37653f18fcc23664184967508bb66dabf4ad639fb310c05bd
+datasets/confirm/ascending-6203-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,d729bc4f8eba743713f94f5ef584e4dfbc2662ffb905832e685b395fc0935b20
+datasets/confirm/ascending-6203-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,8f52a2e94d4c6af6a107f3b1c2bc51c7e88a8990d2b91fe38a3afaeea52f6c04
+datasets/confirm/ascending-6203-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,4ebd616122005b8a915ab186fbcf0e82f8513bef0a14a6a3e0c6dbfae30d8845
+datasets/confirm/ascending-99013-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,f4e0ece4b0b153edafef7c7eca7ab0e5b10c75f55971f4ae0bc29b6c727c41d4
+datasets/confirm/ascending-99013-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,c9419dc8dbfe9bb1dee4a38d3f6d727f468d24696b6cc9af9229619b48aa7c09
+datasets/confirm/ascending-99013-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,ea22ecb63ab272aeb0beb3dbfaf77afff119155d712c3006eaa4c32edba26a03
+datasets/confirm/descending-230003-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,0758c8592ba2cba5fcce4b452c82c92adc8d29dc80b6b5c2a1585f518bc8eb7f
+datasets/confirm/descending-230003-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,4dc914a45b3f8959da5a24bc7470cac06a6eb6fb864c441d6624cac532b92a01
+datasets/confirm/descending-230003-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,3490252d725ea8ff50e16974dae134f25653d95a83fc61af38ece3e4815111f5
+datasets/confirm/descending-30011-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,9ac4c2a027d4cac9360ad73deb0bdc6fa2d44204b092fc49dd19b97eacc4d80d
+datasets/confirm/descending-30011-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,962bbd9dc81dbc2bdaf5f7a366153f0aa35a851c82eb68db294d2c89a0fac583
+datasets/confirm/descending-30011-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,0e507e31dc4b2f1e84ff11297d24555bc24d23f287eeb568dfe8a20aa7a440af
+datasets/confirm/descending-6203-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,b7f107701cd2e7176e6f50539dc9db45770464a25d7935ab59d1fb237e7940d1
+datasets/confirm/descending-6203-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,b4db7fa3b3c8e1873bccfdc133b79902fe57215b76aa30c2549e32f7587ae113
+datasets/confirm/descending-6203-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,8168e16b73dad968ceb9ece1ae3b6215254693d3e128696925ac0c3a841ce4be
+datasets/confirm/descending-99013-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,5a052d694ddd989bd31240d05546d09f3b9dc2d1c19718f65a06c56701b273e0
+datasets/confirm/descending-99013-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,2ac2d838b1cabcffe391f553340762bae081871a6d3597fafe80c598e8894efa
+datasets/confirm/descending-99013-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,a071ed6f7455a14ae740e21b5b1cc5fc1a166b71c4ed8efd141cf5c3d34464d1
+datasets/confirm/generation.json,Generated input dataset,labcore/datafiles.py using study.json,495b229ffe895bc22ad52195e4b16b41574092295a6a544688a607dae75fa5c7
+datasets/confirm/index.csv,Generated input dataset,labcore/datafiles.py using study.json,acbb4ade6d201523a8e491e65aae6cf99528e6fd372108eac7b773685aa4e8cf
+datasets/confirm/repeated_keys-230003-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,17b38fc6aacf8a9f6430ebfdda3649beeeb6377dd3ed3d1506baf8d94557a1a0
+datasets/confirm/repeated_keys-230003-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,9b29e41a0fd431742e0764ee4f8ca3135ad0ff1bff84791d2d0d03212df7c283
+datasets/confirm/repeated_keys-230003-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,d998ce59bd682a9b67dfea0f63e92f19659fda9c899b445e1b3950bf12f83082
+datasets/confirm/repeated_keys-30011-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,fe8a8792e162a3edc83b2382b5a41fb033c4890b400fda1c587787f73bc3dc26
+datasets/confirm/repeated_keys-30011-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,655243a63e82ff62ff6c43843399b2fc93753cf54886a24a925b197d54d2458e
+datasets/confirm/repeated_keys-30011-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,d798d7a65ff3c4a989303d2237d2009a14f98147fdf57ad089e52bb86986fa30
+datasets/confirm/repeated_keys-6203-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,01a1b3b95f5692688e01409f3bab6f0040625a41ca24806a2bface022cb4ea5e
+datasets/confirm/repeated_keys-6203-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,a1b4d21adfab2f5ca7dcdcbb49af18c25d90774f036eb88c1a576a0a38c888c7
+datasets/confirm/repeated_keys-6203-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,1434594d4a971866b8142835f7e21d2dafc5f588fc345cd51cf78e5158ebff71
+datasets/confirm/repeated_keys-99013-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,593a378dbce7bf6c5bb5962a61cea62a3bb32f0f0f4f7b0fe902c23530b3cd7c
+datasets/confirm/repeated_keys-99013-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,6d0231dece784d7650f7f6a5267c2480c03018509f2f163f30784a8e7afed16c
+datasets/confirm/repeated_keys-99013-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,68755aca59a65c574d9f42a9701e57fe579a83747924c5261080a6baa4575279
+datasets/confirm/uniform-230003-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,be954269719ae15c3c5f43e9fce7b28984cbfc5ae49d4bb7430f1bb3e57fce37
+datasets/confirm/uniform-230003-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,184e16dde91e531269523ff237fbcf4438e5cab5c7b3d95584ccd1897026a35a
+datasets/confirm/uniform-230003-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,07390a63e2756c9949cfc4d86c473673eb30fd5087de968a30e62c9677c9ab15
+datasets/confirm/uniform-30011-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,7ddea0621f5b4fe37f16a9056dfa03a6c6ab25000df2f030ceaceb265825a2ea
+datasets/confirm/uniform-30011-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,af6e2d4b206b7ca09d1ff03511faabf3bc763672bb3c078a12de80abcd66e512
+datasets/confirm/uniform-30011-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,5456a9319b4096e6902ff25dd70a1aaf470872dd9e2abda22d41c4ff13e99723
+datasets/confirm/uniform-6203-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,fee4b4932ec40770d5306c6ccf6abe5a652136a3359d1a953d29314ea9119835
+datasets/confirm/uniform-6203-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,4510f45c182476e6fe3406568a19f08e5091b9220d1f37bf7b94cee8273d921c
+datasets/confirm/uniform-6203-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,fd1a9bbccc4a3dac8cb9a32f83e17a1bf2f7f6c274b9e8f7e9cd95161df7ea26
+datasets/confirm/uniform-99013-930011.csv,Generated input dataset,labcore/datafiles.py using study.json,0ca1f6c006788c62eef66e9c66da0b8afd8173d02cf0bd0288592125c7421f62
+datasets/confirm/uniform-99013-930013.csv,Generated input dataset,labcore/datafiles.py using study.json,791e7ac71723ff5b1222ce5ca4cb3bd14f0d42b0410a8464020b36cb9f739217
+datasets/confirm/uniform-99013-930017.csv,Generated input dataset,labcore/datafiles.py using study.json,5fb86d1a7e0243b30108a97505c3d7f34cd8d3cfebab7df5e2423860b0e472c6
+datasets/screen/almost_sorted-10039-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,2cf508d80df7c7b0434c9f6ad6b1e94adde1ba4280e13ded3a8650e22771437b
+datasets/screen/almost_sorted-10039-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,41cdfc1657dc10f886ed4cf757d582d33b1771510d89c121148470ad2cb1de21
+datasets/screen/almost_sorted-10039-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,9a282b058f95956041743e0e7ab6fbfaf767ec87c551950c235ff2e26fe73b6b
+datasets/screen/almost_sorted-150053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,4d35e4fe1da975e35a5c85dca3fa631e1af86d1f4feb487667c9969f8a69d8a4
+datasets/screen/almost_sorted-150053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,5ffb6fd0022695dccdbaed757384d6e1bbd20d87c7005256f2072dd6c0f82075
+datasets/screen/almost_sorted-150053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,b08041b4dd0ec1807c4a564098eb87c58bd6248142e28351830508c2c20d757b
+datasets/screen/almost_sorted-2053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,ecb882b84ce6078544c4c5ea848e85a36ff09a38cd5f326cc9c86f6a2986e506
+datasets/screen/almost_sorted-2053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,919f67397039a4afe1fb9eec7f042360407cb4f027f8854a40c12d8bb9403f85
+datasets/screen/almost_sorted-2053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,66c3d1b7279eaf7678543ffe4227ee8e704a38a88eddf1e08f4b8960250e652e
+datasets/screen/almost_sorted-50021-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,c217a9864211286f2ab44caa2771a34b1699c6ffbc25778de9d856349a60b6d3
+datasets/screen/almost_sorted-50021-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,963377388322db385af27008687350545a9d902c8bf08ab6e6ebf2d05a26dc65
+datasets/screen/almost_sorted-50021-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,d10441ebd9c98aef079b6eb8b60f766dcfd401658cb79268240d5cce482c8443
+datasets/screen/ascending-10039-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,b8ada8ce6535ff9bfd5737283b137af8cea040d770b5464787e6aea8bdc83ebe
+datasets/screen/ascending-10039-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,bc968931e4d451577cfaaccd0727c1871c722f57f1eda3123f55ba34520550b7
+datasets/screen/ascending-10039-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,d33ef79644f0e85f90be255d5c80992574abe1abcb424cf866d2c4779c4bb0ae
+datasets/screen/ascending-150053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,98e1b085a18c1db727c042cc47c07196d80810b12e3b18002aa79c3288defa0a
+datasets/screen/ascending-150053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,c9f0fbd75b74e13f490eab432b77d9e99bfd08f9ae47474eeda4e769fd865f36
+datasets/screen/ascending-150053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,6ea182604ed46a46aa08923b91b65e1ba875f06228c7f19282f4d70a99c30116
+datasets/screen/ascending-2053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,02d76d96b161274fa400f8fe74b794d55d23a89270c72360c65fea6be61ab513
+datasets/screen/ascending-2053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,703806717e7c0089925ba86ee752cb730580a033e3daaad62640f117ee9439cc
+datasets/screen/ascending-2053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,74abbf16f99c20541cfcc34f2fee4afbce928761d74ec39889a84fc57263cf12
+datasets/screen/ascending-50021-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,3342c8e8e8a953baecaf03e1d11485f94ff7b7b33893f65b0582bc3c148947fa
+datasets/screen/ascending-50021-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,7cdc868696dccdb07dec3f4a9891f9e522b73797da513091ff69ac039e797bbc
+datasets/screen/ascending-50021-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,9751257d115130dd06eb876170ad817e93cba6c2a35efdf237c19a289b7b48ce
+datasets/screen/descending-10039-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,0a1f5403cebe116b050b4eae2ee408152230f43d0b1fd3b84bf081b8d2a2bbdd
+datasets/screen/descending-10039-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,e93e8479505304e50cee4d3eaa7ca1e25366d2efa57944632b4bd33ca0f06a05
+datasets/screen/descending-10039-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,06d0b125cbfa42a161d72f9bcbd70623c7a0edc46048892ea7cdd097cfb4b93c
+datasets/screen/descending-150053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,c5b78429d5e732a9407e44a86d7b0599ce84efac47ba6236ec454a919705b671
+datasets/screen/descending-150053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,0be1f08be46932e71334ad71636f7025e4ca6cb3e8d4650e9e604663be9eae6d
+datasets/screen/descending-150053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,0801ed2261728b81262b58dfcade8a3cd8e94c37eb92208b5bd326867d3fb288
+datasets/screen/descending-2053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,025c4c867cd683174b4819f4b893a7d45f3d6c532a0aaa253aea7da8e690cbd4
+datasets/screen/descending-2053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,2e2b2daf1552055d8a1c43d98dbafae2b0783ea6c347cb28270b67362cbb9fd2
+datasets/screen/descending-2053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,3f48174079c761e2ec01d333fe01cbbebda3e846fab731cd5001721cb63d7f65
+datasets/screen/descending-50021-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,2119910bce08bfb44858f73d6c36c149fbc3ca37ec187d4e63b21f7390b9ecac
+datasets/screen/descending-50021-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,b3788d4c6c561b584da0f80f0cf739e9ee339d0e460f8be34b742ca36b1b42ee
+datasets/screen/descending-50021-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,c84b9ce3c0ff6018ddef6e2e1309edfe4b0e524625505b21cf4acdfbe7de4b6d
+datasets/screen/generation.json,Generated input dataset,labcore/datafiles.py using study.json,131fcec634c0c20078a0ba5a8c23d93e9a9005710881eb96610ea01b92e5ddb6
+datasets/screen/index.csv,Generated input dataset,labcore/datafiles.py using study.json,f3428bf57dd6aea0307db420219896e7db838df057b3ebcebef2109dece90031
+datasets/screen/repeated_keys-10039-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,c0e389095b092a4fbced1d5d4033ba262dd33f95082f7754862f93dbbb23d125
+datasets/screen/repeated_keys-10039-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,596361d857cc96ec68e1a8c2a224d8136b1a18a6155c781856a981317daa4c4a
+datasets/screen/repeated_keys-10039-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,7b26164afa9dc05ac2a8762451dad74e443cbe1c3aa51098ba1ac67a32caf83f
+datasets/screen/repeated_keys-150053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,7afec2d276c2e196dc3f4c8367d72d448a84e16e083c1a94f9bab343bb80bcd7
+datasets/screen/repeated_keys-150053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,d815545a9d07f796cde332f9cab8cd8a9ce94f26fe7aa6e7aef593f772dd339d
+datasets/screen/repeated_keys-150053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,26353425a3cb3b290ea6b60513a641d2c6ff28f92982e86058a093fbf1959556
+datasets/screen/repeated_keys-2053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,9f9342c931e301f0d5362bf95ee288ff5f2711f32d19f66c5d777d47504ee09f
+datasets/screen/repeated_keys-2053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,6711bbec4694398df5a8be25e0ce2cde4fcaf2ad7b28db448bbdbfc2f204f6a3
+datasets/screen/repeated_keys-2053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,d178bb34f7d414fe598870b8ce88a7ee27dfd4e932a82f888e989b60c5c3b57e
+datasets/screen/repeated_keys-50021-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,ba2b87dfc6d383acdc8d4f300619e3facb8e9cab0c07d93b97fbe1e29464b6aa
+datasets/screen/repeated_keys-50021-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,b0ad4db1bdd635487ee06225d5e460c4cfedb0457fbe3efc227494885241a96a
+datasets/screen/repeated_keys-50021-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,d9898c972d3199c489011ddf0fed895f270bbab255e8294552066afcb6734ecd
+datasets/screen/uniform-10039-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,3e9812eedea9dd31700e03e12a278acff240a4733178bf3f484ea7208d7b85f8
+datasets/screen/uniform-10039-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,c5ff877d4d80b0adc6ebe5dadc72005f2741013b6642c084013925f8199c1046
+datasets/screen/uniform-10039-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,2e72e1b41dd2eff5acb6b0839a7260113864f8b93245875c7d0393e423625fd3
+datasets/screen/uniform-150053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,ad3af06597b66801d20a7cda135991ace0850c80f760f7807e665db5da0ca359
+datasets/screen/uniform-150053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,cb8e4ab21d2f9532dae7ddfbd5e7e14c5c8586c326da23ed3b95d5e594f1227d
+datasets/screen/uniform-150053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,7f10bea14e9cde6e75f5185427157a8e32865c0958f7e865b034f7aecb6f3203
+datasets/screen/uniform-2053-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,3e6cd89aaed9342ccdb51c1579c1c5c413e7051e607aa57c94a0f04fc03222c2
+datasets/screen/uniform-2053-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,212067757c509d2401817fc819c41b76f74e5ae7afc31dc04b739bcc89e3d07d
+datasets/screen/uniform-2053-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,1c318546a4064bfcd5423545afad486c4f9228b980c7e722848f5ffa6bfa62bf
+datasets/screen/uniform-50021-481516.csv,Generated input dataset,labcore/datafiles.py using study.json,6ee3e423dc7dfe8cb71121333c3223f5f843eea1d47ac95eb5444d6d08c55e1d
+datasets/screen/uniform-50021-481517.csv,Generated input dataset,labcore/datafiles.py using study.json,6e2441e033bf1fa12d8f9f5aef04ff20c22ed2afa029675b71b8897357e90828
+datasets/screen/uniform-50021-481518.csv,Generated input dataset,labcore/datafiles.py using study.json,583f76f717a1c8e23a52ced3f7d172550a3a662ca38599f0e1f5903c8af9eb95
+demo/index.html,Project documentation and metadata,Recorded measurements and project documentation,1be87a530ac1236aaae1c2602cf0fdff6435ea9a617b0b45529b21587e99540d
+demo/page.html,Project documentation and metadata,Recorded measurements and project documentation,08e21b190802231b647ec3ffa987990e0645ba4d3fe571e7a012bb3cabff5dbb
+demo/style.css,Experiment implementation,Java/Python experiment implementation and study.json,bd75573dc8d8effce5d878848b493b6db33d062ef7f4d80ef23e339f0e4a50c7
+demo/viewer.js,Experiment implementation,Java/Python experiment implementation and study.json,0c30dddae87f2915615be35f823252223d73a27790256926a7c56af780c7cf33
+doc-build-requirements.txt,Experiment implementation,Java/Python experiment implementation and study.json,2b618ddde704e87c85dbffe301ef900203e14ad349be24097bc692e1cbc50b48
+docs/AI_DISCLOSURE.md,Project documentation and metadata,Recorded measurements and project documentation,538457981091da1c365ad3449c6426b078711400fab6ea000ce504cb0e2cd1e0
+docs/AI_SESSION_LOG.md,Experiment implementation,Java/Python experiment implementation and study.json,5fdc351800a5dc7ee20c5bb583a299f90a73886d544c459e285632a8dc182b56
+docs/BASELINE_SHA256.txt,Integrity manifest,SHA-256 of experimental files and submission documents,bf9782b35e81b5701d12e60bf7c6c15b055fc02f03a587ecf78a0e073d3e7a62
+docs/BUILD_ENVIRONMENT.json,Document build environment,Document runtime versions recorded in docs/BUILD_ENVIRONMENT.json,b67947be82167594431f6214048c35bb5e15622bd21e0dce1ccfd05bebadacad
+docs/ORIGIN.json,Experiment implementation,Java/Python experiment implementation and study.json,a7894bc360b28431f1daa649ba2c12954dd11fa77fda7faea971d79e152608bc
+docs/PROTOCOL.md,Experiment implementation,Java/Python experiment implementation and study.json,87c4c5c884358ec928416fd8ffd83e7fdd0eb87b5e5d2ee017fb3ab13a543e22
+docs/TRACE_CHECKS.txt,Automated test evidence,Direct Java trace capture and tests/test_viewer.cjs,7bb37a315bcfa13672c15cb9910e18d4f6aafb0073d795250888f94229141a9f
+docs/VALIDATION.md,Project documentation and metadata,Recorded measurements and project documentation,e7ebffcb34c0d42126249d74b5ab01f6481c8886df2a41cbee778ccfb3f4a0ba
+docs/VIEWER_CHECKS.json,Automated test evidence,Direct Java trace capture and tests/test_viewer.cjs,c3b546d1ab451f5890b80863155f615c030cc672704912d959c55a34644421bf
+docs/VIEWER_TEST.log,Automated test evidence,Direct Java trace capture and tests/test_viewer.cjs,b95f54124456ac4fbb6abd6f065a40417ee83dcec30d54a0c52f96af7284b429
+labcore/audit.py,Experiment implementation,Java/Python experiment implementation and study.json,2d57c9bee3cad6ebc9fb83bc8f1e70143275971dbe301ae3b5604fe2abf5246d
+labcore/datafiles.py,Experiment implementation,Java/Python experiment implementation and study.json,3af80699afc6ca7375c92b636367c8551b884d8d75bcd984eeb18fab488bf423
+labcore/demobuild.py,Experiment implementation,Java/Python experiment implementation and study.json,cc7d76751a17a3dc0ad1cb7ed04dc959b20780138d5a65987d69f41b5366a435
+labcore/execution.py,Experiment implementation,Java/Python experiment implementation and study.json,7e7713001a944673328badb5f604fcc32b9b950db4b160435abd294089a7681b
+labcore/figures.py,Experiment implementation,Java/Python experiment implementation and study.json,09458465891b1eaa3025adf114b1a4d7db7a2e02deab52a3af6cc0a620254b6e
+labcore/statistics.py,Experiment implementation,Java/Python experiment implementation and study.json,ddc11dcf3f29d2b9b7f553114a58a3b84113e7c7ce8479aad35371c1bcc6f958
+labcore/writeup.py,Project documentation and metadata,Recorded measurements and project documentation,7ad778854fa5cb93b748c6ef9fef2870b694558e2a75ef46fb85f02e055499c2
+measurements/choose/candidate-ranking.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,10464f9b54d02f0433ce5b9caedca13da12300188034279b0ed0d908324b5e22
+measurements/choose/configuration.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e6ee5e92803f98c7b32ca6b77e1aee668a426535a4a42a33cf4f08451c84a2a0
+measurements/choose/correctness.txt,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
+measurements/choose/descriptive-times.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,9035331077ce6f5d3c1cb1d3d32c10e3063127455936cc41eecd00fec96f5354
+measurements/choose/distribution-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,ec73437909b87f07352600a664609a8ca23569c1b806c2ced8cf206db974a714
+measurements/choose/every-threshold.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,f045e2d268dbe7517ab5e976afd75cc2628ffd1c7912c8d00d528aa77bec4cc1
+measurements/choose/evidence.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,19161b2d9a3cf4ad783bb96fb225eeb8be72f33664cd0bc57eababe47613fbee
+measurements/choose/jvm-plan.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,f383cacc4007716e29150fb30196fd2674be75ab0845d265a6d71964d9705618
+measurements/choose/paired-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,b5a84320672578c7c1b11cf3517bb02edcfe2888593e372f66244da2d70b3107
+measurements/choose/process-00.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,0b18d963d7795e6585b0b28c632785b346f3c1893d1203fa8d3e19b33ccbc9be
+measurements/choose/process-00.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,c82ae70440be32277eacefeec48ae24352aa7ab412020a5bbcfda2ecd0dce3a0
+measurements/choose/process-00.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,8ecf94930b58212fd11837e3b572bad6748af4da806f8bd9b885a78fb13c6ca8
+measurements/choose/process-01.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,cfc94e5fed1f7664c96cc4b7c9a8f9c419706d3bd914a71895d73d5b7eb58ace
+measurements/choose/process-01.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,ea71c2eed03e7534f1ac41ad162de82808c0713362644cc438f743d496464742
+measurements/choose/process-01.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,52025996c2814fd2287f6af351e58b2d01b0b31e6074aecdda6df4355da041a5
+measurements/choose/process-02.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,24c77cf05a650eab147c7825b1700c1f3688318fae029cc78539063358d5a7c6
+measurements/choose/process-02.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,1d24cb3c2f4207eb220ad0baa31d26fbe49e0ade54c97062f490a99476a9a3fc
+measurements/choose/process-02.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,a0eec24c1eafbcb75986c060a13a356f54a987d0adf6f91c6e69cd6806bddb72
+measurements/choose/process-03.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,c859e359ce3b4692e6aa2b2dc079da0112a364bfda8d891071967341aea555ff
+measurements/choose/process-03.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,4a43d8e14556a92863127e7216ae9ab72fae6e0900b008fb11ea292a5594615c
+measurements/choose/process-03.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,a38b436c2d5e9cc692e92f8cce8e248df05f736ef65f99cf1a0a7124101145b9
+measurements/choose/process-04.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,275131d0cda1fa3f60a866040859c39d70e13064cb2c969c0600ad99fefd0324
+measurements/choose/process-04.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,ff69ef46af1b425b9d9b2291ddd003bfb2720e643f1352d57c0bf06edfb66f4c
+measurements/choose/process-04.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,86057d3bfd49ad3711be1e97a90ef7d02df5933671160b1e3e9c2c15be7ec96f
+measurements/choose/source-snapshot/src/MeasureTrial.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
+measurements/choose/source-snapshot/src/MergeSort.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
+measurements/choose/source-snapshot/tests/SortContractTest.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
+measurements/choose/summary.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,26dc5eff6fc6991079ca1539b2dd5f55552d05c7e1502e315140205a9633d8b9
+measurements/choose-frozen.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,5139990d85e597b69bf9b8d7230343d3f6f94f94915405a2a4a7dca754a0a9de
+measurements/confirm/candidate-ranking.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,7a7b746a40da01f7d08e7ef66b1ed3391cf48dca192bb03c75e792ffe2694eb1
+measurements/confirm/configuration.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,7199bfa15db647fdf12080e333fdfe9acfd6e8a7b5998b57097c7366cb33d332
+measurements/confirm/correctness.txt,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
+measurements/confirm/descriptive-times.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,512ce67a5e511cf559743c5be3be1df16a2804def3759e4805703be9d353cffa
+measurements/confirm/distribution-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,3be444f5f0fef6c4c002602bd73ccfe42f9cff8bb017159492d45f5d5d8d07c2
+measurements/confirm/every-threshold.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,bec525514551e5549a058eb0bb2cd4efda4c170bd561e866e72a2485442438f4
+measurements/confirm/evidence.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,9798ca496bae425370a7d3dd986a9a5edf5c3117ab74bd88bdd7a0ba02e4bd41
+measurements/confirm/jvm-plan.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,f383cacc4007716e29150fb30196fd2674be75ab0845d265a6d71964d9705618
+measurements/confirm/paired-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,374c6c4ef0deacb8284295c4123b764c9a1161311546c3c03e670fc132166604
+measurements/confirm/process-00.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,09649fe61a0e2f1b090d36af23bb8841dd3742f4ad9be890f8dc6eaf8b22b189
+measurements/confirm/process-00.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,bc1afdceea8b1d6a394f9f71bdef345dbcc805e61525116f795b2e8ece8c44ed
+measurements/confirm/process-00.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,cb2706806d78f357b5783c2aed18e95f2809f231411e6b9f4473b5a66b21e4de
+measurements/confirm/process-01.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,087311d7b6bd75dfddee75abac9f08cdf2d4d4f69e62682f5030725c9bed7c13
+measurements/confirm/process-01.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,56988c91c60e3c0c21709ce7bb8b21a6f84e6481aef78ff5977453323f065b2e
+measurements/confirm/process-01.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,a19dc66415e8ac08b3a0faf2e270719e8f7e04c55f4db9635e0426e792dd4ac7
+measurements/confirm/process-02.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,1126ef8ac1151f55563c15a69995a3fd20ef3a3b941dcc21b5d77d5e49e19b5f
+measurements/confirm/process-02.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,edff79cf45384f1106abef8f3bbb57fc8107dafe314aa86d8e5743ec07ba7e68
+measurements/confirm/process-02.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,bee495db084cd6b8feb9d3b566b44da9e20f69591c4edebc0493084db8066afe
+measurements/confirm/process-03.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,42d6b874b6226a5f62c7ed0d9cdd36a9ecc9151c587f5e674caf81314feee438
+measurements/confirm/process-03.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,7aa22d9bebdf9fde2dfac4922a588e50bf7bafa038f0b28aa8a5e5f26f79ae17
+measurements/confirm/process-03.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,44256d32a7fca073c3b7f764fa9b9315d68758c506dc7f737e6c520df272b6c7
+measurements/confirm/process-04.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,05861637a1abdd19f36c772fba1d2fd33642395a52385289e0b4ff6452e6dd4d
+measurements/confirm/process-04.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,bb971dd41c20e354df4f4dcc145e1d75b8d746c5138f8de24484d54604bfae9e
+measurements/confirm/process-04.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e3a6ccfd122bcc65c15978be11528673b09d1c8bef6d165fbee491bc80cc6c04
+measurements/confirm/source-snapshot/src/MeasureTrial.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
+measurements/confirm/source-snapshot/src/MergeSort.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
+measurements/confirm/source-snapshot/tests/SortContractTest.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
+measurements/confirm/summary.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,74e0c54afa093fa4606e9bbe7ac8d21eac24690f1f5ea606837b5e991ef87742
+measurements/confirm-frozen.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,8fe2fcc5559f0de8ccb9e4bc23ed8766dd50823eebba9447e9ec02bbeb097703
+measurements/screen/candidate-ranking.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,081f46e3bd1bbb5398eaf626c8fc0d5ef49b67474d961d3effc07a553f56513a
+measurements/screen/configuration.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,4b00cb0d5a6319233f9d0884d8043fe561984b8c1be040fb1fb1a46e1e67b9b4
+measurements/screen/correctness.txt,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e6ab1c46c7c8716bcd5fcea92a3367c8798926d9d386238f6084875a3e5773c6
+measurements/screen/descriptive-times.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,e345c6d8bdcab307c81df75ef80f9f13265b8a2abe51cc2907e8ed29d5cb57e1
+measurements/screen/distribution-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,09aebb29fbc57b958c32a1fcea98e9e26d92f77484135c583218a56d623d7628
+measurements/screen/every-threshold.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,c910e17c29156907dabde77f9f34f613c48a4b7d49083079927775a00d94e963
+measurements/screen/evidence.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,6f12cc3616f1182eea595d146c9e93caa59fd1ddb893f07b82a2d24ffd579471
+measurements/screen/jvm-plan.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,2a498caf5dbe639b837fcb9fcc85ab10785bb5f36a8065c211a87b3d775fbf6c
+measurements/screen/paired-effects.csv,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,154883355383e9a910f8fa047d4c9b26d2dae5e9597e18dc20f165ec51fa2833
+measurements/screen/process-00.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,d56d0c97a88ff1a156586cb0062aafd69918660f9b5fed4ebf39882dad26e3d4
+measurements/screen/process-00.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,3b377c6b74b5ba07ad3090ec8546163be91a47eea68924b27a00a38290848290
+measurements/screen/process-00.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,ac47eb4108f47b4869f96ef750df83a5b02c0d707394719ae73fa54fa042359f
+measurements/screen/process-01.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,30f40ddd2a4918faeecc300394ac460917ce90f229a4b1b2a8e3663373557968
+measurements/screen/process-01.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,f57fa92f543040262b8bbf5442caeabb575ae0d400e90cc8e4a690113c019070
+measurements/screen/process-01.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,f7ba3c4df214adcd7301cdcd4859600355c3b2736adac089c8aa6fb62a3d0f89
+measurements/screen/process-02.csv,Raw timing observations,src/MeasureTrial.java executing the unchanged MergeSort,a36dcc2dc4918b154dd367ab189f367dfb6903658e190bb747d40b761fc3f356
+measurements/screen/process-02.log,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,af4f19444ebff19104e1f348b935a35620b393b0fed1763552017aaad6534d34
+measurements/screen/process-02.properties,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,c0b09fe765b0885df8f8b403c4bf3bd7840eee75f34291e652e6f4d56038c47c
+measurements/screen/source-snapshot/src/MeasureTrial.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
+measurements/screen/source-snapshot/src/MergeSort.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
+measurements/screen/source-snapshot/tests/SortContractTest.java,Measured source snapshot,Java source files compiled for the corresponding measurement phase,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
+measurements/screen/summary.json,Measurement and statistical analysis evidence,Independent JVM processes and labcore statistics/execution modules,4272507de79fa067532b24b67a89f0ebf1390d2b2f7f67234134c20f7e6be50d
+report/Cutoff_Study.docx,Project documentation and metadata,Recorded measurements and project documentation,f0f0ae9d09b909573f7255370c44b8ec8bdfd25f756b4285ddeb83a94c1f8f7c
+report/Cutoff_Study.md,Project documentation and metadata,Recorded measurements and project documentation,f5dcda6d662258ebfceab10d0129bdf9848d59b4305328ec6c2540adffa22415
+report/Cutoff_Study.pdf,Project documentation and metadata,Recorded measurements and project documentation,336a921bb229ff036963843345236ae126d7b46afc928df953f29770712300aa
+report/charts/condition_sensitivity.png,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,71d50c617befd298be6eb94b0a7a6ab42c69d9f1bc8edb2fd122ab0a1bf120f4
+report/charts/condition_sensitivity.svg,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,310dcd2b78681bdadef25b7944666ba9c2bf86a67581e362c7758e40f84161f1
+report/charts/final_intervals.png,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,d69054bac02abf1f99ce498d52bcffac7bade0a15eddb1bf893db86591c5bf75
+report/charts/final_intervals.svg,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,b0f172deba6b6017e68be3dadabb4b4001c7bcbc46943452ce049f88c6b65978
+report/charts/input_distributions.png,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,6072686d8def139f619e7c4bed939642effd8d5bfb1ba9aa8f5ed66f5b206f78
+report/charts/input_distributions.svg,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,7eeb187fdbb08d576a7576145c3d97b3ab003f4e9759c01ebfbfbcaf829bda9e
+report/charts/screening.png,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,f15955f4fd7ead2e6bbda68d5b06d6000f63a987815d37569e897f830a8f284d
+report/charts/screening.svg,Generated report or chart,labcore/writeup.py and labcore/figures.py using recorded measurements,918003d04fd751708e6ca34a923d5e8fcb1fa6b1819f695465fab55e094ce633
+src/MeasureTrial.java,Experiment implementation,Java/Python experiment implementation and study.json,8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a
+src/MergeSort.java,Student MergeSort implementation,src/MergeSort.java; SHA-256 verified against phase source snapshots,797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45
+study.json,Experiment implementation,Java/Python experiment implementation and study.json,7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4
+tests/SortContractTest.java,Experiment implementation,Java/Python experiment implementation and study.json,3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3
+tests/test_analysis.py,Experiment implementation,Java/Python experiment implementation and study.json,706e2afd13c893530bcc870253bc4e6ed641e45b2ae0669b17cb61e8cb255eff
+tests/test_repository.py,Repository configuration and metadata,Repository tooling and integrity manifests,67bc62bb91745f0cf4ea463648006ccee173596f1d6fdcaa909116f929e25d5f
+tests/test_viewer.cjs,Experiment implementation,Java/Python experiment implementation and study.json,e93d39d4a577d720f9bbdb0df6e791d4fd73f3befeb9d423b05d956674137404
+tools/TraceCapture.java,Experiment implementation,Java/Python experiment implementation and study.json,353693b849845d17a452d4306ee0be5d0346bce38733fe45708f1e5cdc0091de
+tools/package_submission.py,Repository configuration and metadata,Repository tooling and integrity manifests,2610e2b24e38c0d0c01f652b4feae1d937b8a5862c952408a46100f235df2fcb
+tools/repository_check.py,Repository configuration and metadata,Repository tooling and integrity manifests,0fc3e7dd0bf239997fcdc335e4865105b280826399def0631c31a5269bec48c4

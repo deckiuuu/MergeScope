@@ -110,8 +110,8 @@ def refresh(root=ROOT):
             if relative in previous and previous[relative]['sha256']==current:
                 record=previous[relative]
             else:
-                record={'path':relative,'origin':'GitHub repository preparation or metadata maintenance',
-                    'derived_from':'Fresh rebuilt project; recorded scientific baseline preserved','sha256':current}
+                record={'path':relative,'origin':'Repository metadata',
+                    'derived_from':'Project source, documentation and integrity manifests','sha256':current}
             writer.writerow({field:record[field] for field in fields})
     temporary.replace(ledger)
     checksum=root/'CHECKSUMS.txt'
@@ -121,9 +121,29 @@ def refresh(root=ROOT):
     return check(root)
 
 
+def refresh_report(root=ROOT):
+    """Update report hashes only after verifying every other baseline file."""
+    root=Path(root)
+    manifest=root/'docs/BASELINE_SHA256.txt'
+    records=manifest_entries(manifest)
+    updated={}
+    for name,expected in records.items():
+        path=root/name
+        if not path.is_file(): raise ValueError(f'Missing preserved file: {name}')
+        current=digest(path)
+        if name!='labcore/writeup.py' and not name.startswith('report/') and current!=expected:
+            raise ValueError(f'Checksum mismatch outside report: {name}')
+        updated[name]=current
+    temporary=manifest.with_suffix('.txt.tmp')
+    temporary.write_text(''.join(f'{value}  {name}\n' for name,value in updated.items()),encoding='utf-8')
+    temporary.replace(manifest)
+    return refresh(root)
+
+
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command',choices=['check','refresh'])
+    parser.add_argument('command',choices=['check','refresh','refresh-report'])
     arguments=parser.parse_args()
-    try: (check if arguments.command=='check' else refresh)()
+    commands={'check':check,'refresh':refresh,'refresh-report':refresh_report}
+    try: commands[arguments.command]()
     except (ValueError,OSError) as error: raise SystemExit(str(error))

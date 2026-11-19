@@ -42,5 +42,32 @@ class RepositoryIntegrity(unittest.TestCase):
                 path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text('example')
             self.assertEqual([str(path.relative_to(root)) for path in INTEGRITY.product_files(root)],['datasets/input.csv'])
 
+    def report_fixture(self,root):
+        (root/'docs').mkdir();(root/'report').mkdir()
+        data=root/'raw.csv';data.write_bytes(b'value\r\n17\r\n')
+        report=root/'report/Cutoff_Study.md';report.write_text('Họ và tên: ______\n')
+        (root/'README.md').write_text('Report fixture\n')
+        manifest=root/'docs/BASELINE_SHA256.txt'
+        manifest.write_text(''.join(f'{INTEGRITY.digest(path)}  {path.relative_to(root)}\n' for path in [data,report]))
+        return data,report,manifest
+
+    def test_report_refresh_preserves_experimental_bytes(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary);data,report,manifest=self.report_fixture(root)
+            original=data.read_bytes();report.write_text('Họ và tên: Sinh viên\n')
+            INTEGRITY.refresh_report(root)
+            self.assertEqual(data.read_bytes(),original)
+            self.assertEqual(INTEGRITY.manifest_entries(manifest)['report/Cutoff_Study.md'],INTEGRITY.digest(report))
+
+    def test_report_refresh_rejects_modified_experimental_data(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary);data,report,manifest=self.report_fixture(root)
+            recorded=manifest.read_bytes()
+            report.write_text('Họ và tên: Sinh viên\n');data.write_bytes(b'value\r\n18\r\n')
+            with self.assertRaisesRegex(ValueError,'Checksum mismatch outside report'):
+                INTEGRITY.refresh_report(root)
+            self.assertEqual(manifest.read_bytes(),recorded)
+            self.assertFalse((root/'CHECKSUMS.txt').exists())
+
 
 if __name__=='__main__': unittest.main()

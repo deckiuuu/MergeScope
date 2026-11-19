@@ -4,18 +4,15 @@ Thực nghiệm lựa chọn ngưỡng chuyển sang Insertion sort trong cài �
 
 **Kết quả đo ngày 13/11/2026:** đề xuất CUTOFF 32 cho workload Integer[] trên MacBook Air M3 16 GB, Oracle Java 25.0.2. C32 và C40 chưa phân biệt rõ.
 
-## Sản phẩm nộp
+## Nội dung project
 
-| Tiêu chí | Sản phẩm để kiểm tra |
+| Nội dung | Tệp và thư mục |
 |---|---|
-| Báo cáo mô tả, phân tích và tổng kết | [PDF 10 trang](report/Cutoff_Study.pdf), [Word](report/Cutoff_Study.docx), [Markdown](report/Cutoff_Study.md) |
-| Bảng thống kê và đồ thị | [Bốn hình](report/charts/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp và khoảng tin cậy](measurements/confirm/paired-effects.csv) |
-| Cài đặt MergeSort | [Mã nguồn](src/MergeSort.java), [nguồn gốc và hash](docs/ORIGIN.json) |
-| Script chạy thí nghiệm | [cutofflab.py](cutofflab.py), [labcore](labcore/), [cấu hình](study.json) |
-| Bộ dữ liệu | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
-| Số đo gốc và cấu hình máy | [measurements](measurements/), evidence.json và process-*.csv của ba pha |
-| Log dùng AI | [Nhật ký trao đổi AI](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md), [nhật ký cập nhật repository](docs/GITHUB_PREPARATION.md) |
-| Phân tích có kiểm chứng | [Giao thức ba pha](docs/PROTOCOL.md), [kết quả xác nhận](measurements/confirm/summary.json) |
+| Báo cáo và đồ thị | [PDF 10 trang](report/Cutoff_Study.pdf), [Word](report/Cutoff_Study.docx), [Markdown](report/Cutoff_Study.md), [bốn đồ thị](report/charts/) |
+| Mã nguồn và script | [MergeSort.java](src/MergeSort.java), [cutofflab.py](cutofflab.py), [labcore](labcore/) |
+| Dữ liệu đầu vào | [180 mảng CSV](datasets/), index và SHA-256 trong từng pha |
+| Số đo và phân tích | [measurements](measurements/), [thống kê mô tả](measurements/confirm/descriptive-times.csv), [so sánh ghép cặp](measurements/confirm/paired-effects.csv), [kết quả xác nhận](measurements/confirm/summary.json) |
+| Nhật ký và công bố AI | [Nhật ký trao đổi AI](docs/AI_SESSION_LOG.md), [công bố phạm vi AI](docs/AI_DISCLOSURE.md) |
 | Demo tương tác ngoại tuyến | Tải hoặc clone project, mở [demo/index.html](demo/index.html) bằng trình duyệt |
 
 Giữ nguyên cấu trúc thư mục khi mở demo để các liên kết tới CSS, JavaScript và báo cáo PDF hoạt động. Demo dùng tài nguyên trong project và chạy ngoại tuyến. GitHub hiển thị mã nguồn khi mở HTML ở tab Code; cần tải hoặc clone project để chạy demo trên máy.
@@ -89,24 +86,30 @@ Kiểm thử gồm 15.693 kiểm tra Java, các ca thống kê và quản lý re
 python3 cutofflab.py study --new-run lan_do_moi
 ```
 
-Phiên mới được tạo dưới reruns/ và chạy đủ ba pha. Thư mục này được Git bỏ qua để dữ liệu thử không lẫn vào bản nộp đã chốt. Muốn công bố một phiên đo khác, cần mô tả riêng cấu hình và phạm vi kết luận.
+Mỗi phiên đo được lưu riêng trong reruns/, gồm cấu hình và kết quả của cả ba pha. Kết quả của các phiên đo độc lập được diễn giải theo cấu hình máy và dữ liệu tương ứng.
 
 ```java
 Integer[] data = {8, 3, 7, 3, 1};
 MergeSort.sort(data, 32);
 ```
 
-Nguồn gốc và SHA-256 của cài đặt được ghi trong [ORIGIN.json](docs/ORIGIN.json). Xem thêm [đối chiếu yêu cầu sản phẩm](docs/REQUIREMENTS.md) và [hướng dẫn trình bày kết quả](docs/DEFENSE_NOTES.md).
+Nguồn gốc và SHA-256 của cài đặt được ghi trong [ORIGIN.json](docs/ORIGIN.json). Thiết kế thí nghiệm được mô tả trong [PROTOCOL.md](docs/PROTOCOL.md) và [study.json](study.json).
 
 ## Dựng lại báo cáo và demo
 
-PDF và demo có sẵn để mở. Dựng lại demo bằng:
+Báo cáo PDF và demo HTML được cung cấp sẵn trong repository. Lệnh tái tạo demo:
 
 ```sh
 python3 cutofflab.py demo
 ```
 
-Muốn dựng Word và bốn đồ thị, cài các gói trong [doc-build-requirements.txt](doc-build-requirements.txt), rồi chạy `python3 cutofflab.py report`; xuất DOCX sang PDF bằng Word hoặc LibreOffice. Phiên bản thư viện gốc nằm trong [BUILD_ENVIRONMENT.json](docs/BUILD_ENVIRONMENT.json). Việc dựng lại có thể thay byte của sản phẩm sinh tự động, nên thực hiện trong bản làm việc riêng khi muốn giữ nguyên bản nộp.
+Báo cáo Word, Markdown và bốn đồ thị được tái tạo bằng lệnh sau, với các thư viện được liệt kê trong [doc-build-requirements.txt](doc-build-requirements.txt):
+
+```sh
+python3 cutofflab.py report
+```
+
+Tệp DOCX được xuất sang PDF bằng Word hoặc LibreOffice. Phiên bản thư viện được ghi trong [BUILD_ENVIRONMENT.json](docs/BUILD_ENVIRONMENT.json).
 
 ## Đóng gói và bảo toàn dữ liệu
 
@@ -114,6 +117,15 @@ Muốn dựng Word và bốn đồ thị, cài các gói trong [doc-build-requir
 python3 tools/package_submission.py
 ```
 
-ZIP được tạo trong dist/, có kiểm tra CRC và SHA-256, không gồm lịch sử Git, build, cache hoặc lượt đo thử. Sau khi chỉnh tài liệu hay cấu hình GitHub, cập nhật bảng hash bằng `python3 tools/repository_check.py refresh`. Lệnh này từ chối cập nhật nếu bằng chứng trong baseline đã thay đổi.
+Gói ZIP được tạo trong dist/ và kiểm tra CRC, SHA-256 cho từng tệp. Các phiên đo thử, lớp Java đã biên dịch, bộ nhớ đệm và lịch sử Git được loại khỏi gói.
+
+Các lệnh kiểm tra và cập nhật danh sách SHA-256:
+
+```sh
+python3 tools/repository_check.py check
+python3 tools/repository_check.py refresh
+```
+
+Lệnh refresh kiểm tra baseline trước khi cập nhật CHECKSUMS.txt và CREATION_LEDGER.csv.
 
 Phạm vi kiểm thử, kết quả xác minh và giới hạn đánh giá được trình bày trong [VALIDATION.md](docs/VALIDATION.md).

@@ -3,8 +3,13 @@ cho MergeSort
 
 Báo cáo phân tích thuật toán  |  Ngày 13/11/2026
 
-Họ và tên: ____________________     MSSV: ____________________
-Lớp: ____________________     Giảng viên: ____________________
+Họ và tên: ____________________
+
+MSSV: ____________________
+
+Lớp: ____________________
+
+Giảng viên: ____________________
 
 ### Kết luận của thí nghiệm
 
@@ -66,7 +71,7 @@ study.json được ghi trước khi chạy JVM đầu tiên. Sàng lọc khảo
 | Chọn | 4.937; 21.997; 81.001; 187.987 | 820.001; 820.003; 820.007 |
 | Xác nhận | 6.203; 30.011; 99.013; 230.003 | 930.011; 930.013; 930.017 |
 
-Mỗi pha có bốn độ dài, ba seed và năm phân phối, tạo 60 mảng. Độ dài và seed tách biệt hoàn toàn giữa ba pha. Tập xác nhận không dùng để chọn lại ngưỡng. Quy tắc dừng là đúng ba pha đã định, bất kể kết quả pha cuối; không mở thêm lượt để tìm một thứ hạng ưa thích.
+Mỗi pha có bốn độ dài, ba seed và năm phân phối, tạo 60 mảng. Độ dài và seed tách biệt hoàn toàn giữa ba pha. Tập xác nhận không dùng để chọn lại ngưỡng. Thí nghiệm kết thúc sau đúng ba pha theo giao thức đã xác định trước; quy tắc dừng không phụ thuộc kết quả đo.
 
 ### Môi trường đo thực tế
 
@@ -159,7 +164,7 @@ Khoảng 95% trước mốc 10 nằm trên 1, nghiêng về CUTOFF 32 trong thi�
 
 Khoảng 95% trước mốc 40 chứa 1, chưa phân biệt rõ hai lựa chọn.
 
-Trên toàn bộ N của pha cuối, các cutoff từ 30 đến 47 có cùng cấu trúc cây. Quan hệ này khác trên tập sàng lọc. Giữ lựa chọn C32 và báo cáo đầy đủ kết quả của các ứng viên cạnh tranh, không đổi kết luận bằng cách nhìn một số đo thấp nhất của tập cuối.
+Trên toàn bộ N của pha cuối, các cutoff từ 30 đến 47 có cùng cấu trúc cây. Quan hệ này khác trên tập sàng lọc. C32 được cố định sau pha chọn và duy trì trong pha xác nhận. Kết quả trên tập xác nhận được dùng để đánh giá lựa chọn đã định trước.
 
 Tổng ba pha có 91.500 quan sát batch và 126.225 lời gọi sort trong vùng đo. Mọi output khớp oracle; các lần warmup không tính vào hai tổng này. Hash nguồn, dữ liệu, cấu hình và quyết định đã được kiểm tra độc lập bằng cutofflab.py verify.
 
@@ -239,7 +244,7 @@ CUTOFF 32 là lựa chọn cho một cài đặt, kiểu Integer[], năm phân p
 
 Lưới sàng lọc hữu hạn, tối đa 128. Pha chọn và xác nhận chỉ giữ ba đại diện cùng các mốc kiểm soát, không đo lại toàn bộ lưới. Bootstrap giữ cố định các phân phối và kích thước; một phiên máy và số JVM hạn chế chưa bao phủ nhiệt độ, tải nền hoặc mọi cấu hình JIT. Khoảng từng cặp không chứng minh tối ưu tuyệt đối hoặc tương đương thống kê của toàn vùng.
 
-Vùng gần tối ưu 3% là quy ước thực dụng đã chốt. Cùng cây đệ quy là tính chất cấu trúc của cài đặt trên N cụ thể, không buộc thời gian máy bằng nhau hoàn toàn. Không chọn lại sau pha xác nhận và không mở thêm một pha để thay kết quả. Quicksort không thuộc phần thí nghiệm MergeSort được giao trong ảnh đề.
+Vùng gần tối ưu 3% là quy ước thực dụng đã chốt. Cùng cây đệ quy là tính chất cấu trúc của cài đặt trên N cụ thể, không buộc thời gian máy bằng nhau hoàn toàn. Không chọn lại sau pha xác nhận và không mở thêm một pha để thay kết quả. Phạm vi thực nghiệm giới hạn ở MergeSort.
 
 ### Nguồn mã và phạm vi hỗ trợ AI
 
@@ -254,7 +259,7 @@ AI tạo các thành phần phụ trợ gồm bộ kiểm thử, công cụ đo 
 
 ### Tài liệu tham khảo
 
-[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort. Các yêu cầu sản phẩm được đối chiếu trong docs/REQUIREMENTS.md.
+[1] Đề bài thực nghiệm lựa chọn CUTOFF cho MergeSort.
 
 [2] Oracle Java SE 25 API. System.nanoTime. Đo khoảng thời gian bằng hiệu hai lần đọc cùng JVM; độ chính xác đơn vị nano giây không bảo đảm độ phân giải một nano giây. https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/System.html#nanoTime()
 

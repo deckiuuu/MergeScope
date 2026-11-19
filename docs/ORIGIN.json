@@ -1,6 +1,6 @@
 {
   "retained_source": "src/MergeSort.java",
   "source_sha256": "797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45",
-  "rebuild_policy": "Only the supplied MergeSort.java is retained; all other project files are newly authored or generated in this rebuild",
-  "prior_reports_data_scripts_demo_lecture_files_included": false
+  "source_role": "Student MergeSort implementation used unchanged in all measurement phases",
+  "verification": "SHA-256 matched against source snapshots and phase metadata"
 }

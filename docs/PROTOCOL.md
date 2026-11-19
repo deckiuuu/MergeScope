@@ -6,7 +6,7 @@ Nguồn máy đọc là study.json. Hash của tệp này được ghi trong evi
 - Shortlist: chỉ dùng đại diện nhỏ nhất của mỗi chữ ký cây, lấy ba đại diện có điểm thấp nhất. Không gộp số đo của các cutoff tương đương vào thêm trọng số.
 - Chọn: ba ứng viên đã chốt cùng mốc 1, 7, 10, 128; bốn N và ba seed mới; năm JVM; bảy vòng. Chọn đại diện có điểm thấp nhất trong shortlist.
 - Xác nhận: giữ ứng viên thắng đã đóng băng; dùng bốn N và ba seed mới khác cả hai pha trước; năm JVM; bảy vòng.
-- Dừng: đúng ba pha bất kể thứ hạng cuối. Không chọn lại bằng tập xác nhận và không thêm lượt tới khi được kết quả ưa thích.
+- Dừng: kết thúc sau đúng ba pha theo giao thức đã xác định trước; quy tắc dừng không phụ thuộc kết quả đo. Tập xác nhận chỉ dùng để đánh giá lựa chọn đã cố định sau pha chọn.
 - Thời gian: chỉ MergeSort.sort, có cấp phát aux; khôi phục input và oracle ngoài đồng hồ. Một batch là một quan sát.
 - Điểm: median từng khối qua vòng, tỷ số ghép cặp với C1, trung bình nhân đều theo phân phối, N, seed và JVM.
 - Độ tin cậy: 4.000 bootstrap theo JVM rồi seed; ma trận phân phối × N giữ cố định; khoảng từng cặp.

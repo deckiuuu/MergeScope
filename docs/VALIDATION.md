@@ -12,7 +12,7 @@ Mã này khớp source-snapshot của cả ba pha. CREATION_LEDGER.csv ở thư 
 
 - javac -g -encoding UTF-8 -Xlint:all biên dịch thành công, không có cảnh báo.
 - Bộ kiểm thử Java đạt 15.693 kiểm tra; gồm vét cạn dãy nhỏ, mọi cutoff 1 đến 128, biên, ổn định, generic và tham số không hợp lệ.
-- Tám kiểm thử Python đạt: bốn kiểm thử về chữ ký cây, bảo toàn độ dài, bootstrap và phân vị; bốn kiểm thử về bảo vệ baseline và kiểm tra danh sách tệp.
+- Mười kiểm thử Python đạt: bốn kiểm thử về chữ ký cây, bảo toàn độ dài, bootstrap và phân vị; sáu kiểm thử về bảo vệ baseline, cập nhật báo cáo và kiểm tra danh sách tệp.
 - Sàng lọc: 60 mảng, 62.100 quan sát, 93.150 sort trong vùng đo.
 - Chọn: 60 mảng mới, 14.700 quan sát, 18.375 sort.
 - Xác nhận: 60 mảng mới khác hai pha trước, 14.700 quan sát, 14.700 sort.
