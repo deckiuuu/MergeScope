@@ -1,0 +1,24 @@
+{
+  "format": "UTF-8 CSV with one signed int32 value per row; header value",
+  "rng": "Python random.Random with explicit integer mixing, as implemented in labcore/datafiles.py",
+  "almost_sorted_swaps": "max(1,length//200) random transpositions",
+  "repeated_keys": "16 keys 1000000+257*k for k=0..15",
+  "lengths": [
+    6203,
+    30011,
+    99013,
+    230003
+  ],
+  "seeds": [
+    930011,
+    930013,
+    930017
+  ],
+  "families": [
+    "uniform",
+    "ascending",
+    "descending",
+    "almost_sorted",
+    "repeated_keys"
+  ]
+}

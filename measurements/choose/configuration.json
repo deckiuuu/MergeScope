@@ -1,0 +1,51 @@
+{
+  "lengths": [
+    4937,
+    21997,
+    81001,
+    187987
+  ],
+  "seeds": [
+    820001,
+    820003,
+    820007
+  ],
+  "processes": 5,
+  "repetitions": 7,
+  "thresholds": [
+    1,
+    7,
+    10,
+    32,
+    40,
+    48,
+    128
+  ],
+  "families": [
+    "uniform",
+    "ascending",
+    "descending",
+    "almost_sorted",
+    "repeated_keys"
+  ],
+  "warmup_seconds": 3,
+  "practice_rounds": 1,
+  "jvm_options": [
+    "-Xms768m",
+    "-Xmx768m",
+    "-XX:+UseSerialGC"
+  ],
+  "order_seed": 592643,
+  "phase": "choose",
+  "decision": {
+    "frozen_utc": "2026-11-13T09:33:09.645202+00:00",
+    "source_phase": "screen",
+    "source_summary_sha256": "4272507de79fa067532b24b67a89f0ebf1390d2b2f7f67234134c20f7e6be50d",
+    "shortlist": [
+      40,
+      48,
+      32
+    ],
+    "protocol_sha256": "7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4"
+  }
+}

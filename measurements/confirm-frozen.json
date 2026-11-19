@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-11-13T09:36:12.825498+00:00",
+  "source_phase": "choose",
+  "source_summary_sha256": "26dc5eff6fc6991079ca1539b2dd5f55552d05c7e1502e315140205a9633d8b9",
+  "shortlist": [
+    40,
+    48,
+    32
+  ],
+  "protocol_sha256": "7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4",
+  "selected_cutoff": 32
+}

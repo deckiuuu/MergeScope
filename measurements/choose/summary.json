@@ -1,0 +1,155 @@
+{
+  "phase": "choose",
+  "selected_cutoff": 32,
+  "shortlist": [
+    40,
+    48,
+    32
+  ],
+  "rankings": [
+    {
+      "representative": 32,
+      "same_tree": [
+        32
+      ],
+      "score": 0.7745474318025027
+    },
+    {
+      "representative": 40,
+      "same_tree": [
+        40
+      ],
+      "score": 0.7749910298144393
+    },
+    {
+      "representative": 48,
+      "same_tree": [
+        48
+      ],
+      "score": 0.780549197721096
+    }
+  ],
+  "observed_fastest": 32,
+  "near_optimal_representatives": [
+    32,
+    40,
+    48
+  ],
+  "observations": 14700,
+  "timed_sort_calls": 18375,
+  "paired_effects": [
+    {
+      "baseline": 1,
+      "selected": 32,
+      "speedup": 1.291076516350756,
+      "ci_low": 1.271079347646742,
+      "ci_high": 1.3080622420997114,
+      "time_saved_fraction": 0.22545256819749726
+    },
+    {
+      "baseline": 7,
+      "selected": 32,
+      "speedup": 1.0770697039829233,
+      "ci_low": 1.0671438748058988,
+      "ci_high": 1.0862867228034616,
+      "time_saved_fraction": 0.0715549826514712
+    },
+    {
+      "baseline": 10,
+      "selected": 32,
+      "speedup": 1.043367614951342,
+      "ci_low": 1.0339543321691465,
+      "ci_high": 1.049644652045704,
+      "time_saved_fraction": 0.04156503837179615
+    },
+    {
+      "baseline": 32,
+      "selected": 32,
+      "speedup": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "time_saved_fraction": 0.0
+    },
+    {
+      "baseline": 40,
+      "selected": 32,
+      "speedup": 1.0005727189759113,
+      "ci_low": 0.9921156402596703,
+      "ci_high": 1.0088143629608888,
+      "time_saved_fraction": 0.000572391156634211
+    },
+    {
+      "baseline": 48,
+      "selected": 32,
+      "speedup": 1.0077487390341302,
+      "ci_low": 0.995226407521796,
+      "ci_high": 1.021102816362677,
+      "time_saved_fraction": 0.007689157757276854
+    },
+    {
+      "baseline": 128,
+      "selected": 32,
+      "speedup": 1.1104733810541625,
+      "ci_low": 1.0954760165388011,
+      "ci_high": 1.1242118791488063,
+      "time_saved_fraction": 0.09948314199957775
+    }
+  ],
+  "configuration": {
+    "lengths": [
+      4937,
+      21997,
+      81001,
+      187987
+    ],
+    "seeds": [
+      820001,
+      820003,
+      820007
+    ],
+    "processes": 5,
+    "repetitions": 7,
+    "thresholds": [
+      1,
+      7,
+      10,
+      32,
+      40,
+      48,
+      128
+    ],
+    "families": [
+      "uniform",
+      "ascending",
+      "descending",
+      "almost_sorted",
+      "repeated_keys"
+    ],
+    "warmup_seconds": 3,
+    "practice_rounds": 1,
+    "jvm_options": [
+      "-Xms768m",
+      "-Xmx768m",
+      "-XX:+UseSerialGC"
+    ],
+    "order_seed": 592643,
+    "phase": "choose",
+    "decision": {
+      "frozen_utc": "2026-11-13T09:33:09.645202+00:00",
+      "source_phase": "screen",
+      "source_summary_sha256": "4272507de79fa067532b24b67a89f0ebf1390d2b2f7f67234134c20f7e6be50d",
+      "shortlist": [
+        40,
+        48,
+        32
+      ],
+      "protocol_sha256": "7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4"
+    }
+  },
+  "analysis_notes": {
+    "weighting": "Equal weight to distribution x length x data seed x JVM; median over repetitions in each paired block",
+    "equivalent_thresholds": "Screen only smallest representatives of identical recursion signatures; retain the fixed shortlist in later phases; never pool observations across cutoff aliases",
+    "interval": "4000 hierarchical percentile bootstrap replicates: JVM process, then data-seed cluster; fixed distribution x length design",
+    "limitations": "Pairwise intervals, limited JVM processes, one machine session; no claim of universal optimum or simultaneous coverage"
+  }
+}

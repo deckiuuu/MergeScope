@@ -1,0 +1,10 @@
+{"combinations":768,"full_recordings":45,"step_transitions":4716,"checks":["comparison outcomes","sorted values and stable identities","next/previous","restart/finish","autoplay/pause/end","cutoff/size/distribution changes","presets","offline links"],"scope":"Real Java recordings and viewer logic in a minimal DOM; no browser rendering claim"}
+✔ recordings and viewer controls remain consistent across every offered cutoff (129.927542ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 198.97225

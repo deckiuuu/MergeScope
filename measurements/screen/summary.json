@@ -1,0 +1,458 @@
+{
+  "phase": "screen",
+  "selected_cutoff": 40,
+  "shortlist": [
+    40,
+    48,
+    32
+  ],
+  "rankings": [
+    {
+      "representative": 40,
+      "same_tree": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "score": 0.7522704372342045
+    },
+    {
+      "representative": 48,
+      "same_tree": [
+        48
+      ],
+      "score": 0.7525229269992211
+    },
+    {
+      "representative": 32,
+      "same_tree": [
+        32
+      ],
+      "score": 0.7528109094475616
+    },
+    {
+      "representative": 37,
+      "same_tree": [
+        37,
+        38
+      ],
+      "score": 0.7529158710830315
+    },
+    {
+      "representative": 33,
+      "same_tree": [
+        33,
+        34,
+        35
+      ],
+      "score": 0.7537048483961809
+    },
+    {
+      "representative": 36,
+      "same_tree": [
+        36
+      ],
+      "score": 0.7541120930457847
+    },
+    {
+      "representative": 39,
+      "same_tree": [
+        39
+      ],
+      "score": 0.7547601420689046
+    },
+    {
+      "representative": 49,
+      "same_tree": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "score": 0.7551266317677662
+    },
+    {
+      "representative": 25,
+      "same_tree": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "score": 0.7553240074575267
+    },
+    {
+      "representative": 24,
+      "same_tree": [
+        24
+      ],
+      "score": 0.7558366127453322
+    },
+    {
+      "representative": 20,
+      "same_tree": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "score": 0.7569417603524433
+    },
+    {
+      "representative": 19,
+      "same_tree": [
+        19
+      ],
+      "score": 0.7655008399783676
+    },
+    {
+      "representative": 18,
+      "same_tree": [
+        18
+      ],
+      "score": 0.7672718541190162
+    },
+    {
+      "representative": 17,
+      "same_tree": [
+        17
+      ],
+      "score": 0.7714165205561442
+    },
+    {
+      "representative": 16,
+      "same_tree": [
+        16
+      ],
+      "score": 0.7734027115543519
+    },
+    {
+      "representative": 13,
+      "same_tree": [
+        13,
+        14,
+        15
+      ],
+      "score": 0.7820157018686476
+    },
+    {
+      "representative": 64,
+      "same_tree": [
+        64
+      ],
+      "score": 0.7823489042453173
+    },
+    {
+      "representative": 12,
+      "same_tree": [
+        12
+      ],
+      "score": 0.7827657749627258
+    },
+    {
+      "representative": 72,
+      "same_tree": [
+        72
+      ],
+      "score": 0.7836003752106155
+    },
+    {
+      "representative": 10,
+      "same_tree": [
+        10,
+        11
+      ],
+      "score": 0.7884521170644169
+    },
+    {
+      "representative": 9,
+      "same_tree": [
+        9
+      ],
+      "score": 0.8007804330675917
+    },
+    {
+      "representative": 8,
+      "same_tree": [
+        8
+      ],
+      "score": 0.8071582389363243
+    },
+    {
+      "representative": 6,
+      "same_tree": [
+        6
+      ],
+      "score": 0.8236189827325922
+    },
+    {
+      "representative": 7,
+      "same_tree": [
+        7
+      ],
+      "score": 0.824509186521275
+    },
+    {
+      "representative": 5,
+      "same_tree": [
+        5
+      ],
+      "score": 0.8349185530216567
+    },
+    {
+      "representative": 80,
+      "same_tree": [
+        80,
+        96
+      ],
+      "score": 0.8391719211574554
+    },
+    {
+      "representative": 4,
+      "same_tree": [
+        4
+      ],
+      "score": 0.8578355245558432
+    },
+    {
+      "representative": 112,
+      "same_tree": [
+        112
+      ],
+      "score": 0.8701872988650632
+    },
+    {
+      "representative": 3,
+      "same_tree": [
+        3
+      ],
+      "score": 0.8899012129635722
+    },
+    {
+      "representative": 128,
+      "same_tree": [
+        128
+      ],
+      "score": 0.9004205721193801
+    },
+    {
+      "representative": 2,
+      "same_tree": [
+        2
+      ],
+      "score": 0.9197830379575562
+    },
+    {
+      "representative": 1,
+      "same_tree": [
+        1
+      ],
+      "score": 1.0
+    }
+  ],
+  "observed_fastest": 40,
+  "near_optimal_representatives": [
+    40,
+    48,
+    32,
+    37,
+    33,
+    36,
+    39,
+    49,
+    25,
+    24,
+    20,
+    19,
+    18,
+    17,
+    16
+  ],
+  "observations": 62100,
+  "timed_sort_calls": 93150,
+  "paired_effects": [
+    {
+      "baseline": 1,
+      "selected": 40,
+      "speedup": 1.329309182581463,
+      "ci_low": 1.31748254941456,
+      "ci_high": 1.3479399318485623,
+      "time_saved_fraction": 0.2477295627657956
+    },
+    {
+      "baseline": 7,
+      "selected": 40,
+      "speedup": 1.096027632765503,
+      "ci_low": 1.0910972331422057,
+      "ci_high": 1.1013715518543177,
+      "time_saved_fraction": 0.08761424428981368
+    },
+    {
+      "baseline": 10,
+      "selected": 40,
+      "speedup": 1.048096639239524,
+      "ci_low": 1.0452464686018847,
+      "ci_high": 1.0510953934045781,
+      "time_saved_fraction": 0.04588950812247783
+    },
+    {
+      "baseline": 32,
+      "selected": 40,
+      "speedup": 1.0007184546761456,
+      "ci_low": 0.9934372315216273,
+      "ci_high": 1.0102085316174587,
+      "time_saved_fraction": 0.0007179388696075817
+    },
+    {
+      "baseline": 40,
+      "selected": 40,
+      "speedup": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "time_saved_fraction": 0.0
+    },
+    {
+      "baseline": 48,
+      "selected": 40,
+      "speedup": 1.0003356369631444,
+      "ci_low": 0.9979665716742508,
+      "ci_high": 1.0035387647958474,
+      "time_saved_fraction": 0.0003355243487709325
+    },
+    {
+      "baseline": 128,
+      "selected": 40,
+      "speedup": 1.1969373347035461,
+      "ci_low": 1.1659693779617706,
+      "ci_high": 1.2194983204898673,
+      "time_saved_fraction": 0.16453437368324964
+    }
+  ],
+  "configuration": {
+    "lengths": [
+      2053,
+      10039,
+      50021,
+      150053
+    ],
+    "seeds": [
+      481516,
+      481517,
+      481518
+    ],
+    "processes": 3,
+    "repetitions": 5,
+    "thresholds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      72,
+      80,
+      96,
+      112,
+      128
+    ],
+    "families": [
+      "uniform",
+      "ascending",
+      "descending",
+      "almost_sorted",
+      "repeated_keys"
+    ],
+    "warmup_seconds": 3,
+    "practice_rounds": 1,
+    "jvm_options": [
+      "-Xms768m",
+      "-Xmx768m",
+      "-XX:+UseSerialGC"
+    ],
+    "order_seed": 592643,
+    "phase": "screen"
+  },
+  "analysis_notes": {
+    "weighting": "Equal weight to distribution x length x data seed x JVM; median over repetitions in each paired block",
+    "equivalent_thresholds": "Screen only smallest representatives of identical recursion signatures; retain the fixed shortlist in later phases; never pool observations across cutoff aliases",
+    "interval": "4000 hierarchical percentile bootstrap replicates: JVM process, then data-seed cluster; fixed distribution x length design",
+    "limitations": "Pairwise intervals, limited JVM processes, one machine session; no claim of universal optimum or simultaneous coverage"
+  }
+}

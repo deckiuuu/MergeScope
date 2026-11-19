@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MergeSort qua từng phép so sánh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <p class="overline">Phòng thí nghiệm thuật toán</p>
+    <h1>MergeSort qua từng phép so sánh</h1>
+    <p class="lead">Thay CUTOFF, quan sát cây chia và đi qua các phép so sánh do chính mã Java của bạn thực hiện.</p>
+    <p class="source-line">Nguồn trace: MergeSort.java nguyên bản · __RUNS__ lượt chạy đã đối chiếu oracle · SHA-256 __SOURCE_HASH__</p>
+  </header>
+  <section class="workspace" aria-label="Thực hành thuật toán">
+    <aside class="settings">
+      <h2>Chọn thí nghiệm nhỏ</h2>
+      <label for="size">Số phần tử</label>
+      <select id="size"><option value="16">16 phần tử</option><option value="33">33 phần tử</option></select>
+      <label for="family">Thứ tự đầu vào</label>
+      <select id="family"><option value="mixed">Xáo trộn và trùng khóa</option><option value="ascending">Tăng dần</option><option value="descending">Giảm dần</option></select>
+      <label for="threshold">CUTOFF <output id="threshold-label">10</output></label>
+      <input id="threshold" type="range" min="1" max="128" step="1" value="10">
+      <p class="equation">Độ dài đoạn ≤ CUTOFF<br>→ dùng Insertion sort</p>
+      <div class="presets" aria-label="Các mốc đối chiếu">
+        <button id="preset-one" type="button">1</button><button id="preset-seven" type="button">7</button><button id="preset-ten" type="button">10</button><button id="preset-result" type="button">__SELECTED__</button>
+      </div>
+      <p id="alias-note" class="explanation"></p>
+      <dl class="counters"><div><dt>So sánh đã quan sát</dt><dd id="comparison-count">0</dd></div><div><dt>Độ sâu hiện tại</dt><dd id="current-depth">0</dd></div></dl>
+    </aside>
+    <div class="execution">
+      <div class="heading-row"><h2 id="phase-name">Mảng ban đầu</h2><span id="step-label"></span></div>
+      <p id="comparison-detail" class="comparison" aria-live="polite"></p>
+      <div id="numbers" class="numbers" role="img" aria-label="Trạng thái mảng"></div>
+      <p class="key-caption">Số lớn là khóa; # là vị trí ban đầu. Hai khóa bằng nhau phải giữ thứ tự # sau khi sắp xếp.</p>
+      <nav class="transport" aria-label="Điều khiển các bước">
+        <button id="restart" type="button">Về đầu</button><button id="previous" type="button">Lùi</button><button id="autoplay" type="button" class="accent">Tự chạy</button><button id="next" type="button">Tiếp</button><button id="finish" type="button">Đến cuối</button>
+      </nav>
+      <p class="recording-note">Mỗi bước so sánh chụp mảng ngay trước compareTo. Trong lúc merge, mảng có thể tạm lặp phần tử vì dữ liệu nguồn vẫn nằm trong aux; trạng thái cuối đã được kiểm tra độc lập.</p>
+    </div>
+  </section>
+  <section class="tree-section" aria-labelledby="tree-title">
+    <h2 id="tree-title">Cây chia ứng với độ dài và CUTOFF</h2>
+    <div id="recursion-tree" class="recursion-tree"></div>
+    <p class="explanation">Lá màu vàng dùng Insertion sort. Đường viền đánh dấu mức sâu đang quan sát, không xác định một nút cụ thể. Cây này được tính từ độ dài đoạn; phần ghi so sánh phía trên được thu từ mã Java thật.</p>
+  </section>
+  <section class="evidence" aria-labelledby="evidence-title">
+    <div><p class="overline">Kết quả thực nghiệm riêng với animation</p><h2 id="evidence-title">Ứng viên đã chốt và kiểm chứng</h2><p>__CONCLUSION__</p><p class="explanation">Thời gian đo bằng Java trên dữ liệu lớn, không lấy tốc độ animation làm số liệu. Khoảng tin cậy bootstrap giữ cố định thiết kế phân phối × kích thước.</p></div>
+    <div class="table-scroll"><table><caption>Speedup của CUTOFF __SELECTED__ trên pha xác nhận cuối</caption><thead><tr><th>Mốc</th><th>Speedup</th><th>Khoảng 95%</th></tr></thead><tbody>__EFFECT_ROWS__</tbody></table></div>
+  </section>
+  <footer><a href="../report/Cutoff_Study.pdf">Báo cáo PDF</a><a href="../README.md">Hướng dẫn project</a><span>Hoạt động ngoại tuyến</span></footer>
+  <noscript>Demo cần JavaScript. Bạn vẫn có thể mở báo cáo PDF qua liên kết phía trên.</noscript>
+</main>
+<script id="comparison-corpus" type="application/json">__CORPUS__</script>
+<script src="viewer.js"></script>
+</body>
+</html>

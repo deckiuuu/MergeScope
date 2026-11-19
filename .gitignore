@@ -1,0 +1,17 @@
+/scratch/
+/reruns/
+/measurements/*/compiled/
+/dist/
+/.venv/
+/venv/
+/.idea/
+/.vscode/
+__pycache__/
+*.class
+*.pyc
+*.iml
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db

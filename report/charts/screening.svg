@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 62,48 L 692,48 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 62,48 L 62,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 136.409449,48 L 136.409449,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 215.779528,48 L 215.779528,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 295.149606,48 L 295.149606,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 374.519685,48 L 374.519685,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 533.259843,48 L 533.259843,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 692,48 L 692,43 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,62,43)">
+							<text x="-2.5026855468750004" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,136.409449,43)">
+							<text x="-5.005371093750001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">16</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,215.779528,43)">
+							<text x="-5.005371093750001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">32</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,295.149606,43)">
+							<text x="-5.005371093750001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">48</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,374.519685,43)">
+							<text x="-5.005371093750001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">64</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,533.259843,43)">
+							<text x="-5.005371093750001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">96</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,692,43)">
+							<text x="-7.508056640625001" y="-9.0" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">128</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 62,48 L 62,274 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 62,48 L 57,48 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 62,104.5 L 57,104.5 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 62,161 L 57,161 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 62,217.5 L 57,217.5 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 62,274 L 57,274 Z" style="stroke: rgb(54%,60%,65%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,57,48)">
+							<text x="-12.511230468750002" y="-3.6000000000000005" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.7</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,57,104.5)">
+							<text x="-12.511230468750002" y="-3.6000000000000005" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,57,161)">
+							<text x="-12.511230468750002" y="-3.6000000000000005" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">0.9</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,57,217.5)">
+							<text x="-12.511230468750002" y="-3.6000000000000005" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,57,274)">
+							<text x="-12.511230468750002" y="-3.6000000000000005" style="font-family: Arial; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-7) scale(1,-1)">1.1</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 62,48 L 692,48 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<path d="M 62,104.5 L 692,104.5 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<path d="M 62,161 L 692,161 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<path d="M 62,217.5 L 692,217.5 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<path d="M 62,274 L 692,274 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 0.5;"/>
+				<g transform="">
+					<polyline points="62 217.5, 66.96063 172.1774, 71.92126 155.2942, 76.88189 137.1771, 81.84252 124.229, 86.80315 117.8447, 91.76378 118.3477, 96.72441 108.5444, 101.685 104.9409, 106.6457 97.97545, 111.6063 97.35114, 116.5669 94.76266, 121.5276 94.33887, 126.4882 92.56715, 131.4488 92.69312, 136.4094 89.47253, 141.3701 88.35033, 146.3307 86.0086, 151.2913 85.00797, 156.252 80.17209, 161.2126 80.33427, 166.1732 80.89381, 171.1339 80.62678, 176.0945 79.54769, 181.0551 79.25806, 186.0157 77.79543, 190.9764 79.05587, 195.937 79.11714, 200.8976 79.12836, 205.8583 79.21244, 210.8189 78.61074, 215.7795 77.83816, 220.7402 78.34324, 225.7008 78.65388, 230.6614 78.32177, 235.622 78.57333, 240.5827 77.89747, 245.5433 77.89806, 250.5039 78.93948, 255.4646 77.5328, 260.4252 77.99419, 265.3858 78.07564, 270.3465 79.09134, 275.3071 78.39649, 280.2677 78.43416, 285.2283 77.73259, 290.189 78.24303, 295.1496 77.67545, 300.1102 79.14655, 305.0709 80.00886, 310.0315 80.20636, 314.9921 78.86388, 319.9528 78.48731, 324.9134 79.35864, 329.874 79.66848, 334.8346 79.00716, 339.7953 79.26383, 344.7559 79.17538, 349.7165 79.09042, 354.6772 79.83714, 359.6378 79.14286, 364.5984 79.96418, 369.5591 79.19146, 374.5197 94.52713, 414.2047 95.23421, 453.8898 126.6321, 533.2598 127.696, 612.6299 144.1558, 692 161.2376" style="stroke: rgb(67%,72%,76%); stroke-linecap: round; stroke-width: 0.9; fill: None; fill-rule: evenodd;"/>
+					<polyline points="62 217.5, 66.96063 172.1774, 71.92126 155.2942, 76.88189 137.1771, 81.84252 124.229, 86.80315 117.8447, 91.76378 118.3477, 96.72441 108.5444, 101.685 104.9409, 106.6457 97.97545, 116.5669 94.76266, 121.5276 94.33887, 136.4094 89.47253, 141.3701 88.35033, 146.3307 86.0086, 151.2913 85.00797, 156.252 80.17209, 176.0945 79.54769, 181.0551 79.25806, 215.7795 77.83816, 220.7402 78.34324, 235.622 78.57333, 240.5827 77.89747, 250.5039 78.93948, 255.4646 77.5328, 295.1496 77.67545, 300.1102 79.14655, 374.5197 94.52713, 414.2047 95.23421, 453.8898 126.6321, 612.6299 144.1558, 692 161.2376" style="stroke: rgb(12%,41%,53%); stroke-linecap: round; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="62" y="337" style="font-family: Arial; font-size: 12px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,674) scale(1,-1)">Sàng lọc 69 CUTOFF trên dữ liệu mới</text>
+			<text x="357.7265625" y="10" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,20) scale(1,-1)">CUTOFF</text>
+			<text x="62" y="305" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,610) scale(1,-1)">Thời gian chuẩn hóa theo C1   Xám: mọi ngưỡng   Xanh: đại diện cùng cây</text>
+		</g>
+	</g>
+</svg>

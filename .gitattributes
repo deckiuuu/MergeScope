@@ -1,0 +1,16 @@
+# Preserve byte-for-byte scientific inputs, source snapshots and SHA-256 checks.
+# Some measured index CSVs intentionally have CRLF line endings.
+* -text
+
+*.pdf binary
+*.docx binary
+*.png binary
+
+# Generated evidence remains in the repository and can be expanded in diffs.
+datasets/** linguist-generated=true
+measurements/** linguist-generated=true
+report/** linguist-generated=true
+demo/index.html linguist-generated=true
+CHECKSUMS.txt linguist-generated=true
+CREATION_LEDGER.csv linguist-generated=true
+docs/BASELINE_SHA256.txt linguist-generated=true

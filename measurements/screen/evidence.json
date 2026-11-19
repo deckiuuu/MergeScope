@@ -1,0 +1,25 @@
+{
+  "start_utc": "2026-11-13T09:27:43.649210+00:00",
+  "machine": {
+    "system": "Darwin",
+    "kernel": "25.6.0",
+    "architecture": "arm64",
+    "machine_name": "MacBook Air",
+    "chip_type": "Apple M3",
+    "physical_memory": "16 GB",
+    "number_processors": "proc 8:4:4:0"
+  },
+  "python": "3.13.7",
+  "protocol_sha256": "7c02a5690a1bfa06ff93be5d6cb9b6348923072b368385685a8db88b56ac86b4",
+  "configuration_sha256": "4b00cb0d5a6319233f9d0884d8043fe561984b8c1be040fb1fb1a46e1e67b9b4",
+  "dataset_index": "datasets/screen/index.csv",
+  "index_sha256": "f3428bf57dd6aea0307db420219896e7db838df057b3ebcebef2109dece90031",
+  "source_hashes": {
+    "src/MeasureTrial.java": "8bda9851ed92f7c3547080ae004723104d50a92db7f686f1ba0a25bd8a22362a",
+    "src/MergeSort.java": "797fa52661500ca38bca2ea8cdf02497b3c8f54cb5bac8e63a032b85463a9d45",
+    "tests/SortContractTest.java": "3d79fbcefb2825c38f88c53df3a1465205f089a3ccd795129731993b877a19b3"
+  },
+  "timing_scope": "Only MergeSort.sort, including new auxiliary-array allocation; cloning, loading, boxing and oracle comparisons excluded",
+  "processes_sequential": true,
+  "finish_utc": "2026-11-13T09:32:14.489140+00:00"
+}

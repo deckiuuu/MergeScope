@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="25" y="286" style="font-family: Arial; font-size: 12px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,572) scale(1,-1)">Speedup của C32 trước C10 theo từng phân phối và kích thước</text>
+			<text x="195.36083984375" y="251" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,502) scale(1,-1)">N = 6,203</text>
+			<text x="317.858154296875" y="251" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,502) scale(1,-1)">N = 30,011</text>
+			<text x="442.858154296875" y="251" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,502) scale(1,-1)">N = 99,013</text>
+			<text x="565.35546875" y="251" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,502) scale(1,-1)">N = 230,003</text>
+			<text x="25" y="214" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,428) scale(1,-1)">Ngẫu nhiên</text>
+			<rect x="155" y="201" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,82%,85%); fill-rule: evenodd;"/>
+			<text x="198.024658203125" y="212" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,424) scale(1,-1)">1.094×</text>
+			<rect x="280" y="201" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(80%,87%,89%); fill-rule: evenodd;"/>
+			<text x="323.024658203125" y="212" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,424) scale(1,-1)">1.049×</text>
+			<rect x="405" y="201" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(80%,87%,89%); fill-rule: evenodd;"/>
+			<text x="448.024658203125" y="212" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,424) scale(1,-1)">1.048×</text>
+			<rect x="530" y="201" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(84%,89%,91%); fill-rule: evenodd;"/>
+			<text x="573.024658203125" y="212" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,424) scale(1,-1)">1.028×</text>
+			<text x="25" y="175" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,350) scale(1,-1)">Tăng dần</text>
+			<rect x="155" y="162" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,68%,74%); fill-rule: evenodd;"/>
+			<text x="198.024658203125" y="173" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,346) scale(1,-1)">1.220×</text>
+			<rect x="280" y="162" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(58%,72%,78%); fill-rule: evenodd;"/>
+			<text x="323.024658203125" y="173" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,346) scale(1,-1)">1.179×</text>
+			<rect x="405" y="162" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(62%,75%,80%); fill-rule: evenodd;"/>
+			<text x="448.024658203125" y="173" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,346) scale(1,-1)">1.152×</text>
+			<rect x="530" y="162" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,76%,81%); fill-rule: evenodd;"/>
+			<text x="573.024658203125" y="173" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,346) scale(1,-1)">1.142×</text>
+			<text x="25" y="136" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,272) scale(1,-1)">Giảm dần</text>
+			<rect x="155" y="123" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,74%,68%); fill-rule: evenodd;"/>
+			<text x="198.024658203125" y="134" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,268) scale(1,-1)">0.879×</text>
+			<rect x="280" y="123" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(88%,69%,62%); fill-rule: evenodd;"/>
+			<text x="323.024658203125" y="134" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,268) scale(1,-1)">0.848×</text>
+			<rect x="405" y="123" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(91%,78%,73%); fill-rule: evenodd;"/>
+			<text x="448.024658203125" y="134" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,268) scale(1,-1)">0.905×</text>
+			<rect x="530" y="123" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,72%,66%); fill-rule: evenodd;"/>
+			<text x="573.024658203125" y="134" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,268) scale(1,-1)">0.870×</text>
+			<text x="25" y="97" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,194) scale(1,-1)">Gần tăng dần</text>
+			<rect x="155" y="84" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,70%,76%); fill-rule: evenodd;"/>
+			<text x="198.024658203125" y="95" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,190) scale(1,-1)">1.202×</text>
+			<rect x="280" y="84" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,74%,79%); fill-rule: evenodd;"/>
+			<text x="323.024658203125" y="95" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,190) scale(1,-1)">1.165×</text>
+			<rect x="405" y="84" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(65%,77%,82%); fill-rule: evenodd;"/>
+			<text x="448.024658203125" y="95" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,190) scale(1,-1)">1.133×</text>
+			<rect x="530" y="84" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,78%,82%); fill-rule: evenodd;"/>
+			<text x="573.024658203125" y="95" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,190) scale(1,-1)">1.123×</text>
+			<text x="25" y="58" style="font-family: Arial; font-size: 10px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,116) scale(1,-1)">16 khóa lặp</text>
+			<rect x="155" y="45" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,83%,86%); fill-rule: evenodd;"/>
+			<text x="198.024658203125" y="56" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,112) scale(1,-1)">1.081×</text>
+			<rect x="280" y="45" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,80%,84%); fill-rule: evenodd;"/>
+			<text x="323.024658203125" y="56" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,112) scale(1,-1)">1.106×</text>
+			<rect x="405" y="45" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,83%,86%); fill-rule: evenodd;"/>
+			<text x="448.024658203125" y="56" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,112) scale(1,-1)">1.083×</text>
+			<rect x="530" y="45" width="120" height="33" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(80%,87%,89%); fill-rule: evenodd;"/>
+			<text x="573.024658203125" y="56" style="font-family: Arial; font-size: 11px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,112) scale(1,-1)">1.049×</text>
+			<text x="25" y="16" style="font-family: Arial; font-size: 9px;fill: rgb(13%,19%,23%); stroke:none;" transform="translate(0,32) scale(1,-1)">Xanh: nhanh hơn C10   Cam: chậm hơn C10   Không thay trọng số tổng hợp</text>
+		</g>
+	</g>
+</svg>

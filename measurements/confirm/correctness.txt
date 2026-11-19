@@ -1,0 +1,2 @@
+SUCCESS: 15693 independent contract checks
+Coverage: exhaustive ternary inputs, every cutoff 1..128, cutoff boundaries, stability, generics, invalid arguments and long descending input.

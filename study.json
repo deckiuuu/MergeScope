@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "study": "fresh-cutoff-study",
+  "data_type": "Integer[]",
+  "thresholds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    72,
+    80,
+    96,
+    112,
+    128
+  ],
+  "families": [
+    "uniform",
+    "ascending",
+    "descending",
+    "almost_sorted",
+    "repeated_keys"
+  ],
+  "phases": {
+    "screen": {
+      "lengths": [
+        2053,
+        10039,
+        50021,
+        150053
+      ],
+      "seeds": [
+        481516,
+        481517,
+        481518
+      ],
+      "processes": 3,
+      "repetitions": 5
+    },
+    "choose": {
+      "lengths": [
+        4937,
+        21997,
+        81001,
+        187987
+      ],
+      "seeds": [
+        820001,
+        820003,
+        820007
+      ],
+      "processes": 5,
+      "repetitions": 7
+    },
+    "confirm": {
+      "lengths": [
+        6203,
+        30011,
+        99013,
+        230003
+      ],
+      "seeds": [
+        930011,
+        930013,
+        930017
+      ],
+      "processes": 5,
+      "repetitions": 7
+    }
+  },
+  "warmup_seconds": 3,
+  "practice_rounds": 1,
+  "jvm_options": [
+    "-Xms768m",
+    "-Xmx768m",
+    "-XX:+UseSerialGC"
+  ],
+  "order_seed": 592643,
+  "shortlist_rule": "Top three distinct recursion signatures; score only smallest tested representative per signature, with equal-weight geometric mean of paired median ratios versus threshold 1",
+  "choice_rule": "Choose lowest paired score among the three shortlisted representatives on phase choose; freeze before confirm",
+  "mandatory_controls": [
+    1,
+    7,
+    10,
+    128
+  ],
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 874321,
+  "practical_tolerance": 0.03,
+  "stopping_rule": "Exactly three planned phases; do not change the selected threshold after confirm or add another measurement phase based on its result"
+}

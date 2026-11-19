@@ -1,0 +1,2 @@
+SUCCESS: 768 actual MergeSort runs verified; 45 distinct comparison recordings.
+Identical recordings are deduplicated only after complete event streams match byte for byte.
