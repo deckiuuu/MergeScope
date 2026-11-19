@@ -3,13 +3,11 @@ cho MergeSort
 
 Báo cáo phân tích thuật toán  |  Ngày 13/11/2026
 
-Họ và tên: ____________________
+Họ và tên: Nguyễn Đoàn Đại Phong
 
-MSSV: ____________________
+MSSV: 25021935
 
-Lớp: ____________________
-
-Giảng viên: ____________________
+Lớp: K70I-CS2
 
 ### Kết luận của thí nghiệm
 

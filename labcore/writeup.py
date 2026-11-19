@@ -134,10 +134,9 @@ def build_report():
     report=Composer()
     report.text('Thực nghiệm lựa chọn CUTOFF\ncho MergeSort','Title')
     report.text(f'Báo cáo phân tích thuật toán  |  Ngày {started:%d/%m/%Y}')
-    report.text('Họ và tên: ____________________')
-    report.text('MSSV: ____________________')
-    report.text('Lớp: ____________________')
-    report.text('Giảng viên: ____________________')
+    report.text('Họ và tên: Nguyễn Đoàn Đại Phong')
+    report.text('MSSV: 25021935')
+    report.text('Lớp: K70I-CS2')
     report.subheading('Kết luận của thí nghiệm')
     report.text(f'Đề xuất CUTOFF {selected} cho cài đặt MergeSort được khảo sát và workload Integer[] đã xác định. Trên tập xác nhận cuối, speedup so với CUTOFF 7 là {effects[7]["speedup"]:.4f} lần, so với CUTOFF 10 là {effects[10]["speedup"]:.4f} lần. Tỷ lệ giảm thời gian trước mốc 10 là {effects[10]["time_saved_fraction"]*100:.2f}%.')
     alternatives=[r for r in confirm['paired_effects'] if r['baseline'] in confirm['shortlist'] and r['baseline']!=selected]
