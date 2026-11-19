@@ -80,6 +80,8 @@ make check
 
 Kiểm thử gồm 15.693 kiểm tra Java, các ca thống kê và quản lý repository, cùng 768 tổ hợp viewer với 4.716 bước chuyển. [Workflow CI](.github/workflows/ci.yml) chạy khi push main, mở pull request hoặc được chạy thủ công. CI kiểm tra tính đúng và dữ liệu đã lưu, giữ nguyên số đo máy M3; không dùng thời gian trên runner để thay kết quả báo cáo.
 
+Phạm vi kiểm thử, kết quả xác minh và giới hạn đánh giá được trình bày trong [VALIDATION.md](docs/VALIDATION.md).
+
 ## Đo lại trên máy khác
 
 ```sh
@@ -110,22 +112,3 @@ python3 cutofflab.py report
 ```
 
 Tệp DOCX được xuất sang PDF bằng Word hoặc LibreOffice. Phiên bản thư viện được ghi trong [BUILD_ENVIRONMENT.json](docs/BUILD_ENVIRONMENT.json).
-
-## Đóng gói và bảo toàn dữ liệu
-
-```sh
-python3 tools/package_submission.py
-```
-
-Gói ZIP được tạo trong dist/ và kiểm tra CRC, SHA-256 cho từng tệp. Các phiên đo thử, lớp Java đã biên dịch, bộ nhớ đệm và lịch sử Git được loại khỏi gói.
-
-Các lệnh kiểm tra và cập nhật danh sách SHA-256:
-
-```sh
-python3 tools/repository_check.py check
-python3 tools/repository_check.py refresh
-```
-
-Lệnh refresh kiểm tra baseline trước khi cập nhật CHECKSUMS.txt và CREATION_LEDGER.csv.
-
-Phạm vi kiểm thử, kết quả xác minh và giới hạn đánh giá được trình bày trong [VALIDATION.md](docs/VALIDATION.md).
